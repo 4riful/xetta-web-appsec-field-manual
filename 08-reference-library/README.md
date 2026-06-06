@@ -33,6 +33,7 @@ This section preserves useful external material without turning field guides int
 - [Burp Suite and Tooling](resource-indexes/burp-tooling.md)
 - [Cloud and Infrastructure](resource-indexes/cloud-infra.md)
 - [File Upload and Parser Abuse](resource-indexes/file-upload-parser-abuse.md)
+- [Miscellaneous Unsorted Source Links](resource-indexes/misc-uncategorized.md)
 - [Payloads, Cheat Sheets, and Wordlists](resource-indexes/payloads-cheatsheets-wordlists.md)
 - [Recon and OSINT](resource-indexes/recon-osint.md)
 - [RCE, CVE, and Research](resource-indexes/rce-cve-research.md)

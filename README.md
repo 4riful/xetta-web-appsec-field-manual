@@ -1,6 +1,6 @@
 ---
-title: "Xetta Web AppSec Field Manual"
-summary: "An operator-focused Web AppSec field manual for recon, attack-surface mapping, vulnerability testing, tooling, source review, and reporting."
+title: "Xetta Web AppSec Resources and Field Manual"
+summary: "A resources-first Web AppSec repository with exhaustive links, curated indexes, and field-manual workflows."
 tags:
   - appsec
   - pentesting
@@ -8,33 +8,60 @@ tags:
   - knowledge-base
 related:
   - "START-HERE.md"
+  - "RESOURCES.md"
+  - "RESOURCE-FIRST.md"
   - "FIELD-MANUAL.md"
   - "maintainers/exhaustive-source-catalog.md"
 status: "reviewed"
 last_reviewed: "2026-06-06"
 references: []
 ---
-# Xetta Web AppSec Field Manual
+# Xetta Web AppSec Resources and Field Manual
 
-An operator-focused manual for web application security work: recon, attack-surface mapping, vulnerability playbooks, tooling, payloads, source review, and report writing.
+Resources first. Field manual second.
 
-This is not a raw Notion dump. The original workspace is preserved for provenance, but the working repository is organized as a field manual: start with a target, build coverage, find testable leads, validate impact, and write useful reports.
+This repository starts by delivering the original Web AppSec resources clearly: every extracted link from the ZIP export is visible, categorized, and traceable back to the source Markdown file. The field manual then turns those resources into workflows, playbooks, and testing guidance.
 
 ## Why This Exists
 
-Most security note repos become one of three things: link dumps, payload dumps, or personal notes that nobody else can navigate. This repo is designed around practical use:
+Most security note repos become one of three things: hidden link dumps, payload dumps, or personal notes that nobody else can navigate. This repo is designed around a better order:
 
-- Where do I start?
-- What should I collect?
-- What signals matter?
-- How do I test safely?
-- How do I validate impact?
-- How do I report it clearly?
+1. Deliver the resources first.
+2. Categorize the resources by AppSec topic.
+3. Preserve source provenance for every resource.
+4. Build workflows and guides on top of the resources.
+
+## Resources First
+
+Start here if you want the actual resource library:
+
+| Resource entry | What it gives you |
+|---|---|
+| [RESOURCES.md](RESOURCES.md) | Main root-level resource listing, grouped by practical AppSec categories. |
+| [RESOURCE-FIRST.md](RESOURCE-FIRST.md) | How the repo is organized around resources first. |
+| [Recon and OSINT](08-reference-library/resource-indexes/recon-osint.md) | Subdomains, OSINT, dorks, asset discovery, vhosts, crawling, recon tools. |
+| [Payloads, Cheat Sheets, and Wordlists](08-reference-library/resource-indexes/payloads-cheatsheets-wordlists.md) | Payload collections, cheat sheets, and wordlists. |
+| [Blogs, Writeups, GitBooks, and Bug Bounty References](08-reference-library/resource-indexes/blogs-writeups-gitbooks.md) | Writeups, GitBooks, bug bounty references, general learning links. |
+| [Burp Suite and Tooling](08-reference-library/resource-indexes/burp-tooling.md) | Burp extensions and adjacent testing tools. |
+| [XSS and Client-Side](08-reference-library/resource-indexes/xss-client-side.md) | XSS, DOM/client-side, postMessage, related references. |
+| [SQL Injection](08-reference-library/resource-indexes/sql-injection.md) | SQLi cheat sheets, writeups, payload lists, and tool references. |
+| [SSRF](08-reference-library/resource-indexes/ssrf.md) | SSRF tools, cheat sheets, writeups, and exploit references. |
+| [XXE, LFI, and File Read](08-reference-library/resource-indexes/xxe-lfi-file-read.md) | XXE, LFI, parser abuse, and file-read references. |
+| [File Upload and Parser Abuse](08-reference-library/resource-indexes/file-upload-parser-abuse.md) | Upload testing, parser abuse, SVG, XML, ZIP, and related material. |
+| [API, Auth, OAuth, and GraphQL](08-reference-library/resource-indexes/api-auth-graphql.md) | API, OAuth, SSO, GraphQL, checklist resources. |
+| [Cloud and Infrastructure](08-reference-library/resource-indexes/cloud-infra.md) | AWS, S3, metadata, exposed cloud resources, and infra references. |
+| [RCE, CVE, and Research](08-reference-library/resource-indexes/rce-cve-research.md) | RCE, Log4j, ProxyShell, AEM, zero-day, CVE, and research links. |
+| [WAF, CORS, CSRF, Smuggling, and Web Platform Bypass](08-reference-library/resource-indexes/web-platform-bypass.md) | WAF bypass, CORS, CSRF, request smuggling, cache and platform references. |
+| [Training, Labs, Videos, OSCP, AD, and Red Team](08-reference-library/resource-indexes/training-labs-videos.md) | Videos, labs, OSCP, Active Directory, mindmaps, and red-team resources. |
+| [Miscellaneous Unsorted Source Links](08-reference-library/resource-indexes/misc-uncategorized.md) | Source-preserved links that did not cleanly fit one AppSec category. |
+| [All Source Resources](08-reference-library/all-source-resources.md) | Exhaustive source-folder grouped link list. |
 
 ## Start Here
 
+- Need resources first: [RESOURCES.md](RESOURCES.md)
+- Need resource-first navigation: [RESOURCE-FIRST.md](RESOURCE-FIRST.md)
 - New to the repo: [START-HERE.md](START-HERE.md)
-- Want the full flow: [FIELD-MANUAL.md](FIELD-MANUAL.md)
+- Want the full field-manual flow: [FIELD-MANUAL.md](FIELD-MANUAL.md)
 - Doing recon: [01-reconnaissance/](01-reconnaissance/README.md)
 - Turning recon into testable leads: [02-mapping-and-triage/](02-mapping-and-triage/README.md)
 - Testing a bug class: [03-vulnerability-guides/](03-vulnerability-guides/README.md)

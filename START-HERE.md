@@ -7,6 +7,8 @@ tags:
   - orientation
   - navigation
 related:
+  - RESOURCES.md
+  - RESOURCE-FIRST.md
   - FIELD-MANUAL.md
 references: []
 ---
@@ -16,6 +18,8 @@ references: []
 
 | Situation | Path |
 |---|---|
+| I want resources first | `RESOURCES.md` |
+| I want to understand the resource-first layout | `RESOURCE-FIRST.md` |
 | I have a bounty target and need a plan | `04-workflows/bug-bounty-workflow.md` |
 | I need to collect assets | `01-reconnaissance/workflow.md` |
 | I have subdomains but no priorities | `02-mapping-and-triage/attack-surface-scoring.md` |
@@ -26,12 +30,14 @@ references: []
 
 ## Beginner Route
 
-1. Read `00-orientation/legal-and-scope-discipline.md`.
-2. Follow `01-reconnaissance/workflow.md`.
-3. Build `targets.txt`, `subs-resolved.txt`, `hosts-http.txt`, and `urls-archive.txt`.
-4. Read `02-mapping-and-triage/finding-testable-leads.md`.
-5. Pick one vulnerability guide and test only where the signal makes sense.
-6. Capture evidence using `07-reporting/evidence-standards.md`.
+1. Open `RESOURCES.md` and choose a category.
+2. Use `RESOURCE-FIRST.md` to understand how the resource library is organized.
+3. Read `00-orientation/legal-and-scope-discipline.md` before active testing.
+4. Follow `01-reconnaissance/workflow.md` when you move from reading to testing.
+5. Build `targets.txt`, `subs-resolved.txt`, `hosts-http.txt`, and `urls-archive.txt`.
+6. Read `02-mapping-and-triage/finding-testable-leads.md`.
+7. Pick one vulnerability guide and test only where the signal makes sense.
+8. Capture evidence using `07-reporting/evidence-standards.md`.
 
 ## Operator Route
 
