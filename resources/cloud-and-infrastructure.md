@@ -1,6 +1,6 @@
 ---
 title: "Cloud and Infrastructure"
-summary: "Cloud and Infrastructure resources sorted from the raw ZIP at link and text-snippet level."
+summary: "Cloud and infrastructure resources for web application security testing."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:

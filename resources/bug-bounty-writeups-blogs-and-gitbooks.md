@@ -1,6 +1,6 @@
 ---
 title: "Bug Bounty Writeups, Blogs, and GitBooks"
-summary: "Bug Bounty Writeups, Blogs, and GitBooks resources sorted from the raw ZIP at link and text-snippet level."
+summary: "Bug bounty writeups, blogs, GitBooks, and learning resources."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:

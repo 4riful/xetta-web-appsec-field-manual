@@ -31,5 +31,5 @@ List the folder or page where the resource belongs.
 - [ ] The resource is relevant to web application hacking.
 - [ ] The link works or the status is clearly noted.
 - [ ] The resource is placed in the right topic folder.
-- [ ] The change does not edit `provenance/raw-archive/` unless intentionally updating source provenance.
+- [ ] The change focuses on public vault content, data, templates, or documentation.
 - [ ] Internal Markdown links were checked.

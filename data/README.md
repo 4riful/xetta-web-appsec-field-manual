@@ -1,6 +1,6 @@
 ---
 title: "Resource Database"
-summary: "Generated CSV and JSON database extracted from the raw ZIP."
+summary: "CSV and JSON resource database for the vault."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:

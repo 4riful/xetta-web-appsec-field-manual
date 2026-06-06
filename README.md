@@ -1,30 +1,30 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,45:7c3aed,100:06b6d4&text=Xetta's%20Web%20Application%20Hacking%20Vault&fontColor=ffffff&fontSize=34&fontAlignY=38&desc=Resources%20first.%20Payloads,%20tools,%20writeups,%20labs,%20bug%20classes,%20and%20source-traceable%20data.&descAlignY=58&descSize=14" alt="Xetta's Web Application Hacking Vault" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,45:7c3aed,100:06b6d4&text=Xetta's%20Web%20Application%20Hacking%20Vault&fontColor=ffffff&fontSize=34&fontAlignY=38&desc=Learn%20recon,%20payloads,%20tools,%20bug%20classes,%20writeups,%20labs,%20and%20real%20hunting%20workflows.&descAlignY=58&descSize=14" alt="Xetta's Web Application Hacking Vault" />
 </p>
 
 <p align="center">
   <a href="resources/README.md"><img alt="Resources" src="https://img.shields.io/badge/resources-topic%20sorted-7c3aed?style=for-the-badge"></a>
   <a href="payloads/README.md"><img alt="Payloads" src="https://img.shields.io/badge/payloads-ready%20to%20browse-06b6d4?style=for-the-badge"></a>
   <a href="tools/README.md"><img alt="Tools" src="https://img.shields.io/badge/tools-recon%20burp%20fuzzing-22c55e?style=for-the-badge"></a>
-  <a href="data/resources.csv"><img alt="Resource database" src="https://img.shields.io/badge/database-540%20records-f97316?style=for-the-badge"></a>
+  <a href="awesome-lists/README.md"><img alt="Best of" src="https://img.shields.io/badge/best%20of-curated%20picks-f97316?style=for-the-badge"></a>
 </p>
 
 <p align="center">
-  <img alt="Source URLs" src="https://img.shields.io/badge/source%20URLs-407-111827?style=flat-square">
-  <img alt="Extracted snippets" src="https://img.shields.io/badge/extracted%20snippets-128-111827?style=flat-square">
-  <img alt="Source notes" src="https://img.shields.io/badge/source%20notes-66-111827?style=flat-square">
-  <img alt="Preserved assets" src="https://img.shields.io/badge/preserved%20assets-3-111827?style=flat-square">
+  <img alt="Recon" src="https://img.shields.io/badge/recon-OSINT%20%26%20asset%20discovery-111827?style=flat-square">
+  <img alt="Payloads" src="https://img.shields.io/badge/payloads-XSS%20SQLi%20SSRF%20LFI-111827?style=flat-square">
+  <img alt="Tools" src="https://img.shields.io/badge/tools-Burp%20fuzzing%20automation-111827?style=flat-square">
+  <img alt="Learning" src="https://img.shields.io/badge/learning-writeups%20labs%20maps-111827?style=flat-square">
 </p>
 
 <br>
 
 ## What This Is
 
-**Xetta's Web Application Hacking Vault** is a resource-first Web AppSec library rebuilt from the original ZIP source.
+**Xetta's Web Application Hacking Vault** is a resource-first learning hub for web application hacking.
 
-It is designed for fast browsing, not slow reading. Open a section, grab the resource category you need, and move.
+It is designed for beginners, bug bounty hunters, pentesters, and builders who want one clean place to learn, browse, and pick the right resource fast.
 
-The vault contains links, tools, payload references, dorks, command snippets, Burp workflows, writeups, GitBooks, labs, bug-class indexes, report helpers, and a source-traceable CSV/JSON database.
+Inside you will find recon resources, payload references, dorks, command snippets, Burp workflows, writeups, GitBooks, labs, bug-class indexes, tool lists, report helpers, and curated paths for learning.
 
 ## Start Here
 
@@ -41,6 +41,19 @@ The vault contains links, tools, payload references, dorks, command snippets, Bu
 <a href="maps/README.md"><img width="31%" src="https://dummyimage.com/520x170/4c1d95/ffffff&text=Learning+Maps" alt="Learning Maps"></a>
 
 </div>
+
+## For New Learners
+
+If you are new, do not start with payloads. Start with the path.
+
+- Learn the map first: [maps/beginner-path.md](maps/beginner-path.md)
+- Understand recon: [resources/recon-and-osint.md](resources/recon-and-osint.md)
+- Read good writeups: [awesome-lists/best-bug-bounty-writeups.md](awesome-lists/best-bug-bounty-writeups.md)
+- Pick one bug class: [bug-classes/README.md](bug-classes/README.md)
+- Practice with labs: [labs/README.md](labs/README.md)
+- Write clean findings: [reports/README.md](reports/README.md)
+
+The goal is not to collect links. The goal is to learn how to move from target, to signal, to test, to proof.
 
 ## The Vault Layout
 
@@ -84,17 +97,14 @@ Use [awesome-lists/](awesome-lists/README.md) when you do not want the full dump
 - [labs/](labs/README.md) for videos, OSCP, Active Directory, practice platforms, and mindmaps.
 - [reports/](reports/README.md) for evidence, severity, remediation language, and report templates.
 
-## Database Backbone
+## Searchable Data
 
-The pretty pages are not the source of truth. The data is.
+Want to filter the vault like a dataset?
 
-- [data/resources.csv](data/resources.csv) contains every deduplicated resource and snippet.
-- [data/resource_occurrences.csv](data/resource_occurrences.csv) tracks exact source occurrences.
-- [data/source_documents.csv](data/source_documents.csv) maps all raw Markdown files.
-- [data/resources.json](data/resources.json) provides a machine-readable export.
-- [data/link-status.csv](data/link-status.csv) keeps generated link records inspectable.
+- [data/resources.csv](data/resources.csv) for the full resource index.
+- [data/resources.json](data/resources.json) for machine-readable browsing.
 
-This means the vault can be searched, filtered, regenerated, or re-themed without losing provenance.
+Most learners should stay in the curated folders. Use `data/` only when you want to search or rebuild indexes.
 
 ## Add A Resource
 
@@ -118,8 +128,8 @@ Useful additions include tools, payload lists, writeups, GitBooks, labs, checkli
   </a>
 </p>
 
-## Source Traceability
+## Keep It Alive
 
-The original ZIP/Notion export is preserved for audit and recovery under `provenance/raw-archive/notion-export/`.
+This vault gets better when people add high-signal resources.
 
-Most users should not browse the raw archive. Use the vault sections above first. Use [provenance/](provenance/README.md) only when you want to verify where a resource came from.
+Submit tools, writeups, payload lists, labs, cheat sheets, bug-class references, or command snippets through the resource request template or a pull request.

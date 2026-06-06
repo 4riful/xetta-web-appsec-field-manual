@@ -1,6 +1,6 @@
 ---
 title: "XSS and Client-Side"
-summary: "XSS and Client-Side resources sorted from the raw ZIP at link and text-snippet level."
+summary: "XSS and client-side security resources, payloads, tools, and writeups."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:

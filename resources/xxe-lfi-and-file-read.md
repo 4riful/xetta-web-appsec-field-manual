@@ -1,6 +1,6 @@
 ---
 title: "XXE, LFI, and File Read"
-summary: "XXE, LFI, and File Read resources sorted from the raw ZIP at link and text-snippet level."
+summary: "XXE, LFI, path traversal, and file-read resources."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:

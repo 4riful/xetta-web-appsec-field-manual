@@ -1,16 +1,16 @@
 ---
-title: "Uncategorized Source Links"
-summary: "Uncategorized Source Links resources sorted from the raw ZIP at link and text-snippet level."
+title: "Mixed and Extra Resources"
+summary: "Mixed web application security resources that do not fit one clean category."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:
   - resources
-  - uncategorized-source-links
+  - mixed-resources
 related: []
 references: []
 ---
 
-# Uncategorized Source Links
+# Mixed and Extra Resources
 
 Entries: `72`
 

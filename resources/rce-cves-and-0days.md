@@ -1,6 +1,6 @@
 ---
 title: "RCE, CVEs, and 0days"
-summary: "RCE, CVEs, and 0days resources sorted from the raw ZIP at link and text-snippet level."
+summary: "RCE, CVE, and 0day research resources for web application security."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:

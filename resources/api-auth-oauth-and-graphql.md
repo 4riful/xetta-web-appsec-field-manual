@@ -1,6 +1,6 @@
 ---
 title: "API, Auth, OAuth, and GraphQL"
-summary: "API, Auth, OAuth, and GraphQL resources sorted from the raw ZIP at link and text-snippet level."
+summary: "API, Auth, OAuth, and GraphQL resources for learning, hunting, and reference."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:

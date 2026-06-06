@@ -1,6 +1,6 @@
 ---
 title: "WAF, CORS, CSRF, Smuggling"
-summary: "WAF, CORS, CSRF, Smuggling resources sorted from the raw ZIP at link and text-snippet level."
+summary: "WAF bypass, CORS, CSRF, request smuggling, and web platform security resources."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:

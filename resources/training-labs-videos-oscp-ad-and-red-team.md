@@ -1,6 +1,6 @@
 ---
 title: "Training, Labs, Videos, OSCP, AD, and Red Team"
-summary: "Training, Labs, Videos, OSCP, AD, and Red Team resources sorted from the raw ZIP at link and text-snippet level."
+summary: "Training, labs, videos, OSCP, Active Directory, and red-team learning resources."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:

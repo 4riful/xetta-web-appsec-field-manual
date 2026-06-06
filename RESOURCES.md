@@ -11,11 +11,10 @@ references: []
 ---
 # Resources Database Index
 
-This repo is generated from the ZIP source at link and text-snippet level.
+Use this page when you want the database-style index behind the vault.
 
 ## Stats
 
-- Source Markdown files: `66`
 - Resource records: `540`
 - Resource occurrences: `583`
 - URL resources: `412`
@@ -29,4 +28,3 @@ This repo is generated from the ZIP source at link and text-snippet level.
 - [Tools](tools/README.md)
 - [Bug Classes](bug-classes/README.md)
 - [Data](data/resources.csv)
-- [Provenance](provenance/README.md)

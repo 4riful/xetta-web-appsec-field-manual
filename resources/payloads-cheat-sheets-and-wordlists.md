@@ -1,6 +1,6 @@
 ---
 title: "Payloads, Cheat Sheets, and Wordlists"
-summary: "Payloads, Cheat Sheets, and Wordlists resources sorted from the raw ZIP at link and text-snippet level."
+summary: "Payloads, cheat sheets, and wordlists for web application hacking."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:

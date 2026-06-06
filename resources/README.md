@@ -1,6 +1,6 @@
 ---
 title: "Resources"
-summary: "Clean categorized Web AppSec resources extracted and sorted from the original ZIP."
+summary: "Clean categorized web application hacking resources for learning, hunting, and reference."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:
@@ -17,7 +17,7 @@ Browse by topic. Use `../data/resources.csv` for the database view.
 - [Burp Suite and Tooling](./burp-suite-and-tooling.md) — 41 entries
 - [Cloud and Infrastructure](./cloud-and-infrastructure.md) — 20 entries
 - [File Upload and Parser Abuse](./file-upload-and-parser-abuse.md) — 19 entries
-- [Uncategorized Source Links](./uncategorized-source-links.md) — 72 entries
+- [Mixed and Extra Resources](./mixed-and-extra-resources.md) — 72 entries
 - [Payloads, Cheat Sheets, and Wordlists](./payloads-cheat-sheets-and-wordlists.md) — 88 entries
 - [RCE, CVEs, and 0days](./rce-cves-and-0days.md) — 49 entries
 - [Recon and OSINT](./recon-and-osint.md) — 112 entries

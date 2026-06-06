@@ -1,6 +1,6 @@
 ---
 title: "SQL Injection"
-summary: "SQL Injection resources sorted from the raw ZIP at link and text-snippet level."
+summary: "SQL injection resources, payloads, tooling, and writeups."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:

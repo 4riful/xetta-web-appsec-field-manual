@@ -1,6 +1,6 @@
 ---
 title: "SSRF"
-summary: "SSRF resources sorted from the raw ZIP at link and text-snippet level."
+summary: "SSRF resources, payloads, tools, cloud metadata notes, and writeups."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:

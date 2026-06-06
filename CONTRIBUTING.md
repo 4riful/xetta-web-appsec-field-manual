@@ -14,7 +14,7 @@ references: []
 ---
 # Contributing
 
-This repository is a resource vault. Contributions should improve browsing quality, resource accuracy, or source-traceable coverage.
+This repository is a resource vault. Contributions should improve browsing quality, resource accuracy, and learning value.
 
 ## Content Rules
 
@@ -22,7 +22,7 @@ This repository is a resource vault. Contributions should improve browsing quali
 - Do not create catch-all dump folders for unrelated links.
 - Use lowercase kebab-case filenames.
 - Preserve technical commands, payloads, links, and references.
-- Prefer improving vault pages and database views over editing raw provenance files.
+- Prefer improving vault pages, resource lists, templates, and data views.
 
 ## Required Document Metadata
 
@@ -46,7 +46,7 @@ Use the templates in `templates/` for new resource pages, tool notes, payload pa
 4. Tooling or commands, if relevant.
 5. False positives.
 6. Evidence requirements.
-7. References and provenance.
+7. References.
 
 ## Resource Submission Policy
 
@@ -63,6 +63,6 @@ For pull requests, include:
 
 Merge notes only when they clearly describe the same topic, workflow, bug class, or reference set. If overlap is uncertain, keep the note separate and link it from the nearest canonical document.
 
-## Provenance Policy
+## Internal Archive Policy
 
-The `provenance/raw-archive/` folder is provenance, not the working knowledge base. Keep it intact unless a future migration explicitly replaces it with a better source-of-truth archive.
+Do not edit internal archive material unless the change is explicitly about repository maintenance. Public contributions should focus on `resources/`, `awesome-lists/`, `payloads/`, `tools/`, `bug-classes/`, `playbooks/`, `labs/`, `reports/`, `templates/`, or `data/`.

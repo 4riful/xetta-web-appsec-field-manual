@@ -1,6 +1,6 @@
 ---
 title: "Burp Suite and Tooling"
-summary: "Burp Suite and Tooling resources sorted from the raw ZIP at link and text-snippet level."
+summary: "Burp Suite and tooling resources for web application testing."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:
