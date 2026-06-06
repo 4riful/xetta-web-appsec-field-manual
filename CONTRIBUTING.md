@@ -1,15 +1,17 @@
 ---
 title: "Contributing"
 summary: "Contribution and maintenance rules for the Xetta Web AppSec Field Manual."
+status: "reviewed"
+last_reviewed: "2026-06-06"
 tags:
   - contributing
   - maintenance
   - appsec
-related_topics:
-  - "Repository Standards"
-  - "Repository Plan"
+related:
+  - "maintainers/content-quality-checklist.md"
+  - "maintainers/migration-reports/repository-plan.md"
 references:
-  - reports/repository_plan.md
+  - "maintainers/migration-reports/repository-plan.md"
 ---
 # Contributing
 
@@ -28,21 +30,22 @@ Every Markdown document should include:
 - `title`
 - `summary`
 - `tags`
-- `related_topics`
+- `related`
 - `references`
+- `status`
+- `last_reviewed`
 
 ## Writing Format
 
-Use this order for new canonical documents:
+Use the templates in `templates/` for new field-manual content. At minimum, new guides should contain:
 
-1. Summary
-2. Scope
-3. Prerequisites
-4. Testing Notes
-5. Tools and Payloads
-6. Related Topics
-7. References
-8. Source Provenance, if migrated from another source
+1. Purpose or mental model.
+2. Preconditions or where-to-look signals.
+3. Manual workflow.
+4. Tooling or commands, if relevant.
+5. False positives.
+6. Evidence requirements.
+7. References and provenance.
 
 ## Merge Policy
 
