@@ -22,6 +22,7 @@ This folder keeps migration internals, legacy generated docs, and maintenance ru
 - [Exhaustive Source Catalog](exhaustive-source-catalog.md): folder-by-folder inventory of every raw Markdown file and asset.
 - [Source Coverage Matrix](source-coverage-matrix.md): every original Markdown file mapped to maintained coverage or preservation.
 - [Source Resource Links](source-resource-links.md): every external URL occurrence extracted from the raw source.
+- [Resource Completeness Check](resource-completeness-check.md): per-file verification that extracted HTTP/HTTPS resources are present in the public resource indexes.
 - [Content Quality Checklist](content-quality-checklist.md)
 - [Link Checking](link-checking.md)
 

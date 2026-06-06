@@ -157,6 +157,7 @@ The original ZIP export has now been cataloged file-by-file and link-by-link:
 | [Exhaustive Source Catalog](maintainers/exhaustive-source-catalog.md) | Every original Markdown file, folder, heading sample, word count, link count, asset, and coverage destination. |
 | [Source Coverage Matrix](maintainers/source-coverage-matrix.md) | Every source file mapped to maintained manual coverage or preservation location. |
 | [Source Resource Links](maintainers/source-resource-links.md) | Every external URL occurrence extracted from the raw Markdown files. |
+| [Resource Completeness Check](maintainers/resource-completeness-check.md) | Verification that every extracted HTTP/HTTPS source URL appears in the published resource indexes. |
 | [All Source Resources](08-reference-library/all-source-resources.md) | Public-facing exhaustive resource list grouped by original source folder. |
 
 Current source inventory: 66 raw Markdown files, 3 image assets, 534 URL occurrences, and 407 unique external URLs.
@@ -174,6 +175,7 @@ Current source inventory: 66 raw Markdown files, 3 image assets, 534 URL occurre
 | [Exhaustive Source Catalog](maintainers/exhaustive-source-catalog.md) | Folder-by-folder source inventory from the preserved ZIP. |
 | [Source Coverage Matrix](maintainers/source-coverage-matrix.md) | Source-to-manual coverage mapping for every original Markdown file. |
 | [Source Resource Links](maintainers/source-resource-links.md) | Every external URL occurrence extracted from the original Markdown files. |
+| [Resource Completeness Check](maintainers/resource-completeness-check.md) | Per-file resource availability check against the published resource indexes. |
 
 ## Repository Standards
 

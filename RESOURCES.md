@@ -9,6 +9,7 @@ tags:
 related:
   - 08-reference-library/all-source-resources.md
   - maintainers/source-resource-links.md
+  - maintainers/resource-completeness-check.md
 references: []
 ---
 # Resources
@@ -18,6 +19,7 @@ This is the direct resource listing. It is generated from the raw ZIP/Notion Mar
 - URL occurrences from source: `534`
 - Unique URLs across all categories: `407`
 - Source Markdown files scanned: `66`
+- Completeness check: [PASS](maintainers/resource-completeness-check.md)
 
 ## Category Index
 
@@ -1343,4 +1345,3 @@ This is the direct resource listing. It is generated from the raw ZIP/Notion Mar
   - Source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/XXE 907847798a544e60a65a87e580c87269.md`
 - https://www.hackingarticles.in/comprehensive-guide-to-local-file-inclusion/
   - Source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/LFI 523bd5023fdd40bbb08c7116e0b21fe1.md`
-
