@@ -1,6 +1,6 @@
 ---
-title: "Xetta's Web Hacker Vault"
-summary: "A polished Web AppSec resource vault built from the ZIP source: links, payloads, tools, writeups, labs, bug classes, and source-traceable data."
+title: "Xetta's Web Application Hacking Vault"
+summary: "A polished web application hacking resource vault built from the ZIP source: links, payloads, tools, writeups, labs, bug classes, and source-traceable data."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:
@@ -16,9 +16,9 @@ related:
   - data/README.md
 references: []
 ---
-# Xetta's Web Hacker Vault
+# Xetta's Web Application Hacking Vault
 
-> A resource-first Web AppSec vault for recon, payloads, tools, writeups, GitBooks, cheat sheets, labs, bug classes, and practical hunting playbooks.
+> A resource-first web application hacking vault for recon, payloads, tools, writeups, GitBooks, cheat sheets, labs, bug classes, and practical hunting playbooks.
 
 `407 source URLs`  `540 resource records`  `128 extracted snippets`  `66 source notes`  `3 preserved assets`
 

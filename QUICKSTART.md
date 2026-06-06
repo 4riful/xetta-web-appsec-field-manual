@@ -1,6 +1,6 @@
 ---
 title: "Quickstart"
-summary: "Fast route through Xetta's Web Hacker Vault."
+summary: "Fast route through Xetta's Web Application Hacking Vault."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:
