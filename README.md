@@ -39,6 +39,7 @@ Most security note repos become one of three things: link dumps, payload dumps, 
 - Turning recon into testable leads: [02-mapping-and-triage/](02-mapping-and-triage/README.md)
 - Testing a bug class: [03-vulnerability-guides/](03-vulnerability-guides/README.md)
 - Need tools, payloads, or wordlists: [05-toolkit/](05-toolkit/README.md)
+- Need the full resource/link list: [RESOURCES.md](RESOURCES.md)
 - Need to write a report: [07-reporting/](07-reporting/README.md)
 
 ## Use This Repo By Task
@@ -54,6 +55,7 @@ Most security note repos become one of three things: link dumps, payload dumps, 
 | Test file upload issues | [03-vulnerability-guides/files-and-parsers/file-upload.md](03-vulnerability-guides/files-and-parsers/file-upload.md) |
 | Pick Burp extensions | [05-toolkit/burp-suite/extensions.md](05-toolkit/burp-suite/extensions.md) |
 | Pick payloads | [05-toolkit/payloads/README.md](05-toolkit/payloads/README.md) |
+| Browse every source resource link | [RESOURCES.md](RESOURCES.md) |
 | Review source code | [06-code-review/review-methodology.md](06-code-review/review-methodology.md) |
 
 ## Field Manual Map
@@ -124,6 +126,7 @@ The original ZIP export has now been cataloged file-by-file and link-by-link:
 
 | Catalog | What it proves |
 |---|---|
+| [RESOURCES.md](RESOURCES.md) | Root-level practical resource listing with all extracted URLs grouped by AppSec category. |
 | [Exhaustive Source Catalog](maintainers/exhaustive-source-catalog.md) | Every original Markdown file, folder, heading sample, word count, link count, asset, and coverage destination. |
 | [Source Coverage Matrix](maintainers/source-coverage-matrix.md) | Every source file mapped to maintained manual coverage or preservation location. |
 | [Source Resource Links](maintainers/source-resource-links.md) | Every external URL occurrence extracted from the raw Markdown files. |
