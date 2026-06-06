@@ -10,7 +10,7 @@ references: []
 ---
 # Source Coverage Matrix
 
-Every source file is represented in `data/source_documents.csv` and all extracted resources/snippets are represented in `data/resource_occurrences.csv`.
+Every source file is represented in `data/source-documents.csv` and all extracted resources/snippets are represented in `data/resource-occurrences.csv`.
 
 | Source | Database Source ID |
 |---|---|

@@ -1,21 +1,21 @@
 ---
-title: "Waf Bypass"
-summary: "waf_bypass resources from database."
+title: "WAF Bypass"
+summary: "waf-bypass resources from the vault."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:
   - bug-class
-  - waf_bypass
+  - waf-bypass
 related: []
 references: []
 ---
-# Waf Bypass
+# WAF Bypass
 
 ### IDOR Attack vectors exploitation bypasses and chains 0b73eb18e9b640ce8c337af831397a6b
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `access_control;waf_bypass`
+- Bug class: `access-control;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://notion.so/IDOR-Attack-vectors-exploitation-bypasses-and-chains-0b73eb18e9b640ce8c337af831397a6b
 
@@ -23,7 +23,7 @@ references: []
 
 - Type: `writeup`
 - Kind: `url`
-- Bug class: `access_control;waf_bypass`
+- Bug class: `access-control;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://github.com/aufzayed/bugbounty/tree/main/403-bypass
 
@@ -31,7 +31,7 @@ references: []
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `auth;waf_bypass`
+- Bug class: `auth;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://redhuntlabs.com/blog/10-most-common-security-issues-found-in-login-functionalities.html
 
@@ -39,7 +39,7 @@ references: []
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `auth;waf_bypass`
+- Bug class: `auth;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://youst.in/posts/bypassing-2fa-using-openid-misconfiguration/
 
@@ -47,7 +47,7 @@ references: []
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `auth;waf_bypass`
+- Bug class: `auth;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://blog.vedixera.com/login-testing/
 
@@ -55,7 +55,7 @@ references: []
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `auth;waf_bypass`
+- Bug class: `auth;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://highon.coffee/blog/password-reset-security-testing-cheat-sheet/
 
@@ -63,7 +63,7 @@ references: []
 
 - Type: `writeup`
 - Kind: `url`
-- Bug class: `waf_bypass`
+- Bug class: `waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://kailashbohara.com.np/blog/2022/02/04/bypassing-PHP-functions-to-read-system-file/
 
@@ -71,7 +71,7 @@ references: []
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `waf_bypass`
+- Bug class: `waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://spaceraccoon.dev/a-tale-of-two-formats-exploiting-insecure-xml-and-zip-file-parsers-to-create-a/
 
@@ -79,7 +79,7 @@ references: []
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `sqli;waf_bypass`
+- Bug class: `sqli;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://c0nqr0r.medium.com/error-based-sql-injection-with-waf-bypass-manual-exploit-100-bab36b769005
 
@@ -87,7 +87,7 @@ references: []
 
 - Type: `payload_collection`
 - Kind: `url`
-- Bug class: `sqli;waf_bypass;xss`
+- Bug class: `sqli;waf-bypass;xss`
 - Tier: `tier_2_useful`
 - Value: https://github.com/Y000o/Payloads_xss_sql_bypass/blob/master/Payloads_xss_sql_bypass.md#Sql-inyection-case-y-sounds-like
 
@@ -95,7 +95,7 @@ references: []
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `ssrf;waf_bypass`
+- Bug class: `ssrf;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://highon.coffee/blog/ssrf-cheat-sheet/
 
@@ -103,7 +103,7 @@ references: []
 
 - Type: `tool`
 - Kind: `url`
-- Bug class: `waf_bypass`
+- Bug class: `waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://waf-bypass.com/2022/03/
 
@@ -111,7 +111,7 @@ references: []
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `waf_bypass;xss`
+- Bug class: `waf-bypass;xss`
 - Tier: `tier_2_useful`
 - Value: https://kleiton0x00.github.io/posts/Bypassing-WAF-to-perform-XSS/
 
@@ -119,7 +119,7 @@ references: []
 
 - Type: `payload_collection`
 - Kind: `url`
-- Bug class: `waf_bypass;xss`
+- Bug class: `waf-bypass;xss`
 - Tier: `tier_2_useful`
 - Value: https://onetest.fr/posts/xss-waf-bypass-one-payload-for-all/
 
@@ -127,7 +127,7 @@ references: []
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `waf_bypass`
+- Bug class: `waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://blog.0x4.xyz/bypassing-windows-protection-mechanisms/bypass-windows-defender-atp
 
@@ -135,7 +135,7 @@ references: []
 
 - Type: `writeup`
 - Kind: `url`
-- Bug class: `file_upload;ssrf;waf_bypass`
+- Bug class: `file-upload;ssrf;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://infosecwriteups.com/svg-ssrfs-and-saga-of-bypasses-777e035a17a7
 
@@ -143,6 +143,6 @@ references: []
 
 - Type: `tool`
 - Kind: `url`
-- Bug class: `waf_bypass`
+- Bug class: `waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://waf-bypass.com/

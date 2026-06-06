@@ -12,8 +12,8 @@ references: []
 # Resource Database
 
 - `resources.csv`: deduplicated resource and snippet records.
-- `resource_occurrences.csv`: one row per source occurrence.
-- `source_documents.csv`: one row per raw Markdown file.
+- `resource-occurrences.csv`: one row per source occurrence.
+- `source-documents.csv`: one row per raw Markdown file.
 - `resources.json`: JSON export of resources.
 - `source-map.json`: JSON export of source files.
 

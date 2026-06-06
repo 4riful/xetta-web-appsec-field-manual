@@ -54,7 +54,7 @@ references: []
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `cors_csrf`
+- Bug class: `cors-csrf`
 - Tier: `tier_1_core`
 - Value: https://book.hacktricks.xyz/pertesting-web/csrf-cross-site-request-forgery
 
@@ -62,7 +62,7 @@ references: []
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `request_smuggling`
+- Bug class: `request-smuggling`
 - Tier: `tier_1_core`
 - Value: https://portswigger.net/web-security/request-smuggling/finding
 
@@ -198,7 +198,7 @@ references: []
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `cors_csrf`
+- Bug class: `cors-csrf`
 - Tier: `tier_1_core`
 - Value: https://book.hacktricks.xyz/pertesting-web/csrf-cross-site-request-forgery
 
@@ -206,6 +206,6 @@ references: []
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `request_smuggling`
+- Bug class: `request-smuggling`
 - Tier: `tier_1_core`
 - Value: https://portswigger.net/web-security/request-smuggling/finding

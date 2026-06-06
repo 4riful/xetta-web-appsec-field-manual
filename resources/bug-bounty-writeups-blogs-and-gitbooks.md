@@ -34,7 +34,7 @@ Entries: `78`
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `access_control`
+- Bug class: `access-control`
 - Tier: `tier_2_useful`
 - Value: https://r0ckinxj3.wordpress.com/2021/10/24/a-7500-google-sites-idor/
 
@@ -370,7 +370,7 @@ Entries: `78`
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `access_control`
+- Bug class: `access-control`
 - Tier: `tier_2_useful`
 - Value: https://medium.com/@Sm9l/what-i-learnt-from-reading-220-idor-bug-reports-6efbea44db7
 

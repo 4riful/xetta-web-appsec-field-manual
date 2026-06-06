@@ -50,7 +50,7 @@ Entries: `20`
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `access_control`
+- Bug class: `access-control`
 - Tier: `tier_2_useful`
 - Value: https://blog.projectdiscovery.io/guide-to-dns-takeovers/
 
@@ -66,7 +66,7 @@ Entries: `20`
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `access_control;cloud`
+- Bug class: `access-control;cloud`
 - Tier: `tier_2_useful`
 - Value: https://link.medium.com/MX5hzfESYgb
 

@@ -38,7 +38,7 @@ references: []
 
 - Type: `payload_collection`
 - Kind: `url`
-- Bug class: `sqli;waf_bypass;xss`
+- Bug class: `sqli;waf-bypass;xss`
 - Tier: `tier_2_useful`
 - Value: https://github.com/Y000o/Payloads_xss_sql_bypass/blob/master/Payloads_xss_sql_bypass.md#Sql-inyection-case-y-sounds-like
 
@@ -54,7 +54,7 @@ references: []
 
 - Type: `payload_collection`
 - Kind: `url`
-- Bug class: `waf_bypass;xss`
+- Bug class: `waf-bypass;xss`
 - Tier: `tier_2_useful`
 - Value: https://onetest.fr/posts/xss-waf-bypass-one-payload-for-all/
 

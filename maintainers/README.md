@@ -24,8 +24,8 @@ This folder keeps maintenance rules out of the main resource browsing path.
 ## Source Of Truth
 
 - Resource database: [data/resources.csv](../data/resources.csv)
-- Resource occurrences: [data/resource_occurrences.csv](../data/resource_occurrences.csv)
-- Source documents: [data/source_documents.csv](../data/source_documents.csv)
+- Resource occurrences: [data/resource-occurrences.csv](../data/resource-occurrences.csv)
+- Source documents: [data/source-documents.csv](../data/source-documents.csv)
 - Provenance: [provenance/](../provenance/README.md)
 - Raw archive: `../provenance/raw-archive/notion-export/`
 

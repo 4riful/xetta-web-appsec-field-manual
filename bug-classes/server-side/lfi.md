@@ -1,6 +1,6 @@
 ---
 title: "Lfi"
-summary: "lfi resources from database."
+summary: "lfi resources from the vault."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:

@@ -18,7 +18,7 @@ Entries: `19`
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `waf_bypass`
+- Bug class: `waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://spaceraccoon.dev/a-tale-of-two-formats-exploiting-insecure-xml-and-zip-file-parsers-to-create-a/
 
@@ -26,7 +26,7 @@ Entries: `19`
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_2_useful`
 - Value: https://exploit-notes.hdks.org/exploit/file-upload-attack/
 
@@ -34,7 +34,7 @@ Entries: `19`
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_2_useful`
 - Value: http://www.securityidiots.com/Web-Pentest/hacking-website-by-shell-uploading.html
 
@@ -50,7 +50,7 @@ Entries: `19`
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_2_useful`
 - Value: https://sm4rty.medium.com/hunting-for-bugs-in-file-upload-feature-c3b364fb01ba
 
@@ -58,7 +58,7 @@ Entries: `19`
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_2_useful`
 - Value: http://www.securityidiots.com/
 
@@ -66,7 +66,7 @@ Entries: `19`
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_2_useful`
 - Value: http://www.w3.org/2000/svg”
 
@@ -82,7 +82,7 @@ Entries: `19`
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_2_useful`
 - Value: https://redmethod.hashnode.dev/testing-file-upload-mechanism
 
@@ -90,7 +90,7 @@ Entries: `19`
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_2_useful`
 - Value: http://www.w3.org/1999/xlink”
 
@@ -106,7 +106,7 @@ Entries: `19`
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_2_useful`
 - Value: https://github.com/HolyBugx/HolyTips/blob/main/Checklist/Fille%20Upload.pdf
 
@@ -114,7 +114,7 @@ Entries: `19`
 
 - Type: `command`
 - Kind: `snippet`
-- Bug class: `access_control;sqli`
+- Bug class: `access-control;sqli`
 - Tier: `tier_2_useful`
 - Value: cat hosts | xargs -I@ sh -c ‘python3 dirsearch.py -r 3 -t 500 -b -w path -u @ -i 200, 403, 401, 302 -e. conf,config,bak,backup,swp,old,db,sql,asp,aspx,aspx~,asp~,py,py~,rb,rb~,php,php~,bak,bkp,cache,cgi,conf,csv,html,inc,jar,js,json,jsp,jsp~,lock,log,rar,old,sql,sql.gz,sql.zip,sql.tar.gz,sql~,swp,swp~,tar,tar.bz2,tar.gz,txt,wadl,zip,log,xml,js,json’ -x 400,500,429
 
@@ -130,7 +130,7 @@ Entries: `19`
 
 - Type: `dork`
 - Kind: `snippet`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_2_useful`
 - Value: inurl:updown.php | intext:”Powered by PHP Uploader Downloader”
 
@@ -138,7 +138,7 @@ Entries: `19`
 
 - Type: `dork`
 - Kind: `snippet`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_2_useful`
 - Value: “Powered By: Simplicity oF Upload” inurl:download.php | inurl:upload.php
 
@@ -146,7 +146,7 @@ Entries: `19`
 
 - Type: `writeup`
 - Kind: `url`
-- Bug class: `file_upload;ssrf;waf_bypass`
+- Bug class: `file-upload;ssrf;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://infosecwriteups.com/svg-ssrfs-and-saga-of-bypasses-777e035a17a7
 
@@ -154,7 +154,7 @@ Entries: `19`
 
 - Type: `payload`
 - Kind: `snippet`
-- Bug class: `file_upload;xxe`
+- Bug class: `file-upload;xxe`
 - Tier: `tier_5_placeholder_payload`
 - Value: <?xml version=”1.0" standalone=”yes”?><!DOCTYPE test [ <!ENTITY xxe SYSTEM “file:///etc/hostname” > ]><svg width=”128px” height=”128px” xmlns=”http://www.w3.org/2000/svg” xmlns:xlink=”http://www.w3.org/1999/xlink” version=”1.1"><text font-size=”16" x=”0" y=”16">&xxe;</text></svg>
 
@@ -162,6 +162,6 @@ Entries: `19`
 
 - Type: `payload`
 - Kind: `snippet`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_5_placeholder_payload`
 - Value: <svg xmlns:svg=”http://www.w3.org/2000/svg” xmlns=”http://www.w3.org/2000/svg” xmlns:xlink=”http://www.w3.org/1999/xlink” width=”200" height=”200">

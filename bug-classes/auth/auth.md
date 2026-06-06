@@ -1,6 +1,6 @@
 ---
 title: "Auth"
-summary: "auth resources from database."
+summary: "auth resources from the vault."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:
@@ -55,7 +55,7 @@ references: []
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `auth;waf_bypass`
+- Bug class: `auth;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://redhuntlabs.com/blog/10-most-common-security-issues-found-in-login-functionalities.html
 
@@ -63,7 +63,7 @@ references: []
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `auth;waf_bypass`
+- Bug class: `auth;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://youst.in/posts/bypassing-2fa-using-openid-misconfiguration/
 
@@ -71,7 +71,7 @@ references: []
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `auth;waf_bypass`
+- Bug class: `auth;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://blog.vedixera.com/login-testing/
 
@@ -79,7 +79,7 @@ references: []
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `auth;waf_bypass`
+- Bug class: `auth;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://highon.coffee/blog/password-reset-security-testing-cheat-sheet/
 

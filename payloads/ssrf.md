@@ -23,7 +23,7 @@ references: []
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `ssrf;waf_bypass`
+- Bug class: `ssrf;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://highon.coffee/blog/ssrf-cheat-sheet/
 
@@ -151,7 +151,7 @@ references: []
 
 - Type: `writeup`
 - Kind: `url`
-- Bug class: `file_upload;ssrf;waf_bypass`
+- Bug class: `file-upload;ssrf;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://infosecwriteups.com/svg-ssrfs-and-saga-of-bypasses-777e035a17a7
 

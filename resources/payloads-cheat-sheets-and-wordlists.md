@@ -34,7 +34,7 @@ Entries: `88`
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `cors_csrf`
+- Bug class: `cors-csrf`
 - Tier: `tier_1_core`
 - Value: https://book.hacktricks.xyz/pertesting-web/csrf-cross-site-request-forgery
 
@@ -42,7 +42,7 @@ Entries: `88`
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `request_smuggling`
+- Bug class: `request-smuggling`
 - Tier: `tier_1_core`
 - Value: https://portswigger.net/web-security/request-smuggling/finding
 
@@ -98,7 +98,7 @@ Entries: `88`
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `cors_csrf`
+- Bug class: `cors-csrf`
 - Tier: `tier_2_useful`
 - Value: https://0xn3va.gitbook.io/cheat-sheets/web-application/cors-misconfiguration
 
@@ -162,7 +162,7 @@ Entries: `88`
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_2_useful`
 - Value: https://github.com/HolyBugx/HolyTips/blob/main/Checklist/Fille%20Upload.pdf
 
@@ -234,7 +234,7 @@ Entries: `88`
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `access_control;waf_bypass`
+- Bug class: `access-control;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://notion.so/IDOR-Attack-vectors-exploitation-bypasses-and-chains-0b73eb18e9b640ce8c337af831397a6b
 
@@ -274,7 +274,7 @@ Entries: `88`
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `access_control;cloud`
+- Bug class: `access-control;cloud`
 - Tier: `tier_2_useful`
 - Value: https://link.medium.com/MX5hzfESYgb
 
@@ -298,7 +298,7 @@ Entries: `88`
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `auth;waf_bypass`
+- Bug class: `auth;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://highon.coffee/blog/password-reset-security-testing-cheat-sheet/
 
@@ -346,7 +346,7 @@ Entries: `88`
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `ssrf;waf_bypass`
+- Bug class: `ssrf;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://highon.coffee/blog/ssrf-cheat-sheet/
 
@@ -546,7 +546,7 @@ Entries: `88`
 
 - Type: `payload_collection`
 - Kind: `url`
-- Bug class: `waf_bypass;xss`
+- Bug class: `waf-bypass;xss`
 - Tier: `tier_2_useful`
 - Value: https://onetest.fr/posts/xss-waf-bypass-one-payload-for-all/
 
@@ -562,7 +562,7 @@ Entries: `88`
 
 - Type: `payload_collection`
 - Kind: `url`
-- Bug class: `sqli;waf_bypass;xss`
+- Bug class: `sqli;waf-bypass;xss`
 - Tier: `tier_2_useful`
 - Value: https://github.com/Y000o/Payloads_xss_sql_bypass/blob/master/Payloads_xss_sql_bypass.md#Sql-inyection-case-y-sounds-like
 

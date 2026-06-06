@@ -34,4 +34,4 @@ references: []
 - [ ] Relevant resources from `data/resources.csv`.
 - [ ] Tools and payload references where available.
 - [ ] Links to related bug classes.
-- [ ] Provenance retained through `data/resource_occurrences.csv`.
+- [ ] Internal traceability retained through `data/resource-occurrences.csv`.

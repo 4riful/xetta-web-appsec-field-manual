@@ -1,11 +1,11 @@
 ---
 title: "Access Control"
-summary: "access_control resources from database."
+summary: "access-control resources from the vault."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:
   - bug-class
-  - access_control
+  - access-control
 related: []
 references: []
 ---
@@ -15,7 +15,7 @@ references: []
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `access_control;waf_bypass`
+- Bug class: `access-control;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://notion.so/IDOR-Attack-vectors-exploitation-bypasses-and-chains-0b73eb18e9b640ce8c337af831397a6b
 
@@ -23,7 +23,7 @@ references: []
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `access_control;cloud`
+- Bug class: `access-control;cloud`
 - Tier: `tier_2_useful`
 - Value: https://link.medium.com/MX5hzfESYgb
 
@@ -31,7 +31,7 @@ references: []
 
 - Type: `writeup`
 - Kind: `url`
-- Bug class: `access_control;waf_bypass`
+- Bug class: `access-control;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://github.com/aufzayed/bugbounty/tree/main/403-bypass
 
@@ -39,7 +39,7 @@ references: []
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `access_control`
+- Bug class: `access-control`
 - Tier: `tier_2_useful`
 - Value: https://blog.projectdiscovery.io/guide-to-dns-takeovers/
 
@@ -47,7 +47,7 @@ references: []
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `access_control`
+- Bug class: `access-control`
 - Tier: `tier_2_useful`
 - Value: https://medium.com/@Sm9l/what-i-learnt-from-reading-220-idor-bug-reports-6efbea44db7
 
@@ -55,7 +55,7 @@ references: []
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `access_control`
+- Bug class: `access-control`
 - Tier: `tier_2_useful`
 - Value: https://r0ckinxj3.wordpress.com/2021/10/24/a-7500-google-sites-idor/
 
@@ -63,6 +63,6 @@ references: []
 
 - Type: `command`
 - Kind: `snippet`
-- Bug class: `access_control;sqli`
+- Bug class: `access-control;sqli`
 - Tier: `tier_2_useful`
 - Value: cat hosts | xargs -I@ sh -c ‘python3 dirsearch.py -r 3 -t 500 -b -w path -u @ -i 200, 403, 401, 302 -e. conf,config,bak,backup,swp,old,db,sql,asp,aspx,aspx~,asp~,py,py~,rb,rb~,php,php~,bak,bkp,cache,cgi,conf,csv,html,inc,jar,js,json,jsp,jsp~,lock,log,rar,old,sql,sql.gz,sql.zip,sql.tar.gz,sql~,swp,swp~,tar,tar.bz2,tar.gz,txt,wadl,zip,log,xml,js,json’ -x 400,500,429

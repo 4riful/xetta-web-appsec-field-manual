@@ -18,7 +18,7 @@ Entries: `27`
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `auth;waf_bypass`
+- Bug class: `auth;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://redhuntlabs.com/blog/10-most-common-security-issues-found-in-login-functionalities.html
 
@@ -34,7 +34,7 @@ Entries: `27`
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `auth;waf_bypass`
+- Bug class: `auth;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://youst.in/posts/bypassing-2fa-using-openid-misconfiguration/
 
@@ -74,7 +74,7 @@ Entries: `27`
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `auth;waf_bypass`
+- Bug class: `auth;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://blog.vedixera.com/login-testing/
 
@@ -130,7 +130,7 @@ Entries: `27`
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `auth;waf_bypass`
+- Bug class: `auth;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://highon.coffee/blog/password-reset-security-testing-cheat-sheet/
 

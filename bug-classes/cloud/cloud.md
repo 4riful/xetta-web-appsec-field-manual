@@ -1,6 +1,6 @@
 ---
 title: "Cloud"
-summary: "cloud resources from database."
+summary: "cloud resources from the vault."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:
@@ -15,7 +15,7 @@ references: []
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `access_control;cloud`
+- Bug class: `access-control;cloud`
 - Tier: `tier_2_useful`
 - Value: https://link.medium.com/MX5hzfESYgb
 

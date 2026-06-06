@@ -318,6 +318,6 @@ references: []
 
 - Type: `tool`
 - Kind: `url`
-- Bug class: `waf_bypass`
+- Bug class: `waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://waf-bypass.com/

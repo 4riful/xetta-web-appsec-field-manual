@@ -15,7 +15,7 @@ references: []
 
 - Type: `cheat_sheet`
 - Kind: `url`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_2_useful`
 - Value: https://github.com/HolyBugx/HolyTips/blob/main/Checklist/Fille%20Upload.pdf
 
@@ -23,7 +23,7 @@ references: []
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_2_useful`
 - Value: http://www.securityidiots.com/Web-Pentest/hacking-website-by-shell-uploading.html
 
@@ -31,7 +31,7 @@ references: []
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_2_useful`
 - Value: http://www.securityidiots.com/
 
@@ -39,7 +39,7 @@ references: []
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_2_useful`
 - Value: https://exploit-notes.hdks.org/exploit/file-upload-attack/
 
@@ -47,7 +47,7 @@ references: []
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_2_useful`
 - Value: https://redmethod.hashnode.dev/testing-file-upload-mechanism
 
@@ -55,7 +55,7 @@ references: []
 
 - Type: `dork`
 - Kind: `snippet`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_2_useful`
 - Value: inurl:updown.php | intext:”Powered by PHP Uploader Downloader”
 
@@ -63,7 +63,7 @@ references: []
 
 - Type: `dork`
 - Kind: `snippet`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_2_useful`
 - Value: “Powered By: Simplicity oF Upload” inurl:download.php | inurl:upload.php
 
@@ -71,7 +71,7 @@ references: []
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_2_useful`
 - Value: http://www.w3.org/2000/svg”
 
@@ -79,7 +79,7 @@ references: []
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_2_useful`
 - Value: http://www.w3.org/1999/xlink”
 
@@ -87,7 +87,7 @@ references: []
 
 - Type: `payload`
 - Kind: `snippet`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_5_placeholder_payload`
 - Value: <svg xmlns:svg=”http://www.w3.org/2000/svg” xmlns=”http://www.w3.org/2000/svg” xmlns:xlink=”http://www.w3.org/1999/xlink” width=”200" height=”200">
 
@@ -95,7 +95,7 @@ references: []
 
 - Type: `payload`
 - Kind: `snippet`
-- Bug class: `file_upload;xxe`
+- Bug class: `file-upload;xxe`
 - Tier: `tier_5_placeholder_payload`
 - Value: <?xml version=”1.0" standalone=”yes”?><!DOCTYPE test [ <!ENTITY xxe SYSTEM “file:///etc/hostname” > ]><svg width=”128px” height=”128px” xmlns=”http://www.w3.org/2000/svg” xmlns:xlink=”http://www.w3.org/1999/xlink” version=”1.1"><text font-size=”16" x=”0" y=”16">&xxe;</text></svg>
 
@@ -103,7 +103,7 @@ references: []
 
 - Type: `article`
 - Kind: `url`
-- Bug class: `file_upload`
+- Bug class: `file-upload`
 - Tier: `tier_2_useful`
 - Value: https://sm4rty.medium.com/hunting-for-bugs-in-file-upload-feature-c3b364fb01ba
 
@@ -111,6 +111,6 @@ references: []
 
 - Type: `writeup`
 - Kind: `url`
-- Bug class: `file_upload;ssrf;waf_bypass`
+- Bug class: `file-upload;ssrf;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://infosecwriteups.com/svg-ssrfs-and-saga-of-bypasses-777e035a17a7

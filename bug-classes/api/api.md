@@ -1,6 +1,6 @@
 ---
 title: "Api"
-summary: "api resources from database."
+summary: "api resources from the vault."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:

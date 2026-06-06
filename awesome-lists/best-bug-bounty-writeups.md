@@ -134,7 +134,7 @@ references: []
 
 - Type: `writeup`
 - Kind: `url`
-- Bug class: `access_control;waf_bypass`
+- Bug class: `access-control;waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://github.com/aufzayed/bugbounty/tree/main/403-bypass
 
@@ -158,7 +158,7 @@ references: []
 
 - Type: `writeup`
 - Kind: `url`
-- Bug class: `waf_bypass`
+- Bug class: `waf-bypass`
 - Tier: `tier_2_useful`
 - Value: https://kailashbohara.com.np/blog/2022/02/04/bypassing-PHP-functions-to-read-system-file/
 

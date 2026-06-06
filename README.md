@@ -28,25 +28,13 @@ Inside you will find recon resources, payload references, dorks, command snippet
 
 ## Start Here
 
-<div align="center">
-
-<a href="resources/README.md"><img width="31%" src="https://dummyimage.com/520x170/111827/ffffff&text=Browse+Resources" alt="Browse Resources"></a>
-<a href="awesome-lists/top-25-web-appsec-links.md"><img width="31%" src="https://dummyimage.com/520x170/312e81/ffffff&text=Top+25+Links" alt="Top 25 Links"></a>
-<a href="payloads/README.md"><img width="31%" src="https://dummyimage.com/520x170/155e75/ffffff&text=Payloads+%26+Wordlists" alt="Payloads and Wordlists"></a>
-
-<br><br>
-
-<a href="tools/README.md"><img width="31%" src="https://dummyimage.com/520x170/166534/ffffff&text=Tools+%26+Automation" alt="Tools and Automation"></a>
-<a href="bug-classes/README.md"><img width="31%" src="https://dummyimage.com/520x170/7f1d1d/ffffff&text=Bug+Classes" alt="Bug Classes"></a>
-<a href="maps/README.md"><img width="31%" src="https://dummyimage.com/520x170/4c1d95/ffffff&text=Learning+Maps" alt="Learning Maps"></a>
-
-</div>
+📚 [Browse Resources](resources/README.md) · ⭐ [Top 25 Links](awesome-lists/top-25-web-appsec-links.md) · 🎯 [Payloads & Wordlists](payloads/README.md) · 🧰 [Tools & Automation](tools/README.md) · 🐞 [Bug Classes](bug-classes/README.md) · 🗺️ [Learning Maps](maps/README.md)
 
 ## For New Learners
 
 If you are new, do not start with payloads. Start with the path.
 
-- Learn the map first: [maps/beginner-path.md](maps/beginner-path.md)
+- Learn the map first: [maps/](maps/README.md)
 - Understand recon: [resources/recon-and-osint.md](resources/recon-and-osint.md)
 - Read good writeups: [awesome-lists/best-bug-bounty-writeups.md](awesome-lists/best-bug-bounty-writeups.md)
 - Pick one bug class: [bug-classes/README.md](bug-classes/README.md)
