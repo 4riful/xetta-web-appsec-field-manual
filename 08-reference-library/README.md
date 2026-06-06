@@ -23,3 +23,8 @@ This section preserves useful external material without turning field guides int
 - [Videos and Talks](videos-and-talks.md)
 - [Labs and Practice](labs-and-practice.md)
 - [External Tools](external-tools.md)
+- [All Source Resources](all-source-resources.md)
+
+## Exhaustive Resource Preservation
+
+`all-source-resources.md` is intentionally exhaustive. It lists every external URL extracted from the original ZIP export, grouped by the raw source folder that contained it. Curated pages highlight the best resources; the exhaustive page proves nothing was silently dropped.

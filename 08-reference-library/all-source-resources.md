@@ -1,0 +1,563 @@
+---
+title: "All Source Resources"
+summary: "Public, exhaustive list of external resources preserved from the original ZIP export."
+status: "reviewed"
+last_reviewed: "2026-06-06"
+tags:
+  - resources
+  - source-archive
+related:
+  - ../maintainers/source-resource-links.md
+  - ../maintainers/exhaustive-source-catalog.md
+references: []
+---
+# All Source Resources
+
+This page keeps every external resource from the original ZIP visible in the public manual. Curated guides link only the most useful resources; this page preserves the full resource surface.
+
+## `Private & Shared/XettaтАЩs Web AppSEC Notes`
+
+- https://0dayfans.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/0days 2c824a24402344d1a18ccdc202bf4dea.md`
+- https://guidedhacking.com/threads/hackthebox-return-writeup.20152/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Active Directory 265438fe29144462983eac15793ca5ff.md`
+- https://0xn3va.gitbook.io/cheat-sheets/web-application/cors-misconfiguration — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://0xn3va.gitbook.io/cheat-sheets/web-application/server-side-request-forgery — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://0xn3va.gitbook.io/cheat-sheets/web-application/web-cache-poisoning — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://attacker-codeninja.github.io/2021-06-27-Awesome-BB-Bookmarks/?fbclid=IwAR3n8KyQWiCrKY-Gm6xFA_rUtHWHMAZGnjyNqeYWc7xIyU3hiUTRfY_07EA — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://binarybrotherhood.io/oauth2_threat_model.html — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://book.hacktricks.xyz/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://book.hacktricks.xyz/pertesting-web/csrf-cross-site-request-forgery — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://cheatsheet.haax.fr/web-pentest/misc_tricks/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://docs.google.com/presentation/d/1dYmdqZh-8JJ-FV20dtAz4VTLshDNBIhpGvfr4xv0OiA/edit#slide=id.g99dc314c47_5_0 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://docs.google.com/presentation/d/1dYmdqZh-8JJ-FV20dtAz4VTLshDNBIhpGvfr4xv0OiA/edit#slide=id.g99dc314c47_5_0 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://drive.google.com/file/d/11Fizx/Vw4GIZ60s5v3I1S5p8kXZHEXFT/view — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://f4d3.io/tags/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://gist.github.com/ruevaughn/8a8e26533ffe495284e7531daad5d9d0 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/0xCGonzalo/Golden-Guide-for-Pentesting?fbclid=IwAR1JyPNJX3m-fiW2TUFbMtXEVeaTi3y-1y-CfKu8TZXffC-GEQWT5_VrBS8 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/6vr/Bug-Bounty-Tips — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/6vr/Bug-Bounty-Tips — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/7RU7H/Archive/tree/main/Web-Hacking/Content-Discovery — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/Az0x7/vulnerability-Checklist — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/Correia-jpv/fucking-the-book-of-secret-knowledge — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/CyberSecurityUP/Offensivesecurity-Checklists/tree/main — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/daffainfo/AllAboutBugBounty/blob/master/Cross%20Site%20Scripting.md?fbclid=IwAR08rkeaXzAGOP5AojgzarxlqwPfI93VQDJLPJp6ZaXu825aIQ_0nt1zGOE — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/e11/014/derson/SAML-SSO — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/hellfire0x01/eJPT-Cheatsheet/blob/main/eJPT%20CheatSheet.md?fbclid=IwAR1RIkA_ZCHmFIxMonCF3Sn_7aCkC0teTlaFguUmf1rWa09t3yAt5rqSaVU — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/HolyBugx/HolyTips/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/HolyBugx/HolyTips/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/HolyBugx/HolyTips/blob/main/Checklist/Authentication.pdf — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/HolyBugx/HolyTips/blob/main/Checklist/Fille%20Upload.pdf — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/KathanP19/HowToHunt/blob/master/CheckList/Web_Checklist_by_Chintan_Gurjar.pdf — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/Kitsun3Sec/Pentest-Cheat-Sheets?fbclid=IwAR0C5z8V7xvxRULy0Di3Am4zk-kckfijy2cmRSL-AZ9LFKCq_PqlYLalVZc#xss — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/oxfemale/PENTESTING-BIBLE — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/oxfemale/PENTESTING-BIBLE — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/punishell/bbtips — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/punishell/bbtips — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/riramar/Web-Attack-Cheat-Sheet — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/riramar/Web-Attack-Cheat-Sheet — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/Saitle/BugBounty-2.0 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/sehno/Bug-bounty?fbclid=IwAR0_y0XVSu-WcSW7Ec6ez6vyUb4Gl7YcC3XcZT1fRdVvwt_i-t5KcToGfHw — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/soulvivek/Bug-Bounty-Resources — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/soulvivek/Bug-Bounty-Resources — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/swisskyrepo/PayloadsAllThe — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/zPrototype/bugbounty_stuff?fbclid=IwAR1JXKfL9lDU_-b6aK1t3HnxMR3umnTSnjVn9cX2py1JWuP4wxN5r-81BEA — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://l.facebook.com/l.php?u=https%3A%2F%2Fsinsinology.medium.com%2Fbug-bounty-short-tips-as-image-b4075523e4ef%3Ffbclid%3DIwAR18wXx3ehJsxq4DZXuI1XPYc7pe-ANM3rwRijXgZ3hmFxd0djW11Jnh0kw&h=AT2fzBUago_Esxn0O5Zfj_IcwY9JyPfttbFbMeVXR27kHcjF_4WCeC74zsxGyLaSbfodC9CIXbZ1KM_TRAUty6iSBkmuckZRFyZthdDg1SNPHCim6LY0gfQpCq6aKfcp_qKusw — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://link.medium.com/lprTDCXRYgb — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://link.medium.com/MX5hzfESYgb — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://linktr.ee/tuhin1729 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://medium.com/@janijay007/s3-bucket-misconfiguration-from-basics-to-pawn-6893776d1007 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://notion.so/IDOR-Attack-vectors-exploitation-bypasses-and-chains-0b73eb18e9b640ce8c337af831397a6b — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://open.spotify.com/track/0IFW7ZaRi8ee3X5aBKjvGc — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://open.spotify.com/track/0IFW7ZaRi8ee3X5aBKjvGc — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://pandaonair.com/2020/06/11/race-conditions-exploring-the-possibilities.html — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://portswigger.net/research/server-side-template-injection — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://portswigger.net/web-security/cross-site-scripting/cheat-sheet — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://portswigger.net/web-security/request-smuggling/finding — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://portswigger.net/web-security/sql-injection/cheat-sheet — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://swisskyrepo.github.io/PayloadsAllTheThingsWeb/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://techvomit.net/web-application-penetration-testing-notes/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://thehackerish.com/insecure-deserialization-explained-with-examples/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/ALL IN ONE Cheat Sheets c263b653a9d344e9876cf60e7b759ffc.md`
+- https://github.com/redhuntlabs/Awesome-Asset-Discovery — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Asset Discovery 1e94ffbbd6ae47898546d465d075bd81.md`
+- https://epi052.gitlab.io/notes-to-self/blog/2020-01-19-how-to-build-an-automated-recon-pipeline-with-python-and-luigi-part-six/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Automation & Script Devs ee773c0f42234d43a0c4370dc87e7328.md`
+- https://github.com/m4ll0k/BBTz — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Automation & Script Devs ee773c0f42234d43a0c4370dc87e7328.md`
+- https://github.com/m4ll0k/BBTz — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Automation & Script Devs ee773c0f42234d43a0c4370dc87e7328.md`
+- https://labs.detectify.com/2021/11/30/hakluke-creating-the-perfect-bug-bounty-automation/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Automation & Script Devs ee773c0f42234d43a0c4370dc87e7328.md`
+- http://www.securityidiots.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- http://www.securityidiots.com/Web-Pentest/hacking-website-by-shell-uploading.html?fbclid=IwAR3e2F5X1lZOeaE2JLaUAKb5kKIjIFiuaap1O2OADg4yMjwIx1SPHtYzcF4 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://bergee.it/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://blog.hacktivesecurity.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://blog.hacktivesecurity.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://blog.riotsecurityteam.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://blog.riotsecurityteam.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://bugbountyforum.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://bugbountyforum.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://bugbountyguide.org/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://bugbountyguide.org/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://gerbenjavado.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://gerbenjavado.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://labs.detectify.com/category/how-to/?fbclid=IwAR0rK8epeQBThYggSJJtaXGrP02zqh5n8pRgRsRaN8Aoa55UWbuDgnt6yYo — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://noobsploit.in/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://noobsploit.in/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://pyn3rd.github.io/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://pyn3rd.github.io/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://redmethod.hashnode.dev/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://redmethod.hashnode.dev/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://rez0.blog/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://rez0.blog/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://sl4x0.github.io/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://sl4x0.github.io/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://swarm.ptsecurity.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://swarm.ptsecurity.com/fuzzing-for-xss-via-nested-parsers-condition/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://veo.pub/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://veo.pub/2021/vscan/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://www.cyberick.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://www.cyberick.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://www.gremwell.com/blog — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://www.gremwell.com/blog — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://www.infosecmatter.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://www.infosecmatter.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://www.infosecmatter.com/bug-bounty-tips-10-dec-24/?fbclid=IwAR10d1ceOrEtHs8OZvzHdYrKpQsSy12uMMbQ-6SV0RVRlKMrsu1igGJX7MM#12_xss_payload_in_an_xml_file — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://www.infosecmatter.com/bug-bounty-tips-2-jun-30/#2_access_hidden_sign-up_pages — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://www.legallybreaking.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://www.legallybreaking.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome BlogPost 465a8707c7e0436abb674ae52c18b490.md`
+- https://0xffsec.com/handbook/information-gathering/subdomain-enumeration/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome Live Gitbooks 3ed0973ef7bf40829ecb8ec0b9980861.md`
+- https://0xffsec.com/handbook/information-gathering/subdomain-enumeration/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome Live Gitbooks 3ed0973ef7bf40829ecb8ec0b9980861.md`
+- https://book.hacktricks.xyz/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome Live Gitbooks 3ed0973ef7bf40829ecb8ec0b9980861.md`
+- https://book.hacktricks.xyz/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome Live Gitbooks 3ed0973ef7bf40829ecb8ec0b9980861.md`
+- https://book.redteamguides.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome Live Gitbooks 3ed0973ef7bf40829ecb8ec0b9980861.md`
+- https://book.redteamguides.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome Live Gitbooks 3ed0973ef7bf40829ecb8ec0b9980861.md`
+- https://d3v1lal.gitbook.io/c-code-disassembly/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome Live Gitbooks 3ed0973ef7bf40829ecb8ec0b9980861.md`
+- https://d3v1lal.gitbook.io/c-code-disassembly/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome Live Gitbooks 3ed0973ef7bf40829ecb8ec0b9980861.md`
+- https://electronicbots.gitbook.io/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome Live Gitbooks 3ed0973ef7bf40829ecb8ec0b9980861.md`
+- https://electronicbots.gitbook.io/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome Live Gitbooks 3ed0973ef7bf40829ecb8ec0b9980861.md`
+- https://gitbook.seguranca-informatica.pt/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome Live Gitbooks 3ed0973ef7bf40829ecb8ec0b9980861.md`
+- https://gitbook.seguranca-informatica.pt/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome Live Gitbooks 3ed0973ef7bf40829ecb8ec0b9980861.md`
+- https://gowthams.gitbook.io/bughunter-handbook/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome Live Gitbooks 3ed0973ef7bf40829ecb8ec0b9980861.md`
+- https://gowthams.gitbook.io/bughunter-handbook/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome Live Gitbooks 3ed0973ef7bf40829ecb8ec0b9980861.md`
+- https://n3t-hunt3r.gitbook.io/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome Live Gitbooks 3ed0973ef7bf40829ecb8ec0b9980861.md`
+- https://n3t-hunt3r.gitbook.io/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome Live Gitbooks 3ed0973ef7bf40829ecb8ec0b9980861.md`
+- https://pentestbook.six2dez.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome Live Gitbooks 3ed0973ef7bf40829ecb8ec0b9980861.md`
+- https://pentestbook.six2dez.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome Live Gitbooks 3ed0973ef7bf40829ecb8ec0b9980861.md`
+- https://s0cm0nkey.gitbook.io/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome Live Gitbooks 3ed0973ef7bf40829ecb8ec0b9980861.md`
+- https://s0cm0nkey.gitbook.io/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/AweSome Live Gitbooks 3ed0973ef7bf40829ecb8ec0b9980861.md`
+- https://0xmaruf.github.io/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Blogs 7ddd522c024441e59efcd8ba3c29558b.md`
+- https://github.com/wwong99/pentest-notes — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bookmarks 03cc554e8e9d462aa15edc015b428e1a.md`
+- https://x0rb3l.github.io/Cyber-Bookmarks/bookmarks.html — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bookmarks 03cc554e8e9d462aa15edc015b428e1a.md`
+- https://docs.google.com/presentation/d/1dYmdqZh-8JJ-FV20dtAz4VTLshDNBIhpGvfr4xv0OiA/edit#slide=id.g915c44e977_0_199 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs 5849fd829b084890baaf176cd27d6aba.md`
+- https://docs.google.com/presentation/d/1dYmdqZh-8JJ-FV20dtAz4VTLshDNBIhpGvfr4xv0OiA/edit#slide=id.g915c44e977_0_199 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs 5849fd829b084890baaf176cd27d6aba.md`
+- https://aaryanapex.medium.com/bug-bounty-methodology-web-vulnerabilities-checklist-86175dd29987 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/checklist fc6500d29706427bb09b30824ea5a2ec.md`
+- https://apexvicky.medium.com/bug-bounty-methodology-bug-hunting-checklist-part-1-3274ad868209 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/checklist fc6500d29706427bb09b30824ea5a2ec.md`
+- https://github.com/0xmaximus/Galaxy-Bugbounty-Checklist — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/checklist fc6500d29706427bb09b30824ea5a2ec.md`
+- https://github.com/0xmaximus/Galaxy-Bugbounty-Checklist — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/checklist fc6500d29706427bb09b30824ea5a2ec.md`
+- https://github.com/imran-parray/Mind-Maps — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/checklist fc6500d29706427bb09b30824ea5a2ec.md`
+- https://github.com/sehno/Bug-bounty?fbclid=IwAR0_y0XVSu-WcSW7Ec6ez6vyUb4Gl7YcC3XcZT1fRdVvwt_i-t5KcToGfHw — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/checklist fc6500d29706427bb09b30824ea5a2ec.md`
+- https://hariprasaanth.notion.site/WEB-APPLICATION-PENTESTING-CHECKLIST-0f02d8074b9d4af7b12b8da2d46ac998 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/checklist fc6500d29706427bb09b30824ea5a2ec.md`
+- https://joern.io/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/CODE Review 11516e1de3fd4f439b091aea6b9d5df6.md`
+- https://securecode.wiki/docs/lang/introduction/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/CODE Review 11516e1de3fd4f439b091aea6b9d5df6.md`
+- https://dorkking.blindf.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Dorking techniques b49ac278a7f44070b6e595f3876e7db8.md`
+- https://dorksearch.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Dorking techniques b49ac278a7f44070b6e595f3876e7db8.md`
+- https://taksec.github.io/google-dorks-bug-bounty/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Dorking techniques b49ac278a7f44070b6e595f3876e7db8.md`
+- https://blog.vedixera.com/master-in-ffuf/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Fuzzing dcfac0a8d57441b4830ffca259b48319.md`
+- https://cybersecnerds.com/ffuf-everything-you-need-to-know/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Fuzzing dcfac0a8d57441b4830ffca259b48319.md`
+- https://iwantmore.pizza/posts/rustbuster?fbclid=IwAR3S9Hw_GjxGF4zqHy735AgwT1pmdx-1xfIsSHLjhr7H6aQ3vJRiG4VkzyQ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Fuzzing dcfac0a8d57441b4830ffca259b48319.md`
+- https://www.acceis.fr/ffuf-advanced-tricks/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Fuzzing dcfac0a8d57441b4830ffca259b48319.md`
+- https://www.thehacker.recipes/web/recon/directory-fuzzing — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Fuzzing dcfac0a8d57441b4830ffca259b48319.md`
+- https://adnanmalik.info/blog/digging-js-files-to-find-bugs/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/JS IN BUG BOUNTY acc2704513a84087aed6d17ca5d44a15.md`
+- https://pravinponnusamy.medium.com/bug-hunting-api-secret-token-leaked-in-js-file-dfc13c0a699d — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/JS IN BUG BOUNTY acc2704513a84087aed6d17ca5d44a15.md`
+- https://sechunter.medium.com/js-is-love-%EF%B8%8F-ca393a4849e9 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/JS IN BUG BOUNTY acc2704513a84087aed6d17ca5d44a15.md`
+- https://github.com/imran-parray/Mind-Maps?fbclid=IwAR1JyPNJX3m-fiW2TUFbMtXEVeaTi3y-1y-CfKu8TZXffC-GEQWT5_VrBS8 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/MindMaps 97fe4e81e9c5487e968c498984760a00.md`
+- https://cowdex.github.io/posts/my-learning-methodology-for-owasp-top-10/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/MISC 3c874076a97941ca9308c76ecfca542a.md`
+- https://github.com/ravro-ir/golang_bug_hunting — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/MISC 3c874076a97941ca9308c76ecfca542a.md`
+- https://github.com/six2dez/talks — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/MISC 3c874076a97941ca9308c76ecfca542a.md`
+- https://github.com/six2dez/talks — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/MISC 3c874076a97941ca9308c76ecfca542a.md`
+- https://github.com/Snowden-AQ/thc-tips-tricks-hacks-cheat-sheet — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/MISC 3c874076a97941ca9308c76ecfca542a.md`
+- https://labs.detectify.com/2021/09/30/10-types-web-vulnerabilities-often-missed/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/MISC 3c874076a97941ca9308c76ecfca542a.md`
+- https://redhuntlabs.com/blog/10-most-common-security-issues-found-in-login-functionalities.html — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/MISC 3c874076a97941ca9308c76ecfca542a.md`
+- https://github.com/0xJin/awesome-bugbounty-builder — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Onliner 9e50211bacab4adfab82c068a28a5070.md`
+- https://github.com/0xJin/awesome-bugbounty-builder — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Onliner 9e50211bacab4adfab82c068a28a5070.md`
+- https://github.com/dwisiswant0/awesome-oneliner-bugbounty?fbclid=IwAR0xiiuay_i-Qm38PHx7ACFUyRrn6WuLtm6SDCFhm--APOto6-aWo08HAeA — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Onliner 9e50211bacab4adfab82c068a28a5070.md`
+- https://github.com/KingOfBugbounty/KingOfBugBountyTips?fbclid=IwAR12j8HPVwmjghSfueh4fXZ2epGFv85qUKacKd5BJmRCGEbtetetZXnKxJU — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Onliner 9e50211bacab4adfab82c068a28a5070.md`
+- https://github.com/thecybertix/One-Liner-Collections — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Onliner 9e50211bacab4adfab82c068a28a5070.md`
+- https://github.com/twseptian/oneliner-bugbounty?fbclid=IwAR1V5Kg-eJSFm2ZtKeHkJZf-iMh6IvXy6hOQDy7Fa3a2nnIuLfBVMTbTqC0 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Onliner 9e50211bacab4adfab82c068a28a5070.md`
+- https://www.codelivly.com/powerful-one-liner-scripts-for-bug-bounty-hunters/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Onliner 9e50211bacab4adfab82c068a28a5070.md`
+- https://sgtdede.gitbook.io/hacking/oscp-2022/guide-en — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Oscp Preparation 321052e948124165a3e4c03e0dbd28c1.md`
+- http://scatteredsecrets.com — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- http://scylla.sh — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://4iq.com — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://breachchecker.com — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://dehashed.com — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://dorks.faisalahmed.me/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://ghostproject.fr — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://hashes.org — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://haveibeenpwned.com — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://haveibeenpwned.com — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://haveibeensold.app — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://intelx.io — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://joe.black/leakengine.html — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://leak-lookup.com — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://leak.sx — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://leakcheck.io — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://leakcheck.net — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://leakcorp.com — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://leaked.site — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://leakedsource.ru — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://leakpeek.com — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://nuclearleaks.com — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://private-base.info — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://rslookup.com — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://services.normshield.com — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://snusbase.com — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://vigilante.pw — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://web-check.xyz/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://web-check.xyz/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://weleakinfo.to — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/OSINT WEB TOOLS 9c714449ecee4488ace9cd1885d52e09.md`
+- https://github.com/I-Am-Jakoby/Flipper-Zero-BadUSB — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/PAYLOADS ba930704f4a14ef4a9fba4ff95af27a6.md`
+- https://github.com/RenwaX23/XSS-Payloads/blob/master/Payloads.txt?fbclid=IwAR3PgG8W2QhifV1S9TsZm4jglnrHZcVBfPL3t3Sr22itjzoFpxPDvRo--78 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/PAYLOADS ba930704f4a14ef4a9fba4ff95af27a6.md`
+- https://github.com/sh377c0d3/Payloads — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/PAYLOADS ba930704f4a14ef4a9fba4ff95af27a6.md`
+- https://tinyxss.terjanq.me/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/PAYLOADS ba930704f4a14ef4a9fba4ff95af27a6.md`
+- https://0xjoyghosh.medium.com/information-gathering-scanning-for-sensitive-information-reloaded-6ff3455e0d4e — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Recon All the things 08b9dadb798c4fc194be6627a7ef998b.md`
+- https://aacle.github.io/Reconnaissance/ReconMethodology — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Recon All the things 08b9dadb798c4fc194be6627a7ef998b.md`
+- https://ajityadav.net/blog/web-hacking-recon-bug-bounty-bootcamp-chapter5?fbclid=IwAR3yKXBl82yzYmpbPaHZAyqdzn0Ct77Y4Omq_NqtVoqqoHinh9iSYdqcTIA — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Recon All the things 08b9dadb798c4fc194be6627a7ef998b.md`
+- https://bugbountyguide.org/index.php/2022/11/26/8-best-recon-technique-for-active-subdomain-enumeration/?fbclid=IwAR0q0XRYlwuX-uiv26bXNoIdjNaMxQw3rxNp9hThiHEf44K_FnkVxDWgCZ0 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Recon All the things 08b9dadb798c4fc194be6627a7ef998b.md`
+- https://github.com/edoardottt/awesome-hacker-search-engines — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Recon All the things 08b9dadb798c4fc194be6627a7ef998b.md`
+- https://github.com/edoardottt/awesome-hacker-search-engines — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Recon All the things 08b9dadb798c4fc194be6627a7ef998b.md`
+- https://github.com/redhuntlabs/Awesome-Asset-Discovery — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Recon All the things 08b9dadb798c4fc194be6627a7ef998b.md`
+- https://github.com/redhuntlabs/Awesome-Asset-Discovery — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Recon All the things 08b9dadb798c4fc194be6627a7ef998b.md`
+- https://github.com/System00-Security/Recon-Reloaded — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Recon All the things 08b9dadb798c4fc194be6627a7ef998b.md`
+- https://github.com/System00-Security/Recon-Reloaded — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Recon All the things 08b9dadb798c4fc194be6627a7ef998b.md`
+- https://github.com/Th3l0newolf/AdvanceRecon-Dorks?fbclid=IwAR2nsZlMF1EjfKEXrPefhf_mHv_GOPVNKhNorkpYeSLmAuO0fDUy0L8QVbc — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Recon All the things 08b9dadb798c4fc194be6627a7ef998b.md`
+- https://github.com/TheBinitGhimire/GitHub-Recon — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Recon All the things 08b9dadb798c4fc194be6627a7ef998b.md`
+- https://github.com/TheBinitGhimire/GitHub-Recon — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Recon All the things 08b9dadb798c4fc194be6627a7ef998b.md`
+- https://infosecwriteups.com/dorking-for-bug-bounties-d81cc857b2c8?fbclid=IwAR3S9Hw_GjxGF4zqHy735AgwT1pmdx-1xfIsSHLjhr7H6aQ3vJRiG4VkzyQ&gi=a1dc257ecd3b — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Recon All the things 08b9dadb798c4fc194be6627a7ef998b.md`
+- https://infosecwriteups.com/from-recon-via-censys-and-dnsdumpster-to-getting-p1-by-login-using-weak-password-password-504e617956ce — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Recon All the things 08b9dadb798c4fc194be6627a7ef998b.md`
+- https://redsiege.com/tools-techniques/2020/02/recon-methods-part-2-osint-host-discovery-continued/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Recon All the things 08b9dadb798c4fc194be6627a7ef998b.md`
+- https://redsiege.com/tools-techniques/2020/02/recon-methods-part-2-osint-host-discovery-continued/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Recon All the things 08b9dadb798c4fc194be6627a7ef998b.md`
+- https://sl4x0.notion.site/GitHub-Digging-0xAwali-65e04d033e894aaba7e9dd89d5332fae — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Recon All the things 08b9dadb798c4fc194be6627a7ef998b.md`
+- https://sl4x0.notion.site/Search-Engines-0xAwali-1069c9f8e72f4c8ab3709a692e5247d6 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Recon All the things 08b9dadb798c4fc194be6627a7ef998b.md`
+- https://trickest.medium.com/recon-experience-with-trickest-subdomain-recon-tale-in-a-workflow-2-brute-forcing-and-158b9be9e924 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Recon All the things 08b9dadb798c4fc194be6627a7ef998b.md`
+- https://blog.0x4.xyz/bypassing-windows-protection-mechanisms/bypass-windows-defender-atp — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Red teaming 26997c46b93d8015bf30e252925608bf.md`
+- https://blog.riotsecurityteam.com/0day-chains?fbclid=IwAR3wqfReng9meHlObim76VKGb76qvbhPWIllPxYcvmCa-UAScIPD0xJ2MXw — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Source Code Analysis b0d2eddfc2e24f5c80df31ba34e25471.md`
+- https://0xffsec.com/handbook/information-gathering/subdomain-enumeration/#fn:8 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Subdomain eumeration 084630216b8f46e891dd2a7896eb31e6.md`
+- https://apexvicky.medium.com/subdomain-enumeration-the-right-way-prerequisites-7449ac0f2498 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Subdomain eumeration 084630216b8f46e891dd2a7896eb31e6.md`
+- https://blog.blacklanternsecurity.com/p/subdomain-enumeration-tool-face-off — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Subdomain eumeration 084630216b8f46e891dd2a7896eb31e6.md`
+- https://m0chan.github.io/2019/12/17/Bug-Bounty-Cheetsheet.html — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Subdomain eumeration 084630216b8f46e891dd2a7896eb31e6.md`
+- https://m0chan.github.io/2019/12/17/Bug-Bounty-Cheetsheet.html — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Subdomain eumeration 084630216b8f46e891dd2a7896eb31e6.md`
+- https://pentester.land/blog/subdomains-enumeration-cheatsheet/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Subdomain eumeration 084630216b8f46e891dd2a7896eb31e6.md`
+- https://trickest.medium.com/recon-experience-with-trickest-subdomain-recon-tale-in-a-workflow-1-a522717d1471 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Subdomain eumeration 084630216b8f46e891dd2a7896eb31e6.md`
+- https://trickest.medium.com/recon-experience-with-trickest-subdomain-recon-tale-in-a-workflow-2-brute-forcing-and-158b9be9e924 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Subdomain eumeration 084630216b8f46e891dd2a7896eb31e6.md`
+- https://github.com/6vr/Bug-Bounty-Tips — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/TIPS 03af46c2c9954890be1ae8910e9ba344.md`
+- https://github.com/6vr/Bug-Bounty-Tips — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/TIPS 03af46c2c9954890be1ae8910e9ba344.md`
+- https://github.com/emadshanab/Some-BugBounty-Tips-from-my-Twitter-feed — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/TIPS 03af46c2c9954890be1ae8910e9ba344.md`
+- https://github.com/emadshanab/Some-BugBounty-Tips-from-my-Twitter-feed — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/TIPS 03af46c2c9954890be1ae8910e9ba344.md`
+- https://mikekitckchan.medium.com/linux-tricks-for-bug-bounty-hunter-f8f936005151 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/TIPS 03af46c2c9954890be1ae8910e9ba344.md`
+- https://sn0xsharma.medium.com/introduction-to-bug-bounty-with-automation-8924400e510b — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/TIPS 03af46c2c9954890be1ae8910e9ba344.md`
+- https://www.infosecmatter.com/bug-bounty-tips-10-dec-24/?fbclid=IwAR10d1ceOrEtHs8OZvzHdYrKpQsSy12uMMbQ-6SV0RVRlKMrsu1igGJX7MM#12_xss_payload_in_an_xml_file — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/TIPS 03af46c2c9954890be1ae8910e9ba344.md`
+- http://127.0.0.1:8080 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- http://127.0.0.1:8080 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- http://127.0.0.1:8080 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- http://<EXAMPLE_SERVER — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- http://google.com — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- http://target — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- http://target — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- http://target%23/apil.omniture.com/a&q=a — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- http://target&customer_key=zzzz&customer_secret-zzzz&redirect_uri=xxxx&code=e — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- http://target.com|unfurl — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- http://www.toastforums.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- http://www.w3.org/1999/xlink” — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- http://www.w3.org/1999/xlink” — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- http://www.w3.org/2000/svg” — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- http://www.w3.org/2000/svg” — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- http://www.w3.org/2000/svg” — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://abuse.ch — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://aemsite/bin/querybuilder.json.servlet.css. — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://aemsite/bin/querybuilder.json.servlet.html — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://aemsite/bin/querybuilder.json.servlet.ico. — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://aemsite/bin/querybuilder.json.servlet.png. — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://aemsite/bin/querybuilder.json/a.1.json. — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://aemsite/bin/querybuilder.json/a.css. — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://aemsite/bin/querybuilder.json/a.html. — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://aemsite/bin/querybuilder.json;%0aa.css. — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://buaq.net/go-90376.html — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://bxsshunter.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://canarytokens.org/generate — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://censys.io — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://cert.sh — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://ceye.io/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://dnsdumpster.com — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://flawed.net.nz/2019/01/14/WebApp-Testing-With-AutoRepeater/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://fofa.so — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://gist.github.com/jakekarnes42/b879f913fd3ae071c11199b9bd7ba3a7?short_path=f3432ae — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://gist.github.com/rootsploit/66c9ae8fc3ef387fa5ffbb67fcef0766 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://gist.githubusercontent.com/kljunowsky/a2e8392f63fb8d7c0443f2011bce59ec/raw/7b4cabaa0dab7113b1cab00e1a2cb0c4e3c6ed06/cve-2022-41040-unfurl-payloads.txt|sed — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/0ang3el/aem-hacker — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/0ang3el/aem-hacker — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/0xKayala/NucleiFuzzer — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/assetnote/surf/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/clarkvoss/AEM-List/blob/main/paths — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/clarkvoss/AEM-List/tree/main — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/emadshanab/Blind-XSS-burp-match-and-replace — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/emadshanab/Bug-Bounty-Tips-Collection — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/emadshanab/Content-Discovery-Web-Dir-Bruteforce-wordlists-Collection — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/emadshanab/DIR-WORDLISTS — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/emadshanab/femida — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/emadshanab/femida/blob/master/payloads.txt — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/emadshanab/Gf-Patterns-Collection — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/emadshanab/Nuclei-Templates-Collection — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/emadshanab/Oneliner-Bug-Bounty-Collection — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/emadshanab/Proxyshell-Scanner — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/emadshanab/SAP-wordlist — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/emadshanab/Subdomains-brutforce-wordlists-collection — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/hussein98d/LFI-files — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/kljunowsky/CVE-2022-41040-POC — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/MR-pentestGuy/nuclei-templates — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/orwagodfather/My-WordLISTs/tree/main — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/pikpikcu/nuclei-fuzz — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/pmiaowu/log4j2Scan — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/pmiaowu/log4j2Scan — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/PortSwigger/auto-repeater — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/projectdiscovery/fuzzing-templates — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/r0oth3x49/ghauri — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/random-robbie/ssrf-finder — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/random-robbie/ssrf-finder — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/reewardius/log4shell-templates — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/s0md3v/XSStrike.git — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/sw33tLie/bbscope — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Request%20Forgery/README.md — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/tomnomnom/gf — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/U53RW4R3/nuclei-fuzzer-templates — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/vijay922/XXE-FUZZ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/xnl-h4ck3r/GAP-Burp-Extension — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/xnl-h4ck3r/knoxnl — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/xnl-h4ck3r/waymore.git — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://github.com/ZephrFish/Wordlists/tree/master — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://hackerone.com/reports/223203 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://hackerone.com/reports/845832 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://hunter.how — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://hunter.io — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://infosecwriteups.com/svg-ssrfs-and-saga-of-bypasses-777e035a17a7 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://insecam.org — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://intelx.io — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://jldc.me/anubis/subdomains/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://knoxss.me/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://labs.inquest.net — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://maltiverse.com/search — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://netograph.io — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://onyphe.io — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://phonebook.cz — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://pipl.com — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://pulsedive.com — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/data/domains.txt” — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://raw.githubusercontent.com/arkadiyt/bounty-targets-data/main/data/wildcards.txt” — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://raw.githubusercontent.com/projectdiscovery/public-bugbounty-programs/main/chaos-bugbounty-list.json — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://scylla.sh — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://shell.segfault.net/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://shodan.io — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://sm4rty.medium.com/hunting-for-bugs-in-file-upload-feature-c3b364fb01ba — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://spyce.com — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://synapsint.com — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://twitter.com/0day_exploit_/status/1719608600035807328?s=43&t=xWT5sBWOPrvX-OphaqPtqA — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://urlscan.io/user/profile/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://vigilante.pw — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://viz.greynoise.io — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://wigle.net — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://www.exploit-db.com/docs/49732 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://xss.report/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://xsshunter.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://xsshunter.trufflesecurity.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://zoomeye.org — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://zorexeye.com — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Tips From EMAD Shanab df876bcc54004ddebf09e7543a538d60.md`
+- https://easterxss.terjanq.me/writeup.html — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://easterxss.terjanq.me/writeup.html — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/akabe1/OAUTHScan — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/akabe1/OAUTHScan — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/amazigh-kil3r/azbug_scanner — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/amazigh-kil3r/azbug_scanner — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/anmolksachan/TheTimeMachine — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/anmolksachan/TheTimeMachine — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/bit4woo/domain_hunter — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/bit4woo/domain_hunter — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/ethicalhackingplayground/TProxer — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/ethicalhackingplayground/TProxer — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/plenumlab/rce-finder — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/plenumlab/rce-finder — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/Sh1Yo/x8 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/Sh1Yo/x8 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/vikrantbatra05/HuntTheBug — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/vikrantbatra05/HuntTheBug — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/whwlsfb/Log4j2Scan — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/whwlsfb/Log4j2Scan — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/xerohackcom/webrecon — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/xerohackcom/webrecon — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/xnl-h4ck3r/burp-extensions/blob/main/GAP%20Help.md — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://github.com/xnl-h4ck3r/burp-extensions/blob/main/GAP%20Help.md — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://jaeles-project.github.io/installation/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://jaeles-project.github.io/installation/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://mp.weixin.qq.com/s/DOBI5syNUS9VTU-RQhuDfA — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://mp.weixin.qq.com/s/DOBI5syNUS9VTU-RQhuDfA — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions 5ce540fb07664fe09f3c25ccb8e39443.md`
+- https://manutd.notion.site/ec119545e05f4eae99742b72466d278c?v=182f6d0b7c3f467f8084cdb299c2c981 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Twitter tips a368211f6b2a4f7b91dfb2aa5f7fb230.md`
+- https://waf-bypass.com/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/WAF Bypass 4a6ba2181f5d41acb899f1617448f144.md`
+- https://github.com/zapstiko/Bug-Bounty — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Wordlist d779840dc9274225b070814f6b373cf0.md`
+- https://github.com/zapstiko/Bug-Bounty — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Wordlist d779840dc9274225b070814f6b373cf0.md`
+- http://www.securityidiots.com/Web-Pentest/hacking-website-by-shell-uploading.html?fbclid=IwAR3e2F5X1lZOeaE2JLaUAKb5kKIjIFiuaap1O2OADg4yMjwIx1SPHtYzcF4 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Workflow Cheatsheet 99bf8927e2b94472933fa8877ac55f80.md`
+- https://0xjoyghosh.medium.com/information-gathering-scanning-for-sensitive-information-reloaded-6ff3455e0d4e — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Workflow Cheatsheet 99bf8927e2b94472933fa8877ac55f80.md`
+- https://apexvicky.medium.com/bug-bounty-methodology-bug-hunting-checklist-part-1-3274ad868209 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Workflow Cheatsheet 99bf8927e2b94472933fa8877ac55f80.md`
+- https://github.com/Fawadkhanfk/Hunting-Tips/blob/main/Bounty-Tips.md?fbclid=IwAR0RAot02VmNROpIdqiEvdqqt2wqWyMHw8_-F3ruJ2geF9XyQkOk9G2w1m0 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Workflow Cheatsheet 99bf8927e2b94472933fa8877ac55f80.md`
+- https://github.com/imran-parray/Mind-Maps — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Workflow Cheatsheet 99bf8927e2b94472933fa8877ac55f80.md`
+- https://github.com/ivan-sincek/penetration-testing-cheat-sheet — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Workflow Cheatsheet 99bf8927e2b94472933fa8877ac55f80.md`
+- https://github.com/ivan-sincek/penetration-testing-cheat-sheet — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Workflow Cheatsheet 99bf8927e2b94472933fa8877ac55f80.md`
+- https://github.com/punishell/bbtips — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Workflow Cheatsheet 99bf8927e2b94472933fa8877ac55f80.md`
+- https://github.com/punishell/bbtips — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Workflow Cheatsheet 99bf8927e2b94472933fa8877ac55f80.md`
+- https://medium.com/@cc1h2e1/bug-bounty-check-list-by-c1-2beb7ae3c116 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Workflow Cheatsheet 99bf8927e2b94472933fa8877ac55f80.md`
+- https://pentester.land/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Workflow Cheatsheet 99bf8927e2b94472933fa8877ac55f80.md`
+- https://pentester.land/blog/subdomains-enumeration-cheatsheet/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Workflow Cheatsheet 99bf8927e2b94472933fa8877ac55f80.md`
+- https://sl4x0.github.io/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Workflow Cheatsheet 99bf8927e2b94472933fa8877ac55f80.md`
+- https://twitter.com/tabaahi_/status/1568568298710892546 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Workflow Cheatsheet 99bf8927e2b94472933fa8877ac55f80.md`
+- https://twitter.com/tabaahi_/status/1568568298710892546 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Workflow Cheatsheet 99bf8927e2b94472933fa8877ac55f80.md`
+- https://github.com/devanshbatham/Awesome-Bugbounty-Writeups?fbclid=IwAR0gRkLkIQE8aGURY1LshxYDpuIhw0CCUBbfWiXbLpSX_Dvwomxe5pzuwY4 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/writeups Collection 0dc41ed16ef14f238671c260b22e8c83.md`
+- https://github.com/djadmin/awesome-bug-bounty, — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/writeups Collection 0dc41ed16ef14f238671c260b22e8c83.md`
+- https://github.com/ngalongc/bug-bounty-reference — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/writeups Collection 0dc41ed16ef14f238671c260b22e8c83.md`
+- https://github.com/ngalongc/bug-bounty-reference?fbclid=IwAR08rkeaXzAGOP5AojgzarxlqwPfI93VQDJLPJp6ZaXu825aIQ_0nt1zGOE#xssi — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/writeups Collection 0dc41ed16ef14f238671c260b22e8c83.md`
+- https://github.com/Vanshal/Bug-Hunting?fbclid=IwAR1JyPNJX3m-fiW2TUFbMtXEVeaTi3y-1y-CfKu8TZXffC-GEQWT5_VrBS8 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/writeups Collection 0dc41ed16ef14f238671c260b22e8c83.md`
+- https://infosecwriteups.com/cool-recon-techniques-every-hacker-misses-episode-2-8024e8338756 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/writeups Collection 0dc41ed16ef14f238671c260b22e8c83.md`
+- https://jub0bs.com/posts/2020-06-23-ssrf/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/writeups Collection 0dc41ed16ef14f238671c260b22e8c83.md`
+- https://labs.detectify.com/2021/09/30/10-types-web-vulnerabilities-often-missed/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/writeups Collection 0dc41ed16ef14f238671c260b22e8c83.md`
+- https://xploitlab.com/google-bug-bounty-list-of-writeups-from-google-vrp/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/writeups Collection 0dc41ed16ef14f238671c260b22e8c83.md`
+- https://www.youtube.com/channel/UC_aNv7sHgxUBTxM0kt5U6xw/videos — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/YouTube bd5c2d34b12140d08f73cf45d2427844.md`
+- https://www.youtube.com/channel/UC_aNv7sHgxUBTxM0kt5U6xw/videos — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/YouTube bd5c2d34b12140d08f73cf45d2427844.md`
+- https://www.youtube.com/playlist?list=PLv7cogHXoVhXvHPzIl1dWtBiYUAL8baHj — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/YouTube bd5c2d34b12140d08f73cf45d2427844.md`
+- https://www.youtube.com/playlist?list=PLv7cogHXoVhXvHPzIl1dWtBiYUAL8baHj — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/YouTube bd5c2d34b12140d08f73cf45d2427844.md`
+- https://www.youtube.com/watch?v=8wT1DWxCOgc — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/YouTube bd5c2d34b12140d08f73cf45d2427844.md`
+- https://www.youtube.com/watch?v=8wT1DWxCOgc — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/YouTube bd5c2d34b12140d08f73cf45d2427844.md`
+- https://www.youtube.com/watch?v=CWNxoxOX6sI — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/YouTube bd5c2d34b12140d08f73cf45d2427844.md`
+- https://www.youtube.com/watch?v=CWNxoxOX6sI — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/YouTube bd5c2d34b12140d08f73cf45d2427844.md`
+- https://www.youtube.com/watch?v=dqaA_vIT7ms — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/YouTube bd5c2d34b12140d08f73cf45d2427844.md`
+- https://www.youtube.com/watch?v=dqaA_vIT7ms — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/YouTube bd5c2d34b12140d08f73cf45d2427844.md`
+- https://www.youtube.com/watch?v=X2WfhBYQ2fY — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/YouTube bd5c2d34b12140d08f73cf45d2427844.md`
+- https://www.youtube.com/watch?v=X2WfhBYQ2fY — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/YouTube bd5c2d34b12140d08f73cf45d2427844.md`
+- https://youtube.com/c/HackingLabs — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/YouTube bd5c2d34b12140d08f73cf45d2427844.md`
+
+## `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs`
+
+- https://c99.sh/hunting-0days-with-yara-rules/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/0 - DAY 368eb2d51f284424bd0d4b66e0b59cce.md`
+- https://github.com/aufzayed/bugbounty/tree/main/403-bypass — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/403 Bypass 768ee1f5236d4af1aabf1e52fff3a1e9.md`
+- https://0xmaruf.medium.com/firing-8-account-takeover-methods-77e892099050 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/Account takeover 767e1ea2b74e4230984065bd81352e74.md`
+- https://drive.google.com/file/d/1b_-vaCV3uQ6K6A4xE6KYmkW-5hy74lLh/view — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/API 3c82b2c98c5f457ba168b706b2a0bb86.md`
+- https://dsopas.github.io/MindAPI/references/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/API 3c82b2c98c5f457ba168b706b2a0bb86.md`
+- https://github.com/Az0x7/vulnerability-Checklist — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/API 3c82b2c98c5f457ba168b706b2a0bb86.md`
+- https://github.com/cyprosecurity/API-SecurityEmpire/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/API 3c82b2c98c5f457ba168b706b2a0bb86.md`
+- https://github.com/cyprosecurity/API-SecurityEmpire/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/API 3c82b2c98c5f457ba168b706b2a0bb86.md`
+- https://github.com/Traceableai/31-days-of-pentesting — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/API 3c82b2c98c5f457ba168b706b2a0bb86.md`
+- https://rashahacks.com/how-i-fuzz-and-hack-api/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/API 3c82b2c98c5f457ba168b706b2a0bb86.md`
+- https://blog.vedixera.com/login-testing/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/Auth Bypass d97162a3fb2b437a9d55c5a068dfe8c5.md`
+- https://highon.coffee/blog/password-reset-security-testing-cheat-sheet/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/Auth Bypass d97162a3fb2b437a9d55c5a068dfe8c5.md`
+- https://redhuntlabs.com/blog/10-most-common-security-issues-found-in-login-functionalities.html — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/Auth Bypass d97162a3fb2b437a9d55c5a068dfe8c5.md`
+- https://youst.in/posts/bypassing-2fa-using-openid-misconfiguration/?fbclid=IwAR0_a5uXPcE6iiQM9lYjVpJN5iKFctOY1qvWxD3usaDjsrwgKtkwe4BXmvY — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/Auth Bypass d97162a3fb2b437a9d55c5a068dfe8c5.md`
+- https://github.com/mxm0z/awesome-sec-s3 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/AwS3 d42978bf1a9a4260b021b793fe883288.md`
+- https://mikey96.medium.com/cloud-based-storage-misconfigurations-critical-bounties-361647f78a29 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/AwS3 d42978bf1a9a4260b021b793fe883288.md`
+- https://www.appsecengineer.com/blog/appsecengineer-aws-security-learning-roadmap — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/AwS3 d42978bf1a9a4260b021b793fe883288.md`
+- https://github.com/4ndersonLin/awesome-cloud-security#aws-1 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/cloudSec AWS f107a022672340eaa05f87af4938ba3d.md`
+- https://hackingthe.cloud/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/cloudSec AWS f107a022672340eaa05f87af4938ba3d.md`
+- https://bergee.it/blog/blind-command-injection/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/Command Injection fe2f4f79498344daa4589fa0dcb75a8b.md`
+- https://blog.projectdiscovery.io/guide-to-dns-takeovers/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/Dns 7eb82bf0f46e403783822e35be2af5bb.md`
+- https://exploit-notes.hdks.org/exploit/file-upload-attack/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/File Upload e394e3cbdba340448f462fb5304803de.md`
+- https://redmethod.hashnode.dev/testing-file-upload-mechanism — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/File Upload f30fc3097e014c6494fcfe858e4c0e85.md`
+- https://anmolksachan.medium.com/graphql-test-cases-a-comprehensive-checklist-for-bug-bounty-hunters-and-penetration-testers-ca8697384da — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/GraphQL fb36e66b207a481795ae86ad29c412f3.md`
+- https://anmolksachan.medium.com/graphql-test-cases-a-comprehensive-checklist-for-bug-bounty-hunters-and-penetration-testers-ca8697384da — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/GraphQL fb36e66b207a481795ae86ad29c412f3.md`
+- https://blog.hacktivesecurity.com/index.php/2022/09/17/http/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/HTTP SMUGLING e9eb11c9d3864f93acd75aa1f016a4f3.md`
+- https://blog.zeddyu.info/2019/12/08/HTTP-Smuggling-en/?fbclid=IwAR3IJ7R33iXB7-Zeo1sXUxoAfvvkrRnXOdIp8DwSvPTF55ANJwRF2I8eG64 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/HTTP SMUGLING e9eb11c9d3864f93acd75aa1f016a4f3.md`
+- https://electronicbots.gitbook.io/z0ldyck/web-application-security/http-request-smuggling?fbclid=IwAR12j8HPVwmjghSfueh4fXZ2epGFv85qUKacKd5BJmRCGEbtetetZXnKxJU — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/HTTP SMUGLING e9eb11c9d3864f93acd75aa1f016a4f3.md`
+- https://github.com/AnkitCuriosity/Write-Ups/blob/main/HTTP%20Desync%20Attack%20(Request%20Smuggling — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/HTTP SMUGLING e9eb11c9d3864f93acd75aa1f016a4f3.md`
+- https://github.com/AnkitCuriosity/Write-Ups/blob/main/HTTP%20Desync%20Attack%20(Request%20Smuggling — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/HTTP SMUGLING e9eb11c9d3864f93acd75aa1f016a4f3.md`
+- https://medium.com/@StealthyBugs/http-request-smuggling-on-business-apple-com-and-others-2c43e81bcc52 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/HTTP SMUGLING e9eb11c9d3864f93acd75aa1f016a4f3.md`
+- https://medium.com/@Sm9l/what-i-learnt-from-reading-220-idor-bug-reports-6efbea44db7 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/IDOR 5d3f49249f2740b4b5f70a70cd3afb87.md`
+- https://r0ckinxj3.wordpress.com/2021/10/24/a-7500-google-sites-idor/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/IDOR 5d3f49249f2740b4b5f70a70cd3afb87.md`
+- https://www.hackingarticles.in/comprehensive-guide-to-local-file-inclusion/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/LFI 523bd5023fdd40bbb08c7116e0b21fe1.md`
+- https://kailashbohara.com.np/blog/2022/02/04/bypassing-PHP-functions-to-read-system-file/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/Logic Bypass 7e95162bb82c430c83718146bb4535f4.md`
+- https://spaceraccoon.dev/a-tale-of-two-formats-exploiting-insecure-xml-and-zip-file-parsers-to-create-a/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/Logic Bypass 7e95162bb82c430c83718146bb4535f4.md`
+- https://blog.shiftleft.io/angular-react-vulnerability-cheatsheet-a3b36f22a0fd — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/Misc 4f15937f20ec4069bc7d5f75299699e1.md`
+- https://www.varonis.com/blog/abusing-salesforce-communities — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/Misc 4f15937f20ec4069bc7d5f75299699e1.md`
+- https://github.com/imran-parray/Web-Sec-CheatSheet/blob/master/password_reset.md — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/Password Reset 77a6cd8d5af842588866dfd4f7b65dee.md`
+- https://techyrick.com/naabu-full-tutorial/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/Port Scanning 6d3cbe0c749148aa9cbcf52647ae2123.md`
+- https://techyrick.com/naabu-full-tutorial/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/Port Scanning 6d3cbe0c749148aa9cbcf52647ae2123.md`
+- https://github.com/p0dalirius/Awesome-RCE-techniques — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/RCE 444aaa7c978444d1adf51583799c1a35.md`
+- https://github.com/p0dalirius/Awesome-RCE-techniques — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/RCE 444aaa7c978444d1adf51583799c1a35.md`
+- https://c0nqr0r.medium.com/error-based-sql-injection-with-waf-bypass-manual-exploit-100-bab36b769005 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/SQL injection 744552967cf74b78b19398b3e476316b.md`
+- https://github.com/kleiton0x00/Advanced-SQL-Injection-Cheatsheet/tree/main — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/SQL injection 744552967cf74b78b19398b3e476316b.md`
+- https://github.com/Y000o/Payloads_xss_sql_bypass/blob/master/Payloads_xss_sql_bypass.md#Sql-inyection-case-y-sounds-like — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/SQL injection 744552967cf74b78b19398b3e476316b.md`
+- https://ismailtasdelen.medium.com/sql-injection-payload-list-b97656cfd66b — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/SQL injection 744552967cf74b78b19398b3e476316b.md`
+- https://kailashbohara.com.np/blog/2021/05/16/MSSQL-Injection-in-JSON-request/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/SQL injection 744552967cf74b78b19398b3e476316b.md`
+- https://www.akto.io/blog/sql-injection-comprehensive-guide — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/SQL injection 744552967cf74b78b19398b3e476316b.md`
+- https://www.invicti.com/blog/web-security/sql-injection-cheat-sheet/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/SQL injection 744552967cf74b78b19398b3e476316b.md`
+- https://0x01alka.medium.com/ssrf-g-vrp-for-5000-d08c8f515c95 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/SSRF 5bb6cfbd823840f8bb3bd809ab5809f5.md`
+- https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/SSRF 5bb6cfbd823840f8bb3bd809ab5809f5.md`
+- https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/SSRF 5bb6cfbd823840f8bb3bd809ab5809f5.md`
+- https://gitbook.seguranca-informatica.pt/fuzzing-and-web/finding-ssrf-all-scope — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/SSRF 5bb6cfbd823840f8bb3bd809ab5809f5.md`
+- https://github.com/akincibor/SSRFexploit — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/SSRF 5bb6cfbd823840f8bb3bd809ab5809f5.md`
+- https://github.com/akincibor/SSRFexploit — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/SSRF 5bb6cfbd823840f8bb3bd809ab5809f5.md`
+- https://highon.coffee/blog/ssrf-cheat-sheet/?fbclid=IwAR2OMIJatQYI7S44A4lcXIz6I0rFyvMRQfxhGT91z8HuCeYiNY7yG4R8uIk — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/SSRF 5bb6cfbd823840f8bb3bd809ab5809f5.md`
+- https://infosecwriteups.com/ssrf-leads-to-access-aws-metadata-21952c220aeb — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/SSRF 5bb6cfbd823840f8bb3bd809ab5809f5.md`
+- https://jub0bs.com/posts/2020-06-23-ssrf/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/SSRF 5bb6cfbd823840f8bb3bd809ab5809f5.md`
+- https://labs.detectify.com/2022/09/23/ssrf-vulns-and-where-to-find-them/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/SSRF 5bb6cfbd823840f8bb3bd809ab5809f5.md`
+- https://medium.com/@kauenavarro/bugbounty-ssrf-iframe-injection-e-xss-reflected-4f107b380ba — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/SSRF 5bb6cfbd823840f8bb3bd809ab5809f5.md`
+- https://r4id3n.medium.com/ssrf-exploitation-in-spreedsheet-to-pdf-converter-2c7eacdac781 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/SSRF 5bb6cfbd823840f8bb3bd809ab5809f5.md`
+- https://sfq-info.medium.com/art-of-exploiting-server-side-request-forgery-ssrf-9567411eba6a — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/SSRF 5bb6cfbd823840f8bb3bd809ab5809f5.md`
+- https://xcheater.medium.com/breaking-down-ssrf-on-pdf-generation-a-pentesting-guide-66f8a309bf3c — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/SSRF 5bb6cfbd823840f8bb3bd809ab5809f5.md`
+- https://waf-bypass.com/2022/03/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/WAF BYPASS fc99a4561cf641c9b9364a316b5336db.md`
+- http://notion.so/xettabyte/XSS-FTW-c7d831c2ab594529944ae346fd9ba9e5 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/XSS 9249e451b45840a089fed1ce1027a836.md`
+- https://branch-delivery-7d5.notion.site/xss-dd37aad820b14535a3b3b418345d9d1f — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/XSS 9249e451b45840a089fed1ce1027a836.md`
+- https://github.com/Proviesec/xss-payload-list — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/XSS 9249e451b45840a089fed1ce1027a836.md`
+- https://github.com/Proviesec/xss-payload-list — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/XSS 9249e451b45840a089fed1ce1027a836.md`
+- https://github.com/ShadowByte1/XSS — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/XSS 9249e451b45840a089fed1ce1027a836.md`
+- https://github.com/ShadowByte1/XSS — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/XSS 9249e451b45840a089fed1ce1027a836.md`
+- https://github.com/Y000o/Payloads_xss_sql_bypass/blob/master/Payloads_xss_sql_bypass.md#Sql-inyection-case-y-sounds-like — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/XSS 9249e451b45840a089fed1ce1027a836.md`
+- https://kleiton0x00.github.io/posts/Bypassing-WAF-to-perform-XSS/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/XSS 9249e451b45840a089fed1ce1027a836.md`
+- https://onetest.fr/posts/xss-waf-bypass-one-payload-for-all/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/XSS 9249e451b45840a089fed1ce1027a836.md`
+- https://veo.pub/2019/xsscode/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/XSS 9249e451b45840a089fed1ce1027a836.md`
+- https://veo.pub/2019/xsscode/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/XSS 9249e451b45840a089fed1ce1027a836.md`
+- https://www.crackcodes.in/2023/06/advanced-cross-site-scripting-xss.html — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/XSS 9249e451b45840a089fed1ce1027a836.md`
+- https://0xmahmoudjo0.medium.com/exploiting-out-of-band-xxe-in-the-wild-16fc6dad9ee2 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/XXE 907847798a544e60a65a87e580c87269.md`
+- https://web.archive.org/web/20210618175428/https://pwn.vg/articles/2021-06/local-file-read-via-error-based-xxe — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Bugs/XXE 907847798a544e60a65a87e580c87269.md`
+
+## `Private & Shared/XettaтАЩs Web AppSEC Notes/Subdomain eumeration`
+
+- https://github.com/blacklanternsecurity/bbot — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Subdomain eumeration/TOOLS a902f3b512814f0eaf26e640226ef831.md`
+- https://github.com/blacklanternsecurity/bbot — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Subdomain eumeration/TOOLS a902f3b512814f0eaf26e640226ef831.md`
+- http://bolt.htb/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Subdomain eumeration/V-Host Enumeration 2e17a3e4461d491ea3a067d9926208bc.md`
+- http://ffuf.io.fi — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Subdomain eumeration/V-Host Enumeration 2e17a3e4461d491ea3a067d9926208bc.md`
+- http://ffuf.io.fi — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Subdomain eumeration/V-Host Enumeration 2e17a3e4461d491ea3a067d9926208bc.md`
+- http://ffuf.me/sub/vhost — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Subdomain eumeration/V-Host Enumeration 2e17a3e4461d491ea3a067d9926208bc.md`
+- http://horizontall.htb/ — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Subdomain eumeration/V-Host Enumeration 2e17a3e4461d491ea3a067d9926208bc.md`
+- https://docs.google.com/presentation/d/1k8A_sjJpMUsVdLY5cmtHxkbikn-WvOzD/edit#slide=id.p1 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Subdomain eumeration/V-Host Enumeration 2e17a3e4461d491ea3a067d9926208bc.md`
+- https://docs.google.com/presentation/d/1k8A_sjJpMUsVdLY5cmtHxkbikn-WvOzD/edit#slide=id.p1 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Subdomain eumeration/V-Host Enumeration 2e17a3e4461d491ea3a067d9926208bc.md`
+- https://target — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Subdomain eumeration/V-Host Enumeration 2e17a3e4461d491ea3a067d9926208bc.md`
+- https://www.youtube.com/watch?v=uwcRBSUl8e4 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Subdomain eumeration/V-Host Enumeration 2e17a3e4461d491ea3a067d9926208bc.md`
+
+## `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions`
+
+- https://github.com/anmolksachan/TheTimeMachine — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/anmolksachan/TheTimeMachine — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/Cyber-Guy1/BlackDragon — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/Cyber-Guy1/BlackDragon — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/dwisiswant0/unew — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/dwisiswant0/unew — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/ExpLangcn/agartha — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/ExpLangcn/agartha — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/ferreiraklet/airixss--- — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/ferreiraklet/airixss--- — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/ferreiraklet/Jeeves — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/ferreiraklet/Jeeves — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/JohnTroony/Blisqy — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/JohnTroony/Blisqy — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/pikpikcu/pentest-tools-framework — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/pikpikcu/pentest-tools-framework — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/raverrr — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/raverrr — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/Th0h0/autossrf — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/Th0h0/autossrf — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/veo/vscan.git — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/veo/vscan.git — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/zhzyker/vulmap/blob/main/readme.us-en.md — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/zhzyker/vulmap/blob/main/readme.us-en.md — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/zricethezav/gitleaks — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://github.com/zricethezav/gitleaks — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Burp Extensions 9e2504a523d748f0b96ac8ec259bacb9.md`
+- https://hacker101.linuxsec.org/sessions/burp301 — source: `Private & Shared/XettaтАЩs Web AppSEC Notes/Toolkit and Burpsuite Extensions/Toolkit & Hacks 7ccc3c4e9c184fb9b668d7243c5e2a80.md`
+

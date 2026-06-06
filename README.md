@@ -6,11 +6,13 @@ tags:
   - pentesting
   - bug-bounty
   - knowledge-base
-related_topics:
-  - "Bug Bounty Workflow"
-  - "Reconnaissance Methodology"
-  - "Vulnerabilities"
-references:
+related:
+  - "START-HERE.md"
+  - "FIELD-MANUAL.md"
+  - "maintainers/exhaustive-source-catalog.md"
+status: "reviewed"
+last_reviewed: "2026-06-06"
+references: []
 ---
 # Xetta Web AppSec Field Manual
 
@@ -116,6 +118,19 @@ This repo was rebuilt from a Notion export with mixed quality. Canonical field-m
 
 Not every external link is endorsed. Links inherited from the source workspace are kept for provenance and promoted only when they are useful.
 
+## Source Accountability
+
+The original ZIP export has now been cataloged file-by-file and link-by-link:
+
+| Catalog | What it proves |
+|---|---|
+| [Exhaustive Source Catalog](maintainers/exhaustive-source-catalog.md) | Every original Markdown file, folder, heading sample, word count, link count, asset, and coverage destination. |
+| [Source Coverage Matrix](maintainers/source-coverage-matrix.md) | Every source file mapped to maintained manual coverage or preservation location. |
+| [Source Resource Links](maintainers/source-resource-links.md) | Every external URL occurrence extracted from the raw Markdown files. |
+| [All Source Resources](08-reference-library/all-source-resources.md) | Public-facing exhaustive resource list grouped by original source folder. |
+
+Current source inventory: 66 raw Markdown files, 3 image assets, 534 URL occurrences, and 407 unique external URLs.
+
 ## Maintainer Material
 
 | Report | Purpose |
@@ -126,6 +141,9 @@ Not every external link is endorsed. Links inherited from the source workspace a
 | [Merge Report](maintainers/migration-reports/merge-report.md) | Source-to-destination merge decisions and rationale. |
 | [Repository Plan](maintainers/migration-reports/repository-plan.md) | Long-term structure and maintenance plan. |
 | [QA Report](maintainers/migration-reports/qa-report.md) | Validation status for metadata, links, and provenance. |
+| [Exhaustive Source Catalog](maintainers/exhaustive-source-catalog.md) | Folder-by-folder source inventory from the preserved ZIP. |
+| [Source Coverage Matrix](maintainers/source-coverage-matrix.md) | Source-to-manual coverage mapping for every original Markdown file. |
+| [Source Resource Links](maintainers/source-resource-links.md) | Every external URL occurrence extracted from the original Markdown files. |
 
 ## Repository Standards
 
