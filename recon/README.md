@@ -13,4 +13,10 @@ Asset discovery, OSINT, subdomain enumeration, dorking, JavaScript discovery, an
 
 ## Navigation
 
-Canonical documents in this section are named in lowercase kebab-case and include source provenance.
+- [Subdomain Enumeration](subdomain-enumeration.md) - subdomain discovery, virtual host enumeration, and supporting tools.
+- [OSINT and Dorking](osint-and-dorking.md) - public intelligence sources, search operators, and discovery resources.
+- [JavaScript Recon for Bug Bounty](javascript-recon.md) - JavaScript endpoint discovery, secret hunting, and client-side recon.
+
+## Scope
+
+Use this section before vulnerability testing to build target coverage, discover attack surface, and collect leads for deeper validation.

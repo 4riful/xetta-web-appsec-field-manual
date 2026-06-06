@@ -13,4 +13,10 @@ Raw extracted Notion export preserved for traceability. Canonical documents shou
 
 ## Navigation
 
-Canonical documents in this section are named in lowercase kebab-case and include source provenance.
+- [notion-export/](notion-export/) - original extracted Notion workspace content.
+
+## Rules
+
+- Treat this folder as read-only provenance.
+- Edit canonical documents in semantic folders first.
+- Use this archive to verify source wording, recover omitted context, or audit merge decisions.

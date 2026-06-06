@@ -1,6 +1,6 @@
 ---
 title: "Repository Plan"
-summary: "Long-term GitHub repository architecture and maintenance plan."
+summary: "Long-term architecture and maintenance plan for the Xetta Web AppSec Field Manual."
 tags:
   - report
   - migration
@@ -9,6 +9,12 @@ related_topics:
 references:
 ---
 # Repository Plan
+
+## Repository Name
+
+Recommended project name: `xetta-web-appsec-field-manual`.
+
+This is clearer than the original export name because it communicates the repository's purpose: a practical, maintained field manual for web application security work, not a raw Notion dump or a generic pentesting folder.
 
 ## Target Structure
 
@@ -34,6 +40,8 @@ references:
 - Raw Notion export is read-only provenance.
 - Reports explain migration reasoning and should be updated after major reorganizations.
 - New documents must use lowercase kebab-case filenames and metadata frontmatter.
+- Section README files should provide direct navigation, not placeholder text.
+- High-value notes should move from resource lists toward structured guides with prerequisites, testing steps, validation notes, and references.
 
 ## Contributor Workflow
 

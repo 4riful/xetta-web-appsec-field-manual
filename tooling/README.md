@@ -13,4 +13,10 @@ Testing tools, Burp Suite extensions, automation snippets, fuzzing resources, pa
 
 ## Navigation
 
-Canonical documents in this section are named in lowercase kebab-case and include source provenance.
+- [Burp Suite and Testing Toolkit](burp-suite-and-toolkit.md) - Burp extensions, tester utilities, and practical tool references.
+- [Automation and Fuzzing](automation-and-fuzzing.md) - scripts, fuzzing workflows, one-liners, and automation references.
+- [Payloads and Wordlists](payloads-and-wordlists.md) - payload repositories, wordlists, and reusable attack data.
+
+## Scope
+
+Use this section for reusable tooling that supports multiple testing domains. If a command only matters for one bug class, cross-link it from the matching vulnerability note.

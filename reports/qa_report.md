@@ -19,15 +19,17 @@ PASS
 
 - Verified all source Markdown pages have canonical destinations or raw archive preservation.
 - Verified every major folder has a `README.md`.
-- Verified canonical Markdown metadata fields: title, summary, tags, related topics, references.
-- Checked local Markdown links for missing targets.
+- Verified maintained Markdown metadata fields: title, summary, tags, related topics, references.
+- Checked maintained local Markdown links for missing targets.
 - Verified normalized assets were copied to `assets/images/`.
 - Verified raw Notion export was preserved under `source-archive/notion-export/`.
 - Rewrote preserved Notion-local links to source archive files or normalized assets.
+- Excluded `source-archive/notion-export/` from maintained-content metadata/link enforcement because it is intentionally preserved as the raw source archive.
 
 ## Results
 
-- Markdown files in final repository: 111.
+- Markdown files in final repository: 112.
+- Maintained Markdown files checked: 46.
 - Missing metadata files: 0.
 - Broken local links: 0.
 
