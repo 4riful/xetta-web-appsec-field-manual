@@ -18,7 +18,7 @@
 
 <br>
 
-## What This Is
+## 🧭 What This Is
 
 **Xetta's Web Application Hacking Vault** is a resource-first learning hub for web application hacking.
 
@@ -26,75 +26,75 @@ It is designed for beginners, bug bounty hunters, pentesters, and builders who w
 
 Inside you will find recon resources, payload references, dorks, command snippets, Burp workflows, writeups, GitBooks, labs, bug-class indexes, tool lists, report helpers, and curated paths for learning.
 
-## Start Here
+## 🚀 Start Here
 
 📚 [Browse Resources](resources/README.md) · ⭐ [Top 25 Links](awesome-lists/top-25-web-appsec-links.md) · 🎯 [Payloads & Wordlists](payloads/README.md) · 🧰 [Tools & Automation](tools/README.md) · 🐞 [Bug Classes](bug-classes/README.md) · 🗺️ [Learning Maps](maps/README.md)
 
-## For New Learners
+## 🧑‍💻 For New Learners
 
 If you are new, do not start with payloads. Start with the path.
 
-- Learn the map first: [maps/](maps/README.md)
-- Understand recon: [resources/recon-and-osint.md](resources/recon-and-osint.md)
-- Read good writeups: [awesome-lists/best-bug-bounty-writeups.md](awesome-lists/best-bug-bounty-writeups.md)
-- Pick one bug class: [bug-classes/README.md](bug-classes/README.md)
-- Practice with labs: [labs/README.md](labs/README.md)
-- Write clean findings: [reports/README.md](reports/README.md)
+- 🗺️ Learn the map first: [maps/](maps/README.md)
+- 🛰️ Understand recon: [resources/recon-and-osint.md](resources/recon-and-osint.md)
+- 📖 Read good writeups: [awesome-lists/best-bug-bounty-writeups.md](awesome-lists/best-bug-bounty-writeups.md)
+- 🐞 Pick one bug class: [bug-classes/README.md](bug-classes/README.md)
+- 🧪 Practice with labs: [labs/README.md](labs/README.md)
+- 📝 Write clean findings: [reports/README.md](reports/README.md)
 
 The goal is not to collect links. The goal is to learn how to move from target, to signal, to test, to proof.
 
-## The Vault Layout
+## 🧰 The Vault Layout
 
-### Resources
+### 📚 Resources
 
 The main library lives in [resources/](resources/README.md).
 
-- [Recon and OSINT](resources/recon-and-osint.md)
-- [Payloads, Cheat Sheets, and Wordlists](resources/payloads-cheat-sheets-and-wordlists.md)
-- [Bug Bounty Writeups, Blogs, and GitBooks](resources/bug-bounty-writeups-blogs-and-gitbooks.md)
-- [Burp Suite and Tooling](resources/burp-suite-and-tooling.md)
-- [API, Auth, OAuth, and GraphQL](resources/api-auth-oauth-and-graphql.md)
-- [XSS and Client-Side](resources/xss-and-client-side.md)
-- [SQL Injection](resources/sql-injection.md)
-- [SSRF](resources/ssrf.md)
-- [XXE, LFI, and File Read](resources/xxe-lfi-and-file-read.md)
-- [File Upload and Parser Abuse](resources/file-upload-and-parser-abuse.md)
-- [Cloud and Infrastructure](resources/cloud-and-infrastructure.md)
-- [WAF, CORS, CSRF, and Smuggling](resources/waf-cors-csrf-smuggling.md)
-- [RCE, CVEs, and 0days](resources/rce-cves-and-0days.md)
-- [Training, Labs, Videos, OSCP, AD, and Red Team](resources/training-labs-videos-oscp-ad-and-red-team.md)
+- 🛰️ [Recon and OSINT](resources/recon-and-osint.md)
+- 🎯 [Payloads, Cheat Sheets, and Wordlists](resources/payloads-cheat-sheets-and-wordlists.md)
+- 📖 [Bug Bounty Writeups, Blogs, and GitBooks](resources/bug-bounty-writeups-blogs-and-gitbooks.md)
+- 🧰 [Burp Suite and Tooling](resources/burp-suite-and-tooling.md)
+- 🔐 [API, Auth, OAuth, and GraphQL](resources/api-auth-oauth-and-graphql.md)
+- ⚡ [XSS and Client-Side](resources/xss-and-client-side.md)
+- 🧬 [SQL Injection](resources/sql-injection.md)
+- 🌐 [SSRF](resources/ssrf.md)
+- 📂 [XXE, LFI, and File Read](resources/xxe-lfi-and-file-read.md)
+- 📤 [File Upload and Parser Abuse](resources/file-upload-and-parser-abuse.md)
+- ☁️ [Cloud and Infrastructure](resources/cloud-and-infrastructure.md)
+- 🛡️ [WAF, CORS, CSRF, and Smuggling](resources/waf-cors-csrf-smuggling.md)
+- 💥 [RCE, CVEs, and 0days](resources/rce-cves-and-0days.md)
+- 🎓 [Training, Labs, Videos, OSCP, AD, and Red Team](resources/training-labs-videos-oscp-ad-and-red-team.md)
 
-### Curated Best-Of
+### ⭐ Curated Best-Of
 
 Use [awesome-lists/](awesome-lists/README.md) when you do not want the full dump.
 
-- [Top 25 Web AppSec Links](awesome-lists/top-25-web-appsec-links.md)
-- [Best Recon Resources](awesome-lists/best-recon-resources.md)
-- [Best Bug Bounty Writeups](awesome-lists/best-bug-bounty-writeups.md)
-- [Best Cheat Sheets](awesome-lists/best-cheat-sheets.md)
-- [Best Burp Extensions](awesome-lists/best-burp-extensions.md)
-- [Best Payload Repositories](awesome-lists/best-payload-repositories.md)
-- [Hidden Gems](awesome-lists/hidden-gems.md)
+- 🏆 [Top 25 Web AppSec Links](awesome-lists/top-25-web-appsec-links.md)
+- 🛰️ [Best Recon Resources](awesome-lists/best-recon-resources.md)
+- 📖 [Best Bug Bounty Writeups](awesome-lists/best-bug-bounty-writeups.md)
+- 🧾 [Best Cheat Sheets](awesome-lists/best-cheat-sheets.md)
+- 🧰 [Best Burp Extensions](awesome-lists/best-burp-extensions.md)
+- 🎯 [Best Payload Repositories](awesome-lists/best-payload-repositories.md)
+- 💎 [Hidden Gems](awesome-lists/hidden-gems.md)
 
-### Practical Sections
+### 🧪 Practical Sections
 
-- [payloads/](payloads/README.md) for XSS, SQLi, SSRF, LFI, upload bypass, WAF bypass, request smuggling, and wordlists.
-- [tools/](tools/README.md) for recon, content discovery, JavaScript analysis, Burp extensions, fuzzing, OOB, cloud, API/GraphQL, and automation.
-- [bug-classes/](bug-classes/README.md) for access control, auth, API, client-side, cloud, parser bugs, injection, and server-side classes.
-- [playbooks/](playbooks/README.md) for recon-to-first-bug, black-box assessment, API assessment, cloud exposure review, source-assisted review, and reporting.
-- [labs/](labs/README.md) for videos, OSCP, Active Directory, practice platforms, and mindmaps.
-- [reports/](reports/README.md) for evidence, severity, remediation language, and report templates.
+- 🎯 [payloads/](payloads/README.md) for XSS, SQLi, SSRF, LFI, upload bypass, WAF bypass, request smuggling, and wordlists.
+- 🧰 [tools/](tools/README.md) for recon, content discovery, JavaScript analysis, Burp extensions, fuzzing, OOB, cloud, API/GraphQL, and automation.
+- 🐞 [bug-classes/](bug-classes/README.md) for access control, auth, API, client-side, cloud, parser bugs, injection, and server-side classes.
+- 🧭 [playbooks/](playbooks/README.md) for recon-to-first-bug, black-box assessment, API assessment, cloud exposure review, source-assisted review, and reporting.
+- 🧪 [labs/](labs/README.md) for videos, OSCP, Active Directory, practice platforms, and mindmaps.
+- 📝 [reports/](reports/README.md) for evidence, severity, remediation language, and report templates.
 
-## Searchable Data
+## 🔎 Searchable Data
 
 Want to filter the vault like a dataset?
 
-- [data/resources.csv](data/resources.csv) for the full resource index.
-- [data/resources.json](data/resources.json) for machine-readable browsing.
+- 🧾 [data/resources.csv](data/resources.csv) for the full resource index.
+- 🤖 [data/resources.json](data/resources.json) for machine-readable browsing.
 
 Most learners should stay in the curated folders. Use `data/` only when you want to search or rebuild indexes.
 
-## Add A Resource
+## 🤝 Add A Resource
 
 Good resources are welcome.
 
@@ -108,15 +108,14 @@ Or submit a pull request using the repository template:
 
 Useful additions include tools, payload lists, writeups, GitBooks, labs, checklists, cheat sheets, bug-class references, and command snippets.
 
-## Star History
+## ⭐ Stars
 
 <p align="center">
-  <a href="https://star-history.com/#4riful/xetta-web-appsec-field-manual&Date">
-    <img src="https://api.star-history.com/svg?repos=4riful/xetta-web-appsec-field-manual&type=Date" alt="Star History Chart">
-  </a>
+  <a href="https://github.com/4riful/xetta-web-appsec-field-manual/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/4riful/xetta-web-appsec-field-manual?style=for-the-badge&logo=github&label=Star%20This%20Vault&color=facc15"></a>
+  <a href="https://star-history.com/#4riful/xetta-web-appsec-field-manual&Date"><img alt="Star History" src="https://img.shields.io/badge/star%20history-open%20chart-7c3aed?style=for-the-badge"></a>
 </p>
 
-## Keep It Alive
+## 🌱 Keep It Alive
 
 This vault gets better when people add high-signal resources.
 
