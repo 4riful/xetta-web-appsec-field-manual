@@ -115,7 +115,9 @@ Useful additions include tools, payload lists, writeups, GitBooks, labs, checkli
   <a href="https://star-history.com/#4riful/xetta-web-appsec-field-manual&type=date&legend=top-left"><img alt="Star History" src="https://img.shields.io/badge/star%20history-open%20chart-7c3aed?style=for-the-badge"></a>
 </p>
 
-<a href="https://www.star-history.com/?repos=4riful%2Fxetta-web-appsec-field-manual&type=date&legend=top-left"><img alt="Star History Chart" src="assets/star-history.svg"></a>
+<p align="center">
+  <a href="https://www.star-history.com/?repos=4riful%2Fxetta-web-appsec-field-manual&type=date&legend=top-left"><img alt="Star History Chart" src="assets/star-history.png"></a>
+</p>
 
 ## 🌱 Keep It Alive
 
