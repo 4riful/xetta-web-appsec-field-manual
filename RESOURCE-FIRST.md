@@ -8,6 +8,7 @@ tags:
   - navigation
   - repository-structure
 related:
+  - RESOURCE-MAP.md
   - RESOURCES.md
   - 08-reference-library/README.md
   - FIELD-MANUAL.md
@@ -23,15 +24,17 @@ The original ZIP export was full of links, tools, payload references, writeups, 
 
 ## Primary Path
 
-1. Open [RESOURCES.md](RESOURCES.md).
+1. Open [RESOURCE-MAP.md](RESOURCE-MAP.md).
 2. Pick the category you need.
-3. Follow the source-backed links.
-4. Use the field manual only when you want workflow, testing structure, or reporting guidance.
+3. Open the matching category index.
+4. Use [RESOURCES.md](RESOURCES.md) only when you need the exhaustive raw dump.
+5. Use the field manual only when you want workflow, testing structure, or reporting guidance.
 
 ## Resource Layers
 
 | Layer | Location | Purpose |
 |---|---|---|
+| Clean resource map | [RESOURCE-MAP.md](RESOURCE-MAP.md) | Human-friendly front door for resource browsing. |
 | Main resource list | [RESOURCES.md](RESOURCES.md) | Root-level, all categories inline, every extracted resource visible. |
 | Category indexes | [08-reference-library/resource-indexes/](08-reference-library/resource-indexes/) | Topic-specific resource pages. |
 | Source-folder list | [08-reference-library/all-source-resources.md](08-reference-library/all-source-resources.md) | Resources grouped by the original Notion folder/file context. |

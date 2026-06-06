@@ -18,6 +18,7 @@ This section preserves useful external material without turning field guides int
 ## Pages
 
 - [Root Resource Listing](../RESOURCES.md)
+- [Clean Resource Map](../RESOURCE-MAP.md)
 - [Curated Cheat Sheets](curated-cheat-sheets.md)
 - [Books and Courses](books-and-courses.md)
 - [Blogs and Writeups](blogs-and-writeups.md)
@@ -47,3 +48,5 @@ This section preserves useful external material without turning field guides int
 ## Exhaustive Resource Preservation
 
 `all-source-resources.md` is intentionally exhaustive. It lists every external URL extracted from the original ZIP export, grouped by the raw source folder that contained it. Curated pages highlight the best resources; the exhaustive page proves nothing was silently dropped.
+
+For browsing, start with [Resource Map](../RESOURCE-MAP.md). For audit, use [All Source Resources](all-source-resources.md).

@@ -8,6 +8,7 @@ tags:
   - knowledge-base
 related:
   - "START-HERE.md"
+  - "RESOURCE-MAP.md"
   - "RESOURCES.md"
   - "RESOURCE-FIRST.md"
   - "FIELD-MANUAL.md"
@@ -37,7 +38,8 @@ Start here if you want the actual resource library:
 
 | Resource entry | What it gives you |
 |---|---|
-| [RESOURCES.md](RESOURCES.md) | Main root-level resource listing, grouped by practical AppSec categories. |
+| [RESOURCE-MAP.md](RESOURCE-MAP.md) | Clean human-friendly resource map. Start here. |
+| [RESOURCES.md](RESOURCES.md) | Exhaustive root-level resource dump. Use for completeness, not browsing. |
 | [RESOURCE-FIRST.md](RESOURCE-FIRST.md) | How the repo is organized around resources first. |
 | [Recon and OSINT](08-reference-library/resource-indexes/recon-osint.md) | Subdomains, OSINT, dorks, asset discovery, vhosts, crawling, recon tools. |
 | [Payloads, Cheat Sheets, and Wordlists](08-reference-library/resource-indexes/payloads-cheatsheets-wordlists.md) | Payload collections, cheat sheets, and wordlists. |
@@ -58,7 +60,8 @@ Start here if you want the actual resource library:
 
 ## Start Here
 
-- Need resources first: [RESOURCES.md](RESOURCES.md)
+- Need clean resources first: [RESOURCE-MAP.md](RESOURCE-MAP.md)
+- Need exhaustive resource dump: [RESOURCES.md](RESOURCES.md)
 - Need resource-first navigation: [RESOURCE-FIRST.md](RESOURCE-FIRST.md)
 - New to the repo: [START-HERE.md](START-HERE.md)
 - Want the full field-manual flow: [FIELD-MANUAL.md](FIELD-MANUAL.md)
@@ -82,7 +85,8 @@ Start here if you want the actual resource library:
 | Test file upload issues | [03-vulnerability-guides/files-and-parsers/file-upload.md](03-vulnerability-guides/files-and-parsers/file-upload.md) |
 | Pick Burp extensions | [05-toolkit/burp-suite/extensions.md](05-toolkit/burp-suite/extensions.md) |
 | Pick payloads | [05-toolkit/payloads/README.md](05-toolkit/payloads/README.md) |
-| Browse every source resource link | [RESOURCES.md](RESOURCES.md) |
+| Browse resources cleanly | [RESOURCE-MAP.md](RESOURCE-MAP.md) |
+| Audit every source resource link | [RESOURCES.md](RESOURCES.md) |
 | Review source code | [06-code-review/review-methodology.md](06-code-review/review-methodology.md) |
 
 ## Field Manual Map
@@ -158,6 +162,7 @@ The original ZIP export has now been cataloged file-by-file and link-by-link:
 | [Source Coverage Matrix](maintainers/source-coverage-matrix.md) | Every source file mapped to maintained manual coverage or preservation location. |
 | [Source Resource Links](maintainers/source-resource-links.md) | Every external URL occurrence extracted from the raw Markdown files. |
 | [Resource Completeness Check](maintainers/resource-completeness-check.md) | Verification that every extracted HTTP/HTTPS source URL appears in the published resource indexes. |
+| [Agentic Resource Audit](maintainers/agentic-resource-audit.md) | Independent multi-agent verification of source coverage, index consistency, and deep samples. |
 | [All Source Resources](08-reference-library/all-source-resources.md) | Public-facing exhaustive resource list grouped by original source folder. |
 
 Current source inventory: 66 raw Markdown files, 3 image assets, 534 URL occurrences, and 407 unique external URLs.
@@ -176,6 +181,7 @@ Current source inventory: 66 raw Markdown files, 3 image assets, 534 URL occurre
 | [Source Coverage Matrix](maintainers/source-coverage-matrix.md) | Source-to-manual coverage mapping for every original Markdown file. |
 | [Source Resource Links](maintainers/source-resource-links.md) | Every external URL occurrence extracted from the original Markdown files. |
 | [Resource Completeness Check](maintainers/resource-completeness-check.md) | Per-file resource availability check against the published resource indexes. |
+| [Agentic Resource Audit](maintainers/agentic-resource-audit.md) | Independent agentic audit results and resource usability fix. |
 
 ## Repository Standards
 

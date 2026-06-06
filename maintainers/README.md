@@ -23,6 +23,7 @@ This folder keeps migration internals, legacy generated docs, and maintenance ru
 - [Source Coverage Matrix](source-coverage-matrix.md): every original Markdown file mapped to maintained coverage or preservation.
 - [Source Resource Links](source-resource-links.md): every external URL occurrence extracted from the raw source.
 - [Resource Completeness Check](resource-completeness-check.md): per-file verification that extracted HTTP/HTTPS resources are present in the public resource indexes.
+- [Agentic Resource Audit](agentic-resource-audit.md): independent multi-agent verification results and the resource usability fix.
 - [Content Quality Checklist](content-quality-checklist.md)
 - [Link Checking](link-checking.md)
 

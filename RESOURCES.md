@@ -7,6 +7,7 @@ tags:
   - resources
   - source-links
 related:
+  - RESOURCE-MAP.md
   - 08-reference-library/all-source-resources.md
   - maintainers/source-resource-links.md
   - maintainers/resource-completeness-check.md
@@ -14,7 +15,9 @@ references: []
 ---
 # Resources
 
-This is the direct resource listing. It is generated from the raw ZIP/Notion Markdown files and is meant to be easy to browse, not hidden in migration reports.
+This is the exhaustive resource dump generated from the raw ZIP/Notion Markdown files.
+
+If you want a clean starting point, use [RESOURCE-MAP.md](RESOURCE-MAP.md). This file is intentionally complete and therefore noisy.
 
 - URL occurrences from source: `534`
 - Unique URLs across all categories: `407`
