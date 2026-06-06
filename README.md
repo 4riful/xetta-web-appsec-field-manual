@@ -1,62 +1,71 @@
----
-title: "Xetta's Web Application Hacking Vault"
-summary: "A polished web application hacking resource vault built from the ZIP source: links, payloads, tools, writeups, labs, bug classes, and source-traceable data."
-status: "reviewed"
-last_reviewed: "2026-06-06"
-tags:
-  - appsec
-  - resources
-  - bug-bounty
-  - vault
-related:
-  - QUICKSTART.md
-  - RESOURCES.md
-  - resources/README.md
-  - awesome-lists/README.md
-  - data/README.md
-references: []
----
-# Xetta's Web Application Hacking Vault
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,45:7c3aed,100:06b6d4&text=Xetta's%20Web%20Application%20Hacking%20Vault&fontColor=ffffff&fontSize=34&fontAlignY=38&desc=Resources%20first.%20Payloads,%20tools,%20writeups,%20labs,%20bug%20classes,%20and%20source-traceable%20data.&descAlignY=58&descSize=14" alt="Xetta's Web Application Hacking Vault" />
+</p>
 
-> A resource-first web application hacking vault for recon, payloads, tools, writeups, GitBooks, cheat sheets, labs, bug classes, and practical hunting playbooks.
+<p align="center">
+  <a href="resources/README.md"><img alt="Resources" src="https://img.shields.io/badge/resources-topic%20sorted-7c3aed?style=for-the-badge"></a>
+  <a href="payloads/README.md"><img alt="Payloads" src="https://img.shields.io/badge/payloads-ready%20to%20browse-06b6d4?style=for-the-badge"></a>
+  <a href="tools/README.md"><img alt="Tools" src="https://img.shields.io/badge/tools-recon%20burp%20fuzzing-22c55e?style=for-the-badge"></a>
+  <a href="data/resources.csv"><img alt="Resource database" src="https://img.shields.io/badge/database-540%20records-f97316?style=for-the-badge"></a>
+</p>
 
-`407 source URLs`  `540 resource records`  `128 extracted snippets`  `66 source notes`  `3 preserved assets`
+<p align="center">
+  <img alt="Source URLs" src="https://img.shields.io/badge/source%20URLs-407-111827?style=flat-square">
+  <img alt="Extracted snippets" src="https://img.shields.io/badge/extracted%20snippets-128-111827?style=flat-square">
+  <img alt="Source notes" src="https://img.shields.io/badge/source%20notes-66-111827?style=flat-square">
+  <img alt="Preserved assets" src="https://img.shields.io/badge/preserved%20assets-3-111827?style=flat-square">
+</p>
 
-This repo is built from the ZIP source, but it is not a ZIP dump. Every useful link, command, payload, dork, tool reference, and source occurrence was extracted into a database first, then reshaped into browsable vault sections.
+<br>
 
-## Start Fast
+## What This Is
 
-Open these first:
+**Xetta's Web Application Hacking Vault** is a resource-first Web AppSec library rebuilt from the original ZIP source.
 
-- [resources/](resources/README.md) for the full topic-sorted vault.
-- [awesome-lists/top-25-web-appsec-links.md](awesome-lists/top-25-web-appsec-links.md) when you want the strongest links first.
-- [payloads/](payloads/README.md) when you want payloads, wordlists, and reusable snippets.
-- [tools/](tools/README.md) when you need scanners, Burp extensions, recon tooling, OOB tooling, or automation.
-- [bug-classes/](bug-classes/README.md) when you already know the vulnerability type.
-- [maps/](maps/README.md) when you want a path by goal, bug class, tool, resource type, or skill level.
-- [data/resources.csv](data/resources.csv) when you want the raw structured database.
+It is designed for fast browsing, not slow reading. Open a section, grab the resource category you need, and move.
 
-## The Vault
+The vault contains links, tools, payload references, dorks, command snippets, Burp workflows, writeups, GitBooks, labs, bug-class indexes, report helpers, and a source-traceable CSV/JSON database.
+
+## Start Here
+
+<div align="center">
+
+<a href="resources/README.md"><img width="31%" src="https://dummyimage.com/520x170/111827/ffffff&text=Browse+Resources" alt="Browse Resources"></a>
+<a href="awesome-lists/top-25-web-appsec-links.md"><img width="31%" src="https://dummyimage.com/520x170/312e81/ffffff&text=Top+25+Links" alt="Top 25 Links"></a>
+<a href="payloads/README.md"><img width="31%" src="https://dummyimage.com/520x170/155e75/ffffff&text=Payloads+%26+Wordlists" alt="Payloads and Wordlists"></a>
+
+<br><br>
+
+<a href="tools/README.md"><img width="31%" src="https://dummyimage.com/520x170/166534/ffffff&text=Tools+%26+Automation" alt="Tools and Automation"></a>
+<a href="bug-classes/README.md"><img width="31%" src="https://dummyimage.com/520x170/7f1d1d/ffffff&text=Bug+Classes" alt="Bug Classes"></a>
+<a href="maps/README.md"><img width="31%" src="https://dummyimage.com/520x170/4c1d95/ffffff&text=Learning+Maps" alt="Learning Maps"></a>
+
+</div>
+
+## The Vault Layout
 
 ### Resources
 
-Topic-sorted link collections live in [resources/](resources/README.md). This is the main library.
-
-Start with:
+The main library lives in [resources/](resources/README.md).
 
 - [Recon and OSINT](resources/recon-and-osint.md)
 - [Payloads, Cheat Sheets, and Wordlists](resources/payloads-cheat-sheets-and-wordlists.md)
 - [Bug Bounty Writeups, Blogs, and GitBooks](resources/bug-bounty-writeups-blogs-and-gitbooks.md)
 - [Burp Suite and Tooling](resources/burp-suite-and-tooling.md)
+- [API, Auth, OAuth, and GraphQL](resources/api-auth-oauth-and-graphql.md)
 - [XSS and Client-Side](resources/xss-and-client-side.md)
-- [SSRF](resources/ssrf.md)
 - [SQL Injection](resources/sql-injection.md)
+- [SSRF](resources/ssrf.md)
+- [XXE, LFI, and File Read](resources/xxe-lfi-and-file-read.md)
 - [File Upload and Parser Abuse](resources/file-upload-and-parser-abuse.md)
+- [Cloud and Infrastructure](resources/cloud-and-infrastructure.md)
+- [WAF, CORS, CSRF, and Smuggling](resources/waf-cors-csrf-smuggling.md)
 - [RCE, CVEs, and 0days](resources/rce-cves-and-0days.md)
+- [Training, Labs, Videos, OSCP, AD, and Red Team](resources/training-labs-videos-oscp-ad-and-red-team.md)
 
-### Best Of
+### Curated Best-Of
 
-The `awesome-lists/` folder is the curated layer. It is meant for fast browsing without drowning in every source link.
+Use [awesome-lists/](awesome-lists/README.md) when you do not want the full dump.
 
 - [Top 25 Web AppSec Links](awesome-lists/top-25-web-appsec-links.md)
 - [Best Recon Resources](awesome-lists/best-recon-resources.md)
@@ -66,89 +75,51 @@ The `awesome-lists/` folder is the curated layer. It is meant for fast browsing 
 - [Best Payload Repositories](awesome-lists/best-payload-repositories.md)
 - [Hidden Gems](awesome-lists/hidden-gems.md)
 
-### Payloads
+### Practical Sections
 
-The [payloads/](payloads/README.md) section pulls payload-heavy resources and snippets into direct bug-class pages:
+- [payloads/](payloads/README.md) for XSS, SQLi, SSRF, LFI, upload bypass, WAF bypass, request smuggling, and wordlists.
+- [tools/](tools/README.md) for recon, content discovery, JavaScript analysis, Burp extensions, fuzzing, OOB, cloud, API/GraphQL, and automation.
+- [bug-classes/](bug-classes/README.md) for access control, auth, API, client-side, cloud, parser bugs, injection, and server-side classes.
+- [playbooks/](playbooks/README.md) for recon-to-first-bug, black-box assessment, API assessment, cloud exposure review, source-assisted review, and reporting.
+- [labs/](labs/README.md) for videos, OSCP, Active Directory, practice platforms, and mindmaps.
+- [reports/](reports/README.md) for evidence, severity, remediation language, and report templates.
 
-- XSS
-- SQL injection
-- SSRF
-- LFI and path traversal
-- Command injection
-- File upload bypass
-- WAF bypass
-- Request smuggling
-- Wordlists
+## Database Backbone
 
-### Tools
+The pretty pages are not the source of truth. The data is.
 
-The [tools/](tools/README.md) section groups usable tooling references instead of leaving them buried inside old note titles.
+- [data/resources.csv](data/resources.csv) contains every deduplicated resource and snippet.
+- [data/resource_occurrences.csv](data/resource_occurrences.csv) tracks exact source occurrences.
+- [data/source_documents.csv](data/source_documents.csv) maps all raw Markdown files.
+- [data/resources.json](data/resources.json) provides a machine-readable export.
+- [data/link-status.csv](data/link-status.csv) keeps generated link records inspectable.
 
-- Recon
-- Content discovery
-- JavaScript analysis
-- Burp extensions
-- Fuzzing
-- Out-of-band testing
-- Cloud
-- API and GraphQL
-- Automation
+This means the vault can be searched, filtered, regenerated, or re-themed without losing provenance.
 
-### Bug Classes
+## Add A Resource
 
-The [bug-classes/](bug-classes/README.md) section is sorted by vulnerability family:
+Good resources are welcome.
 
-- Access control
-- Authentication
-- API
-- Client-side
-- Cloud
-- Defensive bypass
-- Files and parsers
-- Injection
-- Server-side
+Open a resource request here:
 
-### Playbooks, Labs, Reports
+[New resource request](https://github.com/4riful/xetta-web-appsec-field-manual/issues/new?template=resource-request.yml)
 
-Use these when you want structure around the resources:
+Or submit a pull request using the repository template:
 
-- [playbooks/](playbooks/README.md) for workflows like recon-to-first-bug, API assessment, cloud exposure review, and report writing.
-- [labs/](labs/README.md) for training, videos, OSCP, Active Directory, practice platforms, and mindmaps.
-- [reports/](reports/README.md) for evidence standards, templates, severity notes, and remediation language.
+[Open a pull request](https://github.com/4riful/xetta-web-appsec-field-manual/compare)
 
-## Database First
+Useful additions include tools, payload lists, writeups, GitBooks, labs, checklists, cheat sheets, bug-class references, and command snippets.
 
-The real source of truth is the database, not the Markdown pages.
+## Star History
 
-- [data/resources.csv](data/resources.csv) contains one row per deduplicated resource or snippet.
-- [data/resource_occurrences.csv](data/resource_occurrences.csv) keeps every source occurrence traceable.
-- [data/source_documents.csv](data/source_documents.csv) maps every raw Markdown source file.
-- [data/resources.json](data/resources.json) is the machine-readable export.
+<p align="center">
+  <a href="https://star-history.com/#4riful/xetta-web-appsec-field-manual&Date">
+    <img src="https://api.star-history.com/svg?repos=4riful/xetta-web-appsec-field-manual&type=Date" alt="Star History Chart">
+  </a>
+</p>
 
-The vault pages are generated from this model so links, snippets, and source provenance stay connected.
+## Source Traceability
 
-## Why This Version Is Different
+The original ZIP/Notion export is preserved for audit and recovery under `provenance/raw-archive/notion-export/`.
 
-The old structure was too book-like. This reset is built for browsing and reuse:
-
-- resources first, explanations second;
-- best-of lists before exhaustive dumps;
-- bug-class folders when you know what you are hunting;
-- payload and tool sections when you need something practical fast;
-- CSV/JSON data when you want to search, filter, or rebuild the vault;
-- raw source preserved only for audit, not as the main experience.
-
-## Source Stats
-
-- Raw Markdown files scanned: `66`
-- Raw image assets preserved: `3`
-- Deduplicated resource/snippet records: `540`
-- Source occurrences: `583`
-- URL resources: `412`
-- Non-URL snippet resources: `128`
-
-## Provenance
-
-The raw ZIP/Notion export is preserved under [provenance/raw-archive/notion-export/](provenance/raw-archive/notion-export/). It is kept for audit and recovery only.
-
-Public browsing should start from [resources/](resources/README.md), [awesome-lists/](awesome-lists/README.md), [payloads/](payloads/README.md), [tools/](tools/README.md), or [bug-classes/](bug-classes/README.md).
+Most users should not browse the raw archive. Use the vault sections above first. Use [provenance/](provenance/README.md) only when you want to verify where a resource came from.

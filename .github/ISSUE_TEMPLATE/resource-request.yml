@@ -1,0 +1,54 @@
+name: Add a resource
+description: Suggest a new Web Application Hacking Vault resource.
+title: "[Resource]: "
+labels:
+  - resource
+body:
+  - type: input
+    id: resource_url
+    attributes:
+      label: Resource URL
+      description: Link to the tool, writeup, payload list, GitBook, video, lab, checklist, or reference.
+      placeholder: https://example.com/resource
+    validations:
+      required: true
+  - type: dropdown
+    id: resource_type
+    attributes:
+      label: Resource type
+      options:
+        - Tool
+        - Payload list
+        - Cheat sheet
+        - Writeup
+        - GitBook / handbook
+        - Video / training
+        - Lab / practice
+        - Checklist
+        - Command snippet
+        - Dork
+        - Reference
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: topic
+    attributes:
+      label: Topic or bug class
+      placeholder: Recon, XSS, SSRF, SQLi, API, OAuth, file upload, cloud, Burp, etc.
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should this be added?
+      description: Explain why it is useful and who should use it.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Extra notes
+      description: Add caveats, quality notes, maintenance status, or suggested folder placement.
+    validations:
+      required: false
