@@ -115,6 +115,12 @@ Useful additions include tools, payload lists, writeups, GitBooks, labs, checkli
   <a href="https://star-history.com/#4riful/xetta-web-appsec-field-manual&Date"><img alt="Star History" src="https://img.shields.io/badge/star%20history-open%20chart-7c3aed?style=for-the-badge"></a>
 </p>
 
+<p align="center">
+  <a href="https://star-history.com/#4riful/xetta-web-appsec-field-manual&Date">
+    <img width="720" alt="Star history chart" src="https://starchart.cc/4riful/xetta-web-appsec-field-manual.svg">
+  </a>
+</p>
+
 ## 🌱 Keep It Alive
 
 This vault gets better when people add high-signal resources.
