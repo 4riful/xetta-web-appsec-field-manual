@@ -1,26 +1,17 @@
 ---
-title: "<Payload Family>"
-summary: "<Payload usage context>"
-status: "draft"
-last_reviewed: "YYYY-MM-DD"
+title: "Payload Page"
+summary: "Template for payload-page."
+status: "reviewed"
+last_reviewed: "2026-06-06"
 tags:
-  - payloads
+  - template
 related: []
 references: []
 ---
-# <Payload Family>
+# Payload Page
 
-## Use Cases
+## Purpose
 
-## Safety Notes
+## Fields
 
-## Payload Table
-
-| Payload | Context | Expected signal | Notes |
-|---|---|---|---|
-
-## Encoding Variants
-
-## When Not To Use
-
-## Related Guides
+## Notes

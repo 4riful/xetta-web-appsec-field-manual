@@ -1,45 +1,17 @@
 ---
-title: "<Workflow Name>"
-slug: "<workflow-slug>"
-phase: "<phase>"
-status: "draft"
-last_reviewed: "YYYY-MM-DD"
+title: "Workflow"
+summary: "Template for workflow."
+status: "reviewed"
+last_reviewed: "2026-06-06"
 tags:
-  - workflow
+  - template
 related: []
 references: []
 ---
-# <Workflow Name>
+# Workflow
 
-## Goal
+## Purpose
 
-What this workflow produces.
+## Fields
 
-## Inputs
-
-- input
-
-## Outputs
-
-- output
-
-## Procedure
-
-1. Prepare.
-2. Collect.
-3. Normalize.
-4. Triage.
-5. Test.
-6. Validate.
-7. Document.
-
-## Decision Points
-
-| If you see | Then |
-|---|---|
-
-## Quality Checklist
-
-- [ ] Scope checked.
-- [ ] Duplicates removed.
-- [ ] Evidence saved.
+## Notes

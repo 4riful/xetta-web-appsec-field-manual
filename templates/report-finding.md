@@ -1,29 +1,17 @@
 ---
-title: "<Finding Title>"
-summary: "<Short finding summary>"
-status: "draft"
-last_reviewed: "YYYY-MM-DD"
+title: "Report Finding"
+summary: "Template for report-finding."
+status: "reviewed"
+last_reviewed: "2026-06-06"
 tags:
-  - report-template
+  - template
 related: []
 references: []
 ---
-# <Finding Title>
+# Report Finding
 
-## Summary
+## Purpose
 
-## Severity
+## Fields
 
-## Affected Assets
-
-## Preconditions
-
-## Steps To Reproduce
-
-## Evidence
-
-## Impact
-
-## Recommended Remediation
-
-## Retest Instructions
+## Notes

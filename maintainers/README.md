@@ -1,32 +1,34 @@
 ---
 title: "Maintainers"
-summary: "Maintainer-only migration reports, legacy generated content, and quality rules."
+summary: "Maintainer-only rules for the resource vault, database generation, and quality checks."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:
   - maintainers
 related:
-  - migration-reports/audit-report.md
+  - ../data/README.md
+  - ../provenance/README.md
 references: []
 ---
 # Maintainers
 
 ## Purpose
 
-This folder keeps migration internals, legacy generated docs, and maintenance rules out of the main reader path.
+This folder keeps maintenance rules out of the main resource browsing path.
 
 ## Contents
 
-- `migration-reports/`: audit, taxonomy, merge, graph, plan, and QA reports from the Notion migration.
-- `legacy-generated/`: first-pass generated canonical docs kept for provenance during the rebuild.
-- [Exhaustive Source Catalog](exhaustive-source-catalog.md): folder-by-folder inventory of every raw Markdown file and asset.
-- [Source Coverage Matrix](source-coverage-matrix.md): every original Markdown file mapped to maintained coverage or preservation.
-- [Source Resource Links](source-resource-links.md): every external URL occurrence extracted from the raw source.
-- [Resource Completeness Check](resource-completeness-check.md): per-file verification that extracted HTTP/HTTPS resources are present in the public resource indexes.
-- [Agentic Resource Audit](agentic-resource-audit.md): independent multi-agent verification results and the resource usability fix.
 - [Content Quality Checklist](content-quality-checklist.md)
 - [Link Checking](link-checking.md)
 
+## Source Of Truth
+
+- Resource database: [data/resources.csv](../data/resources.csv)
+- Resource occurrences: [data/resource_occurrences.csv](../data/resource_occurrences.csv)
+- Source documents: [data/source_documents.csv](../data/source_documents.csv)
+- Provenance: [provenance/](../provenance/README.md)
+- Raw archive: `../provenance/raw-archive/notion-export/`
+
 ## Rule
 
-User-facing material belongs in numbered sections. Migration material belongs here.
+User-facing material belongs in `resources/`, `awesome-lists/`, `payloads/`, `tools/`, `bug-classes/`, `playbooks/`, `maps/`, `labs/`, and `reports/`. Source audit and raw export material belongs in `provenance/`.

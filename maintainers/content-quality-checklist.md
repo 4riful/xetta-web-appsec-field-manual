@@ -1,13 +1,14 @@
 ---
 title: "Content Quality Checklist"
-summary: "Quality bar for user-facing field-manual content."
+summary: "Quality bar for user-facing resource vault content."
 status: "reviewed"
 last_reviewed: "2026-06-06"
 tags:
   - quality
   - maintainers
 related:
-  - ../templates/vulnerability-guide.md
+  - ../templates/resource-page.md
+  - ../templates/tool-note.md
 references: []
 ---
 # Content Quality Checklist
@@ -16,10 +17,10 @@ references: []
 
 - [ ] Frontmatter.
 - [ ] Clear title and summary.
-- [ ] Purpose or mental model.
+- [ ] Purpose or browsing value.
 - [ ] Related docs.
 - [ ] References or explicit empty references list.
-- [ ] No unexplained bare link dump.
+- [ ] A clear path back to `data/resources.csv` or source provenance when relevant.
 
 ## Every Command Needs
 
@@ -28,10 +29,9 @@ references: []
 - [ ] Expected output.
 - [ ] Safety/rate guidance where relevant.
 
-## Every Vulnerability Guide Needs
+## Every Bug-Class Page Needs
 
-- [ ] Where to look.
-- [ ] Manual workflow.
-- [ ] False positives.
-- [ ] Evidence checklist.
-- [ ] Remediation.
+- [ ] Relevant resources from `data/resources.csv`.
+- [ ] Tools and payload references where available.
+- [ ] Links to related bug classes.
+- [ ] Provenance retained through `data/resource_occurrences.csv`.

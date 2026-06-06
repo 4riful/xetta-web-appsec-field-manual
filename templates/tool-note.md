@@ -1,27 +1,17 @@
 ---
-title: "<Tool Name>"
-summary: "<What the tool is for>"
-status: "draft"
-last_reviewed: "YYYY-MM-DD"
+title: "Tool Note"
+summary: "Template for tool-note."
+status: "reviewed"
+last_reviewed: "2026-06-06"
 tags:
-  - tool
+  - template
 related: []
 references: []
 ---
-# <Tool Name>
+# Tool Note
 
-## What It Is Good For
+## Purpose
 
-## What It Is Bad For
+## Fields
 
-## Install
-
-## Basic Usage
-
-## Field-Tested Commands
-
-## Output Interpretation
-
-## False Positives
-
-## Related Workflows
+## Notes
