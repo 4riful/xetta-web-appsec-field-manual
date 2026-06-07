@@ -44,6 +44,8 @@ Use this checklist before marking any user-facing page as `reviewed`.
 - [ ] References or explicit empty references list.
 - [ ] A path back to `data/resources.csv` or source provenance when relevant.
 
+Exception: the root `README.md` may omit frontmatter so GitHub renders it as a clean landing page.
+
 ## Every Resource Entry Needs
 
 - [ ] Human title.

@@ -53,6 +53,9 @@ Examples of carriers:
 - Documents.
 - PDFs.
 - Images with OCR text.
+- Audio or transcription text.
+- Video frames or captions.
+- Hidden document text, comments, metadata, white text, layers, and layout artifacts.
 - Code comments.
 - Calendar invites.
 - Retrieved RAG chunks.
@@ -102,7 +105,7 @@ Do not use real exfiltration endpoints, real emails, real secrets, or destructiv
 6. Test indirect injection through approved test documents or lab pages.
 7. Test whether retrieved content can override trusted instructions.
 8. Test whether the model can trigger tools outside user intent.
-9. Test whether the app exposes system prompts, hidden policies, tool schemas, secrets, or other users’ data.
+9. Test whether the app exposes system prompts, hidden policies, tool schemas, secrets, or cross-user data using only approved test accounts, synthetic records, canaries, or pre-authorized fixtures. Stop if real sensitive data appears.
 10. Test whether model output is safely encoded and validated before downstream use.
 
 ## Tool And Agent Abuse Checks
@@ -120,7 +123,7 @@ For every model-accessible tool:
 Tests:
 
 - Ask the model to act outside the user’s role.
-- Ask it to modify another user’s object.
+- Ask it to modify another test user’s object inside an approved test tenant, using non-destructive canary data.
 - Inject instructions through retrieved content that request tool execution.
 - Attempt parameter confusion using malformed JSON, paths, URLs, IDs, or extra fields.
 - Try to skip human approval through prompt wording.
@@ -130,9 +133,12 @@ Tests:
 - Can a document inject instructions into answers?
 - Can one tenant retrieve another tenant’s document?
 - Are document ACLs enforced before retrieval?
+- Are metadata filters enforced by trusted backend logic instead of user/model-controlled values?
 - Are deleted or permission-changed documents removed from the index?
+- Are paired users, roles, tenants, and synthetic canary documents used for access-control tests?
 - Are hidden text, metadata, comments, and OCR artifacts handled?
 - Are citations accurate and tied to real retrieved chunks?
+- Are citations treated as evidence of source use, not proof that access control was correct?
 - Are retrieved chunks labeled as untrusted content in the prompt?
 
 ## Evidence Checklist
@@ -165,7 +171,9 @@ Tests:
 - Restrict outbound channels.
 - Add DLP/secret detection where sensitive data may enter or leave model context.
 - Log retrieval, tool calls, guardrail decisions, and approvals.
-- Run regression evals for confirmed prompt-injection findings.
+- Keep sanitized test fixtures and run regression evals after prompt, model, tool-schema, retrieval-index, or guardrail changes.
+- Track model, prompt, tool schema, retrieval index, and guardrail versions so fixed issues can be retested.
+- Separate nondeterministic model-behavior tests from deterministic backend-control tests such as authorization, schema validation, and output encoding.
 
 ## Best References
 

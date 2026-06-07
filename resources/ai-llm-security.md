@@ -50,6 +50,8 @@ This page collects high-signal public resources for securing and testing AI-enab
 
 ## Tools And Evaluation
 
+Run automated AI red-team tools only with explicit authorization, defined rate and cost limits, synthetic data, monitoring, and a rollback plan for persistent test artifacts.
+
 - [garak](https://github.com/NVIDIA/garak) and [garak docs](https://docs.garak.ai/) - LLM vulnerability scanner for repeatable probing.
 - [promptfoo](https://www.promptfoo.dev/) - prompt, RAG, red-team, and CI evaluation framework.
 - [Giskard](https://docs.giskard.ai/) - AI evaluation and red-teaming platform.
@@ -71,3 +73,9 @@ This page collects high-signal public resources for securing and testing AI-enab
 - Use NIST AI RMF and secure AI development guidance for governance.
 - Use PyRIT, garak, promptfoo, and Giskard only against systems you own or are authorized to test.
 - Treat model files as executable supply-chain inputs; scan before loading.
+
+## Related Pages
+
+- [AI and LLM application security](../bug-classes/ai-llm/README.md)
+- [Prompt injection](../bug-classes/ai-llm/prompt-injection.md)
+- [AI/LLM application review](../playbooks/ai-llm-application-review.md)

@@ -1,7 +1,7 @@
 ---
 title: "Bug Bounty Writeups, Blogs, and GitBooks"
 summary: "Bug bounty writeups, blogs, GitBooks, and learning resources."
-status: "reviewed"
+status: "needs_triage"
 last_reviewed: "2026-06-06"
 tags:
   - resources

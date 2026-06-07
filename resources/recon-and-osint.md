@@ -1,7 +1,7 @@
 ---
 title: "Recon and OSINT"
 summary: "Recon and OSINT resources for asset discovery, dorking, crawling, and target research."
-status: "reviewed"
+status: "needs_triage"
 last_reviewed: "2026-06-06"
 tags:
   - resources

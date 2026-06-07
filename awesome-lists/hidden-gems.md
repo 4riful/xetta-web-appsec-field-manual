@@ -1,7 +1,7 @@
 ---
 title: "Hidden Gems"
 summary: "Curated hidden gems from the database."
-status: "reviewed"
+status: "needs_triage"
 last_reviewed: "2026-06-06"
 tags:
   - awesome

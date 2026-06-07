@@ -1,7 +1,7 @@
 ---
 title: "XSS and Client-Side"
 summary: "XSS and client-side security resources, payloads, tools, and writeups."
-status: "reviewed"
+status: "needs_triage"
 last_reviewed: "2026-06-06"
 tags:
   - resources

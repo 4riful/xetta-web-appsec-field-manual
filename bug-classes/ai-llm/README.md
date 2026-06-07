@@ -62,6 +62,16 @@ Common failure modes:
 - Responses include citations, links, images, code blocks, HTML, JSON, or files consumed downstream.
 - The product has memory, shared workspaces, connectors, or tenant-specific data.
 
+## Threat Model Matrix
+
+| Component | Untrusted Input | Privileged Context | Output Or Action Sink | Primary Control |
+|---|---|---|---|---|
+| Chat or assistant UI | User prompt, uploaded file, pasted text | System/developer prompt, user profile, conversation memory | UI response, Markdown, file export | Prompt/data separation, output validation, logging |
+| RAG pipeline | Documents, web pages, tickets, OCR text, metadata | Private knowledge base, vector index, document ACLs | Answer, citation, retrieved chunk | ACL enforcement before retrieval, source attribution, index lifecycle control |
+| Tool calling | User request, retrieved instructions, tool output | API credentials, service accounts, internal APIs | Read/write action, external request, workflow mutation | Server-side authorization, schema validation, least privilege, audit logs |
+| Agent workflow | Goal text, intermediate observations, memory | Tool set, plan, approvals, delegated agents | Multi-step action, external communication, code execution | Step limits, human approval, sandboxing, rollback, trace logging |
+| Output rendering | Model text, links, images, code, JSON | Browser/session context, downstream parser | HTML, Markdown, email, ticket, command, query | Encoding, sanitization, schema validation, CSP, review gates |
+
 ## Manual Test Path
 
 1. Confirm AI-specific testing is in scope.

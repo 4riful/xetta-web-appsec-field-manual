@@ -1,7 +1,7 @@
 ---
 title: "Burp Suite and Tooling"
 summary: "Burp Suite and tooling resources for web application testing."
-status: "reviewed"
+status: "needs_triage"
 last_reviewed: "2026-06-06"
 tags:
   - resources

@@ -1,7 +1,7 @@
 ---
 title: "Cloud and Infrastructure"
 summary: "Cloud and infrastructure resources for web application security testing."
-status: "reviewed"
+status: "needs_triage"
 last_reviewed: "2026-06-06"
 tags:
   - resources

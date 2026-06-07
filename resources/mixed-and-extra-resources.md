@@ -1,7 +1,7 @@
 ---
 title: "Mixed and Extra Resources"
 summary: "Mixed web application security resources that do not fit one clean category."
-status: "reviewed"
+status: "needs_triage"
 last_reviewed: "2026-06-06"
 tags:
   - resources

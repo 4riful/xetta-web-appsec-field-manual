@@ -35,6 +35,8 @@ Assess whether an AI-enabled application can be manipulated into violating confi
 - Test users, roles, tenants, and canary data.
 - Rules for prompt injection, indirect injection, RAG poisoning, tool testing, automation, and cost limits.
 - Data handling rules for prompts, responses, logs, retrieved documents, and generated files.
+- Model provider, embedding provider, reranker, OCR/transcription provider, moderation service, logging pipeline, and analytics pipeline.
+- Provider retention, training, residency, tenant-isolation, and data-processing expectations.
 
 ## Workflow
 
@@ -42,13 +44,14 @@ Assess whether an AI-enabled application can be manipulated into violating confi
 2. Map model context: system prompts, developer prompts, user input, retrieved content, memory, tool output, and previous conversation.
 3. Map actions: read-only tools, write tools, external messages, file access, code execution, browsing, ticket creation, database operations, and admin actions.
 4. Map data boundaries: user, role, tenant, workspace, repository, document ACL, and provider logging.
-5. Test direct prompt injection with harmless canaries.
-6. Test indirect prompt injection through approved documents, tickets, web pages, or lab content.
-7. Test RAG authorization using test users and controlled documents.
-8. Test whether tools enforce server-side authorization independent of model behavior.
-9. Test output handling where model output becomes HTML, Markdown, JSON, code, SQL, shell, email, ticket text, or file content.
-10. Test logs, monitoring, human approval, and incident response visibility.
-11. Write findings as control failures, not clever prompts.
+5. Confirm which providers retain prompts/completions, use data for training, or process sensitive inputs through embeddings, OCR, transcription, moderation, analytics, or logging.
+6. Test direct prompt injection with harmless canaries.
+7. Test indirect prompt injection through approved documents, tickets, web pages, or lab content.
+8. Test RAG authorization using test users and controlled documents.
+9. Test whether tools enforce server-side authorization independent of model behavior.
+10. Test output handling where model output becomes HTML, Markdown, JSON, code, SQL, shell, email, ticket text, or file content.
+11. Test logs, monitoring, human approval, and incident response visibility.
+12. Write findings as control failures, not clever prompts.
 
 ## Decision Points
 
@@ -71,6 +74,7 @@ Assess whether an AI-enabled application can be manipulated into violating confi
 
 - AI feature map.
 - Model/context/tool inventory.
+- Provider, logging, retention, and data-boundary notes.
 - RAG and data-flow notes.
 - Validated findings with sanitized evidence.
 - Regression test recommendations.
@@ -81,15 +85,16 @@ Assess whether an AI-enabled application can be manipulated into violating confi
 ### Prompt Injection
 
 - Direct instruction override.
-- System prompt leakage attempts.
+- System prompt leakage attempts using bounded canary markers or sanitized indicators. Avoid collecting full hidden prompts unless explicitly authorized and necessary.
 - Multi-turn policy erosion.
-- Encoded, translated, roleplay, or format-shifting attempts.
+- Encoded, translated, roleplay, or format-shifting attempts using benign canaries to evaluate whether controls are semantic and policy-aware, not just string filters.
 - Refusal probing.
 
 ### Indirect Prompt Injection
 
 - Instructions hidden in approved test documents.
 - Instructions in web pages, tickets, emails, code comments, OCR text, metadata, or retrieved chunks.
+- Instructions hidden in images, audio transcripts, video captions, document comments, white text, layout artifacts, or file metadata.
 - Stored instructions that affect future sessions.
 
 ### RAG Security
@@ -101,6 +106,14 @@ Assess whether an AI-enabled application can be manipulated into violating confi
 - Misleading citations.
 - Hidden text and metadata handling.
 
+### Model And AI Supply Chain
+
+- Untrusted model files, adapters, LoRA files, serialized artifacts, or unsafe deserialization.
+- Fine-tune, eval, and embedding dataset poisoning.
+- Untrusted plugins, tools, agent packages, connectors, and MCP servers.
+- Model, prompt, policy, tool-schema, and retrieval-index version drift.
+- Missing model inventory, provenance, SBOM, or ML-BOM for AI components.
+
 ### Tool And Agent Safety
 
 - Unauthorized tool calls.
@@ -109,6 +122,7 @@ Assess whether an AI-enabled application can be manipulated into violating confi
 - Write action without approval.
 - Tool output treated as trusted instruction.
 - Agent loops, goal drift, and memory poisoning.
+- Human approval prompts that show model summaries instead of exact action, target, arguments, data exposure, and rollback path.
 
 ### Output Handling
 
@@ -140,6 +154,15 @@ Avoid:
 - Production poisoning artifacts left behind.
 - Harmful generated content unrelated to the finding.
 
+## Severity Guidance
+
+- Critical: cross-tenant sensitive data exposure, real secret exposure, unauthorized privileged tool execution, persistent poisoning that affects other users, or silent external exfiltration.
+- High: unauthorized non-public data access, write/admin tool use without effective approval, RAG authorization failure, or output handling that enables downstream code/query execution.
+- Medium: prompt injection that changes controlled output or business workflow without sensitive data exposure, privileged action, or cross-user impact.
+- Low: isolated canary repetition, cosmetic instruction following, or model-only behavior with no security boundary impact.
+
+Severity should be based on the application control failure and business impact, not how clever the prompt looked.
+
 ## Reporting Template
 
 ```text
@@ -162,6 +185,12 @@ Recommended remediation:
 Regression test:
 References:
 ```
+
+## Related Pages
+
+- [AI and LLM application security](../bug-classes/ai-llm/README.md)
+- [Prompt injection](../bug-classes/ai-llm/prompt-injection.md)
+- [AI/LLM security resources](../resources/ai-llm-security.md)
 
 ## Primary References
 

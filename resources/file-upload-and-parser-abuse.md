@@ -1,7 +1,7 @@
 ---
 title: "File Upload and Parser Abuse"
 summary: "File upload and parser abuse resources for testing and learning."
-status: "reviewed"
+status: "needs_triage"
 last_reviewed: "2026-06-06"
 tags:
   - resources

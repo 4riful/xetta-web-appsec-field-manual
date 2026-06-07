@@ -1,7 +1,7 @@
 ---
 title: "SSRF"
 summary: "SSRF resources, payloads, tools, cloud metadata notes, and writeups."
-status: "reviewed"
+status: "needs_triage"
 last_reviewed: "2026-06-06"
 tags:
   - resources

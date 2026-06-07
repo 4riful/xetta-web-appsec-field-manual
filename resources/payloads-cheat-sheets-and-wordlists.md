@@ -1,7 +1,7 @@
 ---
 title: "Payloads, Cheat Sheets, and Wordlists"
 summary: "Payloads, cheat sheets, and wordlists for web application hacking."
-status: "reviewed"
+status: "needs_triage"
 last_reviewed: "2026-06-06"
 tags:
   - resources

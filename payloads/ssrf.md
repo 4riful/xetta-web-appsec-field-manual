@@ -1,7 +1,7 @@
 ---
 title: "Ssrf"
 summary: "ssrf payload and snippet resources."
-status: "reviewed"
+status: "needs_triage"
 last_reviewed: "2026-06-06"
 tags:
   - payloads

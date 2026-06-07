@@ -1,7 +1,7 @@
 ---
 title: "Training, Labs, Videos, OSCP, AD, and Red Team"
 summary: "Training, labs, videos, OSCP, Active Directory, and red-team learning resources."
-status: "reviewed"
+status: "needs_triage"
 last_reviewed: "2026-06-06"
 tags:
   - resources

@@ -5,7 +5,11 @@ status: "reviewed"
 last_reviewed: "2026-06-08"
 tags:
   - bug-classes
-related: []
+related:
+  - ../QUICKSTART.md
+  - ../playbooks/README.md
+  - ../payloads/README.md
+  - ../reports/README.md
 references: []
 ---
 # Bug Classes

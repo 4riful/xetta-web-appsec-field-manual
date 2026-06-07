@@ -5,7 +5,12 @@ status: "reviewed"
 last_reviewed: "2026-06-08"
 tags:
   - resources
-related: []
+related:
+  - ../QUICKSTART.md
+  - ../playbooks/README.md
+  - ../awesome-lists/top-25-web-appsec-links.md
+  - ../data/resources.csv
+  - ../provenance/source-catalog.md
 references: []
 ---
 # Resources

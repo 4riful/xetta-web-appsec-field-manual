@@ -1,33 +1,121 @@
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:020617,45:172554,100:7c3aed&text=Xetta%20Web%20AppSec%20Field%20Manual&fontColor=ffffff&fontSize=34&fontAlignY=38&desc=Curated%20methodology,%20references,%20playbooks,%20tools,%20payload%20context,%20and%20safe%20research%20workflows.&descAlignY=58&descSize=14" alt="Xetta Web AppSec Field Manual" />
-</p>
+# Xetta Web AppSec Field Manual
 
-<p align="center">
-  <a href="QUICKSTART.md"><img alt="Quickstart" src="https://img.shields.io/badge/start-quickstart-2563eb?style=for-the-badge"></a>
-  <a href="playbooks/README.md"><img alt="Playbooks" src="https://img.shields.io/badge/workflows-playbooks-7c3aed?style=for-the-badge"></a>
-  <a href="awesome-lists/top-25-web-appsec-links.md"><img alt="Top 25" src="https://img.shields.io/badge/curated-top%2025-f97316?style=for-the-badge"></a>
-  <a href="reports/README.md"><img alt="Reports" src="https://img.shields.io/badge/output-reporting-22c55e?style=for-the-badge"></a>
-</p>
+A practical field manual for authorized web application security work: scope, map, hypothesize, validate safely, capture evidence, report, and remediate.
 
-<p align="center">
-  <img alt="Scope first" src="https://img.shields.io/badge/scope-first-111827?style=flat-square">
-  <img alt="Lab safe" src="https://img.shields.io/badge/lab--safe-practice-111827?style=flat-square">
-  <img alt="Manual validation" src="https://img.shields.io/badge/manual-validation-111827?style=flat-square">
-  <img alt="Evidence driven" src="https://img.shields.io/badge/evidence-driven-111827?style=flat-square">
-  <img alt="Curated not dumped" src="https://img.shields.io/badge/curated-not%20a%20dump-111827?style=flat-square">
-</p>
+## Read This First
 
-## What This Is
+Use the workflow pages first. Some imported resource, payload, and tool pages are still being cleaned and may contain placeholders, duplicate links, lab hostnames, raw snippets, or generated extraction blocks.
 
-This repository is a **field manual for authorized web application security work**.
+High-confidence entry points:
 
-It is being reshaped from raw notes and link dumps into a practical reference that helps a security person move from:
+- [Quickstart](QUICKSTART.md)
+- [Playbooks](playbooks/README.md)
+- [Reports](reports/README.md)
+- [Top 25 references](awesome-lists/top-25-web-appsec-links.md)
+- [Bug-class index](bug-classes/README.md)
+
+Raw databases and generated resource pages are useful for search and triage. Do not treat them as reviewed instructions until they pass the [content quality checklist](maintainers/content-quality-checklist.md).
+
+## Operating Model
 
 ```text
-scope -> assets -> signals -> hypothesis -> safe test -> evidence -> report -> remediation
+scope -> assets -> features -> signals -> hypothesis -> safe validation -> evidence -> report -> remediation
 ```
 
-The manual keeps raw resources in `data/` and `provenance/`, but the user-facing pages should be curated, explained, and usable in the field.
+Every test should have:
+
+- written authorization
+- an affected asset
+- a feature or trust boundary
+- a bug-class hypothesis
+- a safe validation plan
+- minimal reproducible evidence
+- a remediation path
+
+## If You Are Doing An Assessment Now
+
+1. Confirm scope and stop conditions in [Quickstart](QUICKSTART.md).
+2. Pick a workflow from [Playbooks](playbooks/README.md).
+3. Build an asset and feature map.
+4. Choose a bug-class hypothesis from [Bug Classes](bug-classes/README.md).
+5. Choose tools only after the job is clear: [Tools](tools/README.md).
+6. Use payloads only with context: [Payloads](payloads/README.md).
+7. Capture evidence and write the finding: [Reports](reports/README.md).
+
+## Field Workflows
+
+The playbooks are the spine of the manual.
+
+- [Recon to first bug](playbooks/README.md#recon-to-first-bug)
+- [Black-box web assessment](playbooks/README.md#black-box-web-assessment)
+- [API assessment](playbooks/README.md#api-assessment)
+- [OSINT and dorking review](playbooks/osint-and-dorking.md)
+- [Cloud exposure review](playbooks/README.md#cloud-exposure-review)
+- [Source-assisted review](playbooks/README.md#source-assisted-review)
+- [AI/LLM application review](playbooks/ai-llm-application-review.md)
+- [Reporting and evidence](playbooks/README.md#reporting-and-evidence)
+
+## Bug-Class Decision Points
+
+Start with the feature and trust boundary, not a payload list.
+
+- Auth boundary, roles, object ownership, or tenant isolation: [Access Control](bug-classes/access-control/README.md), [Authentication](bug-classes/auth/README.md), [API Security](bug-classes/api/README.md)
+- Browser-executed input, DOM behavior, or user-controlled rendering: [Client-Side](bug-classes/client-side/README.md)
+- URL fetcher, webhook, importer, previewer, parser, or metadata access: [Server-Side](bug-classes/server-side/README.md)
+- Upload, archive, document conversion, SVG/XML/PDF parsing, or stored file handling: [Files and Parsers](bug-classes/files-parsers/README.md)
+- Query, filter, search, reporting, or database-backed input: [Injection](bug-classes/injection/README.md)
+- Proxy/front-end/back-end HTTP framing inconsistency: [Server-Side](bug-classes/server-side/README.md)
+- AI feature with retrieval, tools, memory, agents, or generated output sinks: [AI and LLM Application Security](bug-classes/ai-llm/README.md), [Prompt Injection](bug-classes/ai-llm/prompt-injection.md)
+
+## Evidence Standard
+
+A finding is not ready until it has:
+
+- affected asset and scope
+- affected role, account, object, tenant, or data boundary
+- exact request and response where applicable
+- timestamp and environment
+- expected behavior versus actual behavior
+- impact without overclaiming
+- minimal proof without unnecessary data access
+- remediation guidance
+
+Use [Reports](reports/README.md) before opening a finding.
+
+## Tools And Payloads
+
+Tools support a hypothesis; they do not replace one.
+
+- [Tools by job](tools/README.md)
+- [Payload context](payloads/README.md)
+
+Do not run payload-heavy automation until scope, rate limits, and the relevant bug class are clear.
+
+## Trusted References
+
+Start with official standards, labs, and original documentation:
+
+- OWASP WSTG
+- OWASP ASVS
+- OWASP Cheat Sheet Series
+- OWASP API Security Top 10
+- PortSwigger Web Security Academy
+- MDN Web Security
+- Burp Suite Documentation
+- OWASP Top 10 for LLM Applications
+
+See the curated [Top 25 Web AppSec Links](awesome-lists/top-25-web-appsec-links.md).
+
+## Raw And Triage Material
+
+The repository includes imported datasets and generated pages. Use them for search and source discovery, not blind execution.
+
+- [resources.csv](data/resources.csv)
+- [resources.json](data/resources.json)
+- [resources/](resources/README.md)
+- [provenance/](provenance/source-catalog.md)
+
+If a page contains placeholders, lab-only hosts, duplicate links, raw commands without purpose/input/output/safety notes, or `Tier/Value/Source/Context` extraction blocks, treat it as triage material.
 
 ## Rules Of Engagement
 
@@ -35,114 +123,20 @@ The manual keeps raw resources in `data/` and `provenance/`, but the user-facing
 - Read program scope, exclusions, rate limits, and safe-harbor terms before running tools.
 - Prefer passive discovery and manual validation before automation.
 - Stop when impact is proven. Do not dump data, persist access, or create unnecessary harm.
-- Treat secrets, tokens, PII, and internal URLs as sensitive evidence.
-
-## Start Here
-
-| Need | Go here | Outcome |
-|---|---|---|
-| Fast path through the repo | [QUICKSTART.md](QUICKSTART.md) | Know what to read first and what to ignore |
-| The best public references | [Top 25 Web AppSec Links](awesome-lists/top-25-web-appsec-links.md) | Start with reputable sources, not random links |
-| Real testing workflows | [playbooks/](playbooks/README.md) | Turn resources into a repeatable process |
-| Vulnerability methodology | [bug-classes/](bug-classes/README.md) | Learn signals, checks, evidence, and false positives |
-| Tools by job | [tools/](tools/README.md) | Pick tools based on purpose and risk |
-| Payload context | [payloads/](payloads/README.md) | Use payloads only after you know what you are testing |
-| Reporting | [reports/](reports/README.md) | Convert proof into a useful report |
-| Full raw database | [data/resources.csv](data/resources.csv) | Search the entire source dataset |
-
-## Manual Structure
-
-### 1. Methodology
-
-- [Quickstart](QUICKSTART.md)
-- [Playbooks](playbooks/README.md)
-- [OSINT and dorking playbook](playbooks/osint-and-dorking.md)
-- [Learning maps](maps/README.md)
-- [Reports](reports/README.md)
-- [AI/LLM application review](playbooks/ai-llm-application-review.md)
-
-### 2. Bug Classes
-
-- [Access control](bug-classes/access-control/access-control.md)
-- [Authentication](bug-classes/auth/auth.md)
-- [API security](bug-classes/api/api.md)
-- [XSS and client-side](bug-classes/client-side/xss.md)
-- [SQL injection](bug-classes/injection/sqli.md)
-- [SSRF](bug-classes/server-side/ssrf.md)
-- [File upload and parser abuse](bug-classes/files-parsers/file-upload.md)
-- [Request smuggling](bug-classes/server-side/request-smuggling.md)
-- [AI and LLM application security](bug-classes/ai-llm/README.md)
-- [Prompt injection](bug-classes/ai-llm/prompt-injection.md)
-
-### 3. Resources And Tools
-
-- [Resources](resources/README.md)
-- [Tools](tools/README.md)
-- [Payloads](payloads/README.md)
-- [Awesome lists](awesome-lists/README.md)
-- [Labs](labs/README.md)
-- [AI/LLM security resources](resources/ai-llm-security.md)
-
-### 4. Source Database
-
-- [resources.csv](data/resources.csv)
-- [resources.json](data/resources.json)
-- [source catalog](provenance/source-catalog.md)
-- [source coverage matrix](provenance/source-coverage-matrix.md)
-
-## Current Editorial Direction
-
-This repo should become a curated field reference: each page should explain when to use a resource, what evidence it produces, and what safety limits apply.
-
-Every important page should answer:
-
-- What problem does this solve?
-- When should I use it?
-- What input do I need?
-- What output or evidence should I expect?
-- What can go wrong?
-- What are the best references?
-
-Use the page templates when adding new material: [resource page](templates/resource-page.md), [tool note](templates/tool-note.md), [bug class](templates/bug-class.md), and [workflow](templates/workflow.md).
+- Treat secrets, tokens, PII, internal URLs, prompts, and retrieved AI context as sensitive evidence.
 
 ## When Not To Use This Manual
 
 Do not use this manual for unauthorized testing, opportunistic target hunting, credential use, data extraction, persistence, destructive proof, or bypassing program rules.
 
-## Maintenance Standard
+## Maintenance
 
-The quality bar is documented in [maintainers/content-quality-checklist.md](maintainers/content-quality-checklist.md).
+Good additions are welcome if they are curated, safe, and useful in the field.
 
-Hard rules:
-
-- No placeholders in user-facing pages.
-- No random `target`, `.htb`, private Notion, or broken generated headings in curated docs.
-- No duplicate resource spam.
-- No page marked `reviewed` unless it contains actual guidance.
-- No tool command without purpose, input, expected output, and safety notes.
-
-## Contribute
-
-Good additions are welcome if they are curated.
-
+- [Content quality checklist](maintainers/content-quality-checklist.md)
+- [Resource page template](templates/resource-page.md)
+- [Tool note template](templates/tool-note.md)
+- [Bug-class template](templates/bug-class.md)
+- [Workflow template](templates/workflow.md)
 - [New resource request](https://github.com/4riful/xetta-web-appsec-field-manual/issues/new?template=resource-request.yml)
 - [Open a pull request](https://github.com/4riful/xetta-web-appsec-field-manual/compare)
-
-Useful contributions include methodology notes, official references, safe labs, strong writeups, tool docs, payload context, report templates, and cleanup of noisy generated pages.
-
-## Stars
-
-<p align="center">
-  <a href="https://github.com/4riful/xetta-web-appsec-field-manual/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/4riful/xetta-web-appsec-field-manual?style=for-the-badge&logo=github&label=Star%20This%20Manual&color=facc15"></a>
-  <a href="https://www.star-history.com/?repos=4riful%2Fxetta-web-appsec-field-manual&type=date&legend=top-left"><img alt="Star History" src="https://img.shields.io/badge/star%20history-open%20chart-7c3aed?style=for-the-badge"></a>
-</p>
-
-<p align="center">
-  <a href="https://www.star-history.com/?repos=4riful%2Fxetta-web-appsec-field-manual&type=date&legend=top-left">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=4riful/xetta-web-appsec-field-manual&type=date&theme=dark&legend=top-left">
-      <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=4riful/xetta-web-appsec-field-manual&type=date&legend=top-left">
-      <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=4riful/xetta-web-appsec-field-manual&type=date&legend=top-left">
-    </picture>
-  </a>
-</p>

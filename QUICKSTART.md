@@ -81,8 +81,8 @@ Recommended path:
 
 Optional AI/LLM path:
 
-1. [AI/LLM application review](playbooks/ai-llm-application-review.md)
-2. [AI and LLM security](bug-classes/ai-llm/README.md)
+1. [AI and LLM security](bug-classes/ai-llm/README.md)
+2. [AI/LLM application review](playbooks/ai-llm-application-review.md)
 3. [Prompt injection](bug-classes/ai-llm/prompt-injection.md)
 
 ## 4. What To Ignore At First
