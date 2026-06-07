@@ -1,211 +1,77 @@
 ---
 title: "Top 25 Web AppSec Links"
-summary: "Curated top 25 web appsec links from the database."
+summary: "A curated starting set of reputable Web AppSec references, not a generated link dump."
 status: "reviewed"
-last_reviewed: "2026-06-06"
+last_reviewed: "2026-06-08"
 tags:
   - awesome
-related: []
-references: []
+  - curated
+  - appsec
+related:
+  - ../QUICKSTART.md
+  - ../playbooks/README.md
+  - ../resources/README.md
+references:
+  - https://owasp.org/www-project-web-security-testing-guide/
+  - https://portswigger.net/web-security
 ---
+
 # Top 25 Web AppSec Links
 
-### Payloads All The Things
+This page is the fastest high-signal starting point in the manual.
 
-- Type: `payload_collection`
-- Kind: `url`
-- Bug class: `general`
-- Tier: `tier_2_useful`
-- Value: https://swisskyrepo.github.io/PayloadsAllTheThingsWeb/
+It favors official standards, original research, reputable labs, and documentation that a security person can trust. Raw dumps, duplicate links, vague titles, private notes, and one-off commands do not belong here.
 
-### https://github.com/riramar/Web-Attack-Cheat-Sheet
+## Core Methodology
 
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `general`
-- Tier: `tier_2_useful`
-- Value: https://github.com/riramar/Web-Attack-Cheat-Sheet
+1. [OWASP Web Security Testing Guide](https://owasp.org/www-project-web-security-testing-guide/) - the primary public methodology for structured web application security testing.
+2. [OWASP Application Security Verification Standard](https://owasp.org/www-project-application-security-verification-standard/) - turns security ideas into verifiable requirements and review criteria.
+3. [OWASP Cheat Sheet Series](https://cheatsheetseries.owasp.org/) - defensive implementation guidance for auth, sessions, access control, XSS, CSRF, SSRF, uploads, secrets, and more.
+4. [OWASP Top 10](https://owasp.org/www-project-top-ten/) - useful risk taxonomy for communication, not a complete test plan.
+5. [OWASP API Security Top 10](https://owasp.org/www-project-api-security/) - API-specific risk map for BOLA, auth, excessive data exposure, SSRF, and inventory issues.
 
-### HackTricks
+## Practical Learning
 
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `general`
-- Tier: `tier_1_core`
-- Value: https://book.hacktricks.xyz/
+6. [PortSwigger Web Security Academy](https://portswigger.net/web-security) - the best free lab-safe web vulnerability training platform.
+7. [PortSwigger Learning Paths](https://portswigger.net/web-security/learning-paths) - sequenced paths for building skill instead of link hopping.
+8. [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) - intentionally vulnerable app for safe local practice.
+9. [OWASP crAPI](https://github.com/OWASP/crAPI) - intentionally vulnerable API for practicing API security issues.
+10. [Bugcrowd University](https://www.bugcrowd.com/hackers/bugcrowd-university/) - practical researcher training and platform workflow guidance.
 
-### cheat sheet
+## Browser, Platform, And Protocol Foundations
 
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `xss`
-- Tier: `tier_1_core`
-- Value: https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
+11. [MDN Web Security](https://developer.mozilla.org/en-US/docs/Web/Security) - authoritative browser security reference for CSP, CORS, cookies, SOP, and secure contexts.
+12. [MDN Same-Origin Policy](https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy) - foundational browser isolation model.
+13. [MDN CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) - practical explanation of cross-origin API behavior.
+14. [Web.dev Security](https://web.dev/secure/) - modern developer-focused web security guidance.
+15. [RFC 9110 HTTP Semantics](https://www.rfc-editor.org/rfc/rfc9110.html) - protocol-level reference for HTTP behavior.
 
-### cheat sheet
+## Bug-Class References
 
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `sqli`
-- Tier: `tier_1_core`
-- Value: https://portswigger.net/web-security/sql-injection/cheat-sheet
+16. [PortSwigger XSS](https://portswigger.net/web-security/cross-site-scripting) - practical XSS explanations and labs.
+17. [PortSwigger SQL Injection](https://portswigger.net/web-security/sql-injection) - SQLi methodology and labs.
+18. [PortSwigger SSRF](https://portswigger.net/web-security/ssrf) - SSRF labs and filter-bypass concepts.
+19. [PortSwigger Request Smuggling](https://portswigger.net/web-security/request-smuggling) - HTTP desync learning path.
+20. [PortSwigger OAuth](https://portswigger.net/web-security/oauth) - common OAuth implementation mistakes and labs.
 
-### csrf cross site request forgery
+## Tools And Automation References
 
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `cors-csrf`
-- Tier: `tier_1_core`
-- Value: https://book.hacktricks.xyz/pertesting-web/csrf-cross-site-request-forgery
+21. [Burp Suite Documentation](https://portswigger.net/burp/documentation) - official manual testing and proxy workflow documentation.
+22. [OWASP ZAP Documentation](https://www.zaproxy.org/docs/) - open-source proxy and DAST documentation.
+23. [ProjectDiscovery Documentation](https://docs.projectdiscovery.io/) - official docs for nuclei, httpx, subfinder, katana, naabu, interactsh, and automation workflows.
+24. [Nuclei Templates Documentation](https://docs.projectdiscovery.io/templates/introduction) - template structure, matchers, extractors, and safe detector creation.
+25. [SecLists](https://github.com/danielmiessler/SecLists) - broad security wordlist library; use carefully and only inside authorized scope.
 
-### finding
+## Honorable Mentions
 
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `request-smuggling`
-- Tier: `tier_1_core`
-- Value: https://portswigger.net/web-security/request-smuggling/finding
+- [Payloads All The Things](https://swisskyrepo.github.io/PayloadsAllTheThings/) - payload encyclopedia; use as reference, not as a blind testing script.
+- [Assetnote Research](https://www.assetnote.io/resources/research) - high-signal real-world research and case studies.
+- [Detectify Labs](https://labs.detectify.com/) - applied AppSec and attack surface research.
+- [Intigriti Researcher Blog](https://www.intigriti.com/researchers/blog) - writeups, Bug Bytes, and challenge content.
+- [HackerOne Hacktivity](https://hackerone.com/hacktivity) - public disclosed reports for pattern mining and report-quality study.
 
-### swisskyrepo/PayloadsAllThe
+## Use Policy
 
-- Type: `payload_collection`
-- Kind: `url`
-- Bug class: `general`
-- Tier: `tier_2_useful`
-- Value: https://github.com/swisskyrepo/PayloadsAllThe
+Use these resources for education, defensive testing, secure development, and authorized assessment only.
 
-### server side template injection
-
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `general`
-- Tier: `tier_1_core`
-- Value: https://portswigger.net/research/server-side-template-injection
-
-### Hacking The Cloud
-
-- Type: `gitbook`
-- Kind: `url`
-- Bug class: `cloud`
-- Tier: `tier_2_useful`
-- Value: https://hackingthe.cloud/
-
-### Introduction
-
-- Type: `article`
-- Kind: `url`
-- Bug class: `general`
-- Tier: `tier_2_useful`
-- Value: https://securecode.wiki/docs/lang/introduction/
-
-### Joern
-
-- Type: `tool`
-- Kind: `url`
-- Bug class: `general`
-- Tier: `tier_2_useful`
-- Value: https://joern.io/
-
-### https://github.com/blacklanternsecurity/bbot
-
-- Type: `tool`
-- Kind: `url`
-- Bug class: `recon;xss`
-- Tier: `tier_2_useful`
-- Value: https://github.com/blacklanternsecurity/bbot
-
-### xnl-h4ck3r/waymore.git
-
-- Type: `github_repo`
-- Kind: `url`
-- Bug class: `recon`
-- Tier: `tier_2_useful`
-- Value: https://github.com/xnl-h4ck3r/waymore.git
-
-### git clone https://github.com/xnl-h4ck3r/waymore.git /opt/waymore || git -C /opt/
-
-- Type: `command`
-- Kind: `snippet`
-- Bug class: `recon`
-- Tier: `tier_2_useful`
-- Value: git clone https://github.com/xnl-h4ck3r/waymore.git /opt/waymore || git -C /opt/waymore pull
-
-### xnl-h4ck3r/knoxnl
-
-- Type: `github_repo`
-- Kind: `url`
-- Bug class: `general`
-- Tier: `tier_2_useful`
-- Value: https://github.com/xnl-h4ck3r/knoxnl
-
-### PortSwigger/auto-repeater
-
-- Type: `github_repo`
-- Kind: `url`
-- Bug class: `general`
-- Tier: `tier_2_useful`
-- Value: https://github.com/PortSwigger/auto-repeater
-
-### swisskyrepo/PayloadsAllTheThings
-
-- Type: `payload_collection`
-- Kind: `url`
-- Bug class: `general`
-- Tier: `tier_2_useful`
-- Value: https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Request%20Forgery/README.md
-
-### xnl-h4ck3r/GAP-Burp-Extension
-
-- Type: `burp_extension`
-- Kind: `url`
-- Bug class: `general`
-- Tier: `tier_2_useful`
-- Value: https://github.com/xnl-h4ck3r/GAP-Burp-Extension
-
-### https://github.com/xnl-h4ck3r/burp-extensions/blob/main/GAP%20Help.md
-
-- Type: `burp_extension`
-- Kind: `url`
-- Bug class: `general`
-- Tier: `tier_2_useful`
-- Value: https://github.com/xnl-h4ck3r/burp-extensions/blob/main/GAP%20Help.md
-
-### HackTricks
-
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `general`
-- Tier: `tier_1_core`
-- Value: https://book.hacktricks.xyz/
-
-### cheat sheet
-
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `xss`
-- Tier: `tier_1_core`
-- Value: https://portswigger.net/web-security/cross-site-scripting/cheat-sheet
-
-### cheat sheet
-
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `sqli`
-- Tier: `tier_1_core`
-- Value: https://portswigger.net/web-security/sql-injection/cheat-sheet
-
-### csrf cross site request forgery
-
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `cors-csrf`
-- Tier: `tier_1_core`
-- Value: https://book.hacktricks.xyz/pertesting-web/csrf-cross-site-request-forgery
-
-### finding
-
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `request-smuggling`
-- Tier: `tier_1_core`
-- Value: https://portswigger.net/web-security/request-smuggling/finding
+Hands-on practice belongs in labs or explicitly authorized systems. Do not use this page as permission to scan, exploit, bypass controls, extract data, or test third-party systems.

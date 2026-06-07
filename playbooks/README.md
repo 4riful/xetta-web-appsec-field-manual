@@ -1,51 +1,227 @@
 ---
 title: "Playbooks"
-summary: "Compact workflows for turning resources into an actual testing process."
+summary: "Operational workflows for turning resources into safe, repeatable AppSec work."
 status: "reviewed"
-last_reviewed: "2026-06-06"
+last_reviewed: "2026-06-08"
 tags:
   - playbooks
-related: []
-references: []
+  - methodology
+related:
+  - ../QUICKSTART.md
+  - ../bug-classes/README.md
+  - ../tools/README.md
+  - ../reports/README.md
+references:
+  - https://owasp.org/www-project-web-security-testing-guide/
+  - https://owasp.org/www-project-api-security/
+  - https://portswigger.net/web-security
 ---
+
 # Playbooks
 
-These are short workflows that connect the vault sections.
+Playbooks connect resources, tools, bug classes, payload context, and reporting into one workflow.
+
+Every workflow follows the same rule:
+
+```text
+authorized scope -> low-noise discovery -> hypothesis -> safe validation -> evidence -> report
+```
 
 ## Recon To First Bug
 
-1. Build a target list from scope and public asset sources.
-2. Expand assets with [resources/recon-and-osint.md](../resources/recon-and-osint.md).
-3. Probe live hosts with tools from [tools/recon.md](../tools/recon.md).
-4. Collect URLs, JavaScript, endpoints, and parameters.
-5. Triage by signal: auth boundary, user-controlled input, file parsing, URL fetchers, admin surfaces, and old endpoints.
+### Goal
+
+Move from a written scope to one meaningful, testable security hypothesis.
+
+### Inputs
+
+- Scope document or bug bounty brief.
+- Allowed domains, IP ranges, apps, APIs, mobile apps, repositories, and cloud accounts.
+- Test accounts and role matrix if available.
+- Rate limits and prohibited activity list.
+
+### Workflow
+
+1. Normalize scope into domains, subdomains, IPs, app URLs, APIs, repositories, and exclusions.
+2. Use passive discovery first: certificate names, archived URLs, GitHub search, search operators, and public asset search engines.
+3. Probe only approved assets for liveness and basic metadata.
+4. Collect URLs, JavaScript files, API routes, forms, upload points, redirects, webhooks, admin surfaces, and auth boundaries.
+5. Triage by feature risk: auth, access control, user-controlled input, file parsing, URL fetchers, exports, imports, callbacks, and tenant boundaries.
 6. Pick one bug class from [bug-classes/](../bug-classes/README.md).
-7. Use payloads from [payloads/](../payloads/README.md) only after there is a reason to test.
+7. Validate manually before running payload-heavy automation.
+8. Save evidence as request, response, timestamp, account role, affected object, and impact.
+
+### Stop Conditions
+
+- Scope is unclear.
+- The program forbids the test category.
+- The test may affect other users or production availability.
+- Sensitive data appears and minimal evidence is already enough.
+
+### Output
+
+- One validated finding, or a documented test hypothesis with why it was rejected.
 
 ## Black-Box Web Assessment
 
-Focus on the application model first.
+### Goal
 
-- Identify roles, objects, tenants, and sensitive workflows.
-- Map login, password reset, upload, export, import, webhook, and API features.
-- Test access control before chasing exotic payloads.
-- Keep requests, responses, screenshots, and timestamps for reporting.
+Understand the application model before chasing payloads.
+
+### Workflow
+
+1. Map user roles, objects, tenants, sensitive actions, and trust boundaries.
+2. Walk through login, registration, password reset, invite flows, upload/export/import, payment or billing, admin panels, API calls, and webhooks.
+3. Build a small feature matrix:
+   - role
+   - object type
+   - allowed action
+   - expected denial
+   - observed behavior
+4. Test access control before exotic classes.
+5. Review session behavior: cookie attributes, logout, password reset, MFA, remember-me, and token rotation.
+6. Test high-signal input surfaces after you understand the feature.
+7. Document all proof with reproducible requests and account context.
+
+### High-Value Bug Classes
+
+- Broken object-level authorization.
+- Broken function-level authorization.
+- Authentication logic flaws.
+- Password reset abuse.
+- Stored XSS in trusted workflows.
+- File upload parser abuse.
+- SSRF in URL fetchers, webhooks, importers, and previewers.
 
 ## API Assessment
 
-- Start with [resources/api-auth-oauth-and-graphql.md](../resources/api-auth-oauth-and-graphql.md).
-- Collect endpoints from JavaScript, traffic, docs, mobile apps, and crawlers.
-- Test auth, object access, mass assignment, rate limits, GraphQL introspection, and excessive data exposure.
-- Use [tools/api-graphql.md](../tools/api-graphql.md) for API-specific tooling.
+### Goal
+
+Find authorization, authentication, schema, data exposure, and abuse-case issues in APIs.
+
+### Workflow
+
+1. Collect API routes from browser traffic, OpenAPI specs, JavaScript, mobile clients, docs, and crawlers.
+2. Identify auth model: session cookie, bearer token, API key, OAuth, OIDC, JWT, mTLS, or mixed.
+3. Build object and role matrices.
+4. Test BOLA/IDOR with test accounts only.
+5. Test property-level authorization and mass assignment.
+6. Check excessive data exposure in list/detail/search endpoints.
+7. Check rate limits, pagination, batching, GraphQL depth/complexity, and resource consumption safely.
+8. Report impact using exact endpoint, method, role, object, and data boundary crossed.
+
+### Primary References
+
+- [OWASP API Security Top 10](https://owasp.org/www-project-api-security/)
+- [OWASP REST Security Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/REST_Security_Cheat_Sheet.html)
+- [OWASP GraphQL Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/GraphQL_Cheat_Sheet.html)
+
+## OSINT And Dorking Review
+
+### Goal
+
+Find defensive exposure signals without creating unauthorized traffic or targeting random third parties.
+
+Detailed guide: [OSINT And Dorking Playbook](osint-and-dorking.md)
+
+### Safe Inputs
+
+- `example.com` style approved domains.
+- Authorized GitHub orgs/repos.
+- Approved CIDR ranges.
+- Approved cloud accounts and owned assets.
+
+### Generic Patterns
+
+```text
+site:example.com
+site:example.com filetype:pdf
+site:example.com intitle:"index of"
+site:example.com "stack trace"
+org:EXAMPLE-ORG "api_key" OR "token" NOT is:fork
+hostname:example.com
+cert.names: "example.com"
+net:203.0.113.0/24
+```
+
+### Rules
+
+- Keep placeholders generic in documentation.
+- Replace placeholders only with authorized assets.
+- Record minimal evidence.
+- Do not download bulk documents.
+- Do not use discovered secrets.
+- Convert findings into remediation: remove exposure, restrict access, rotate secrets, deindex, and monitor recurrence.
 
 ## Cloud Exposure Review
 
-- Start with [resources/cloud-and-infrastructure.md](../resources/cloud-and-infrastructure.md).
-- Look for public buckets, metadata exposure, leaked keys, cloud-hosted admin panels, and storage misconfigurations.
-- Connect cloud findings back to real business impact before reporting.
+### Goal
 
-## Report Writing
+Identify cloud-facing exposure and connect it to business impact.
 
-- Use [reports/](../reports/README.md) when a finding is reproducible.
-- Include summary, affected asset, steps, evidence, impact, and remediation.
-- Do not overclaim scanner output. Prove the behavior.
+### Workflow
+
+1. Confirm cloud scope and provider rules of engagement.
+2. Inventory domains, certificates, buckets, CDN origins, public APIs, admin panels, and exposed metadata paths.
+3. Search for leaked keys in authorized repositories.
+4. Review public storage, CORS, security headers, TLS posture, and exposed debug/admin surfaces.
+5. Validate ownership before reporting.
+6. Sanitize evidence because cloud findings often reveal internal architecture.
+
+### Primary References
+
+- [AWS penetration testing policy](https://aws.amazon.com/security/penetration-testing/)
+- [Microsoft security testing rules of engagement](https://www.microsoft.com/en-us/msrc/pentest-rules-of-engagement)
+- [Google Cloud penetration testing FAQ](https://support.google.com/cloud/answer/6262505)
+
+## Source-Assisted Review
+
+### Goal
+
+Use source code to find high-confidence issues faster than black-box guessing.
+
+### Workflow
+
+1. Identify routes, controllers, middleware, auth checks, object ownership checks, sinks, parsers, and external integrations.
+2. Trace user-controlled input into sensitive sinks.
+3. Trace auth context into object access.
+4. Search for secrets and unsafe defaults.
+5. Compare code paths with live behavior.
+6. Report both root cause and exploitability.
+
+### Useful Tools
+
+- CodeQL
+- Semgrep
+- Gitleaks
+- TruffleHog
+- Dependency scanners
+
+## Reporting And Evidence
+
+### Goal
+
+Make findings reproducible, scoped, and useful to fix.
+
+### Minimum Report
+
+- Summary.
+- Scope and affected asset.
+- Impact.
+- Preconditions.
+- Reproduction steps.
+- Request/response evidence.
+- Affected role/object/tenant.
+- Expected behavior.
+- Actual behavior.
+- Remediation.
+- References.
+
+### Do Not
+
+- Overclaim scanner output.
+- Include raw secrets in reports unless the reporting channel explicitly supports secure secret handling.
+- Dump user data.
+- Use destructive proof when safer proof is enough.
+
+Use [reports/](../reports/README.md) when a finding is reproducible.

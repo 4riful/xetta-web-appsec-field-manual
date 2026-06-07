@@ -1,117 +1,129 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0f172a,45:7c3aed,100:06b6d4&text=Xetta's%20Web%20Application%20Hacking%20Vault&fontColor=ffffff&fontSize=34&fontAlignY=38&desc=Learn%20recon,%20payloads,%20tools,%20bug%20classes,%20writeups,%20labs,%20and%20real%20hunting%20workflows.&descAlignY=58&descSize=14" alt="Xetta's Web Application Hacking Vault" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=210&color=0:020617,45:172554,100:7c3aed&text=Xetta%20Web%20AppSec%20Field%20Manual&fontColor=ffffff&fontSize=34&fontAlignY=38&desc=Curated%20methodology,%20references,%20playbooks,%20tools,%20payload%20context,%20and%20safe%20research%20workflows.&descAlignY=58&descSize=14" alt="Xetta Web AppSec Field Manual" />
 </p>
 
 <p align="center">
-  <a href="resources/README.md"><img alt="Resources" src="https://img.shields.io/badge/resources-topic%20sorted-7c3aed?style=for-the-badge"></a>
-  <a href="payloads/README.md"><img alt="Payloads" src="https://img.shields.io/badge/payloads-ready%20to%20browse-06b6d4?style=for-the-badge"></a>
-  <a href="tools/README.md"><img alt="Tools" src="https://img.shields.io/badge/tools-recon%20burp%20fuzzing-22c55e?style=for-the-badge"></a>
-  <a href="awesome-lists/README.md"><img alt="Best of" src="https://img.shields.io/badge/best%20of-curated%20picks-f97316?style=for-the-badge"></a>
+  <a href="QUICKSTART.md"><img alt="Quickstart" src="https://img.shields.io/badge/start-quickstart-2563eb?style=for-the-badge"></a>
+  <a href="playbooks/README.md"><img alt="Playbooks" src="https://img.shields.io/badge/workflows-playbooks-7c3aed?style=for-the-badge"></a>
+  <a href="awesome-lists/top-25-web-appsec-links.md"><img alt="Top 25" src="https://img.shields.io/badge/curated-top%2025-f97316?style=for-the-badge"></a>
+  <a href="reports/README.md"><img alt="Reports" src="https://img.shields.io/badge/output-reporting-22c55e?style=for-the-badge"></a>
 </p>
 
 <p align="center">
-  <img alt="Recon" src="https://img.shields.io/badge/recon-OSINT%20%26%20asset%20discovery-111827?style=flat-square">
-  <img alt="Payloads" src="https://img.shields.io/badge/payloads-XSS%20SQLi%20SSRF%20LFI-111827?style=flat-square">
-  <img alt="Tools" src="https://img.shields.io/badge/tools-Burp%20fuzzing%20automation-111827?style=flat-square">
-  <img alt="Learning" src="https://img.shields.io/badge/learning-writeups%20labs%20maps-111827?style=flat-square">
+  <img alt="Scope first" src="https://img.shields.io/badge/scope-first-111827?style=flat-square">
+  <img alt="Lab safe" src="https://img.shields.io/badge/lab--safe-practice-111827?style=flat-square">
+  <img alt="Manual validation" src="https://img.shields.io/badge/manual-validation-111827?style=flat-square">
+  <img alt="Evidence driven" src="https://img.shields.io/badge/evidence-driven-111827?style=flat-square">
+  <img alt="Curated not dumped" src="https://img.shields.io/badge/curated-not%20a%20dump-111827?style=flat-square">
 </p>
 
-<br>
+## What This Is
 
-## 🧭 What This Is
+This repository is a **field manual for authorized web application security work**.
 
-**Xetta's Web Application Hacking Vault** is a resource-first learning hub for web application hacking.
+It is being reshaped from raw notes and link dumps into a practical reference that helps a security person move from:
 
-It is designed for beginners, bug bounty hunters, pentesters, and builders who want one clean place to learn, browse, and pick the right resource fast.
+```text
+scope -> assets -> signals -> hypothesis -> safe test -> evidence -> report -> remediation
+```
 
-Inside you will find recon resources, payload references, dorks, command snippets, Burp workflows, writeups, GitBooks, labs, bug-class indexes, tool lists, report helpers, and curated paths for learning.
+The manual keeps raw resources in `data/` and `provenance/`, but the user-facing pages should be curated, explained, and usable in the field.
 
-## 🚀 Start Here
+## Rules Of Engagement
 
-📚 [Browse Resources](resources/README.md) · ⭐ [Top 25 Links](awesome-lists/top-25-web-appsec-links.md) · 🎯 [Payloads & Wordlists](payloads/README.md) · 🧰 [Tools & Automation](tools/README.md) · 🐞 [Bug Classes](bug-classes/README.md) · 🗺️ [Learning Maps](maps/README.md)
+- Test only systems you own, lab systems, CTF targets, or assets where you have explicit written authorization.
+- Read program scope, exclusions, rate limits, and safe-harbor terms before running tools.
+- Prefer passive discovery and manual validation before automation.
+- Stop when impact is proven. Do not dump data, persist access, or create unnecessary harm.
+- Treat secrets, tokens, PII, and internal URLs as sensitive evidence.
 
-## 🧑‍💻 For New Learners
+## Start Here
 
-If you are new, do not start with payloads. Start with the path.
+| Need | Go here | Outcome |
+|---|---|---|
+| Fast path through the repo | [QUICKSTART.md](QUICKSTART.md) | Know what to read first and what to ignore |
+| The best public references | [Top 25 Web AppSec Links](awesome-lists/top-25-web-appsec-links.md) | Start with reputable sources, not random links |
+| Real testing workflows | [playbooks/](playbooks/README.md) | Turn resources into a repeatable process |
+| Vulnerability methodology | [bug-classes/](bug-classes/README.md) | Learn signals, checks, evidence, and false positives |
+| Tools by job | [tools/](tools/README.md) | Pick tools based on purpose and risk |
+| Payload context | [payloads/](payloads/README.md) | Use payloads only after you know what you are testing |
+| Reporting | [reports/](reports/README.md) | Convert proof into a useful report |
+| Full raw database | [data/resources.csv](data/resources.csv) | Search the entire source dataset |
 
-- 🗺️ Learn the map first: [maps/](maps/README.md)
-- 🛰️ Understand recon: [resources/recon-and-osint.md](resources/recon-and-osint.md)
-- 📖 Read good writeups: [awesome-lists/best-bug-bounty-writeups.md](awesome-lists/best-bug-bounty-writeups.md)
-- 🐞 Pick one bug class: [bug-classes/README.md](bug-classes/README.md)
-- 🧪 Practice with labs: [labs/README.md](labs/README.md)
-- 📝 Write clean findings: [reports/README.md](reports/README.md)
+## Manual Structure
 
-The goal is not to collect links. The goal is to learn how to move from target, to signal, to test, to proof.
+### 1. Methodology
 
-## 🧰 The Vault Layout
+- [Quickstart](QUICKSTART.md)
+- [Playbooks](playbooks/README.md)
+- [OSINT and dorking playbook](playbooks/osint-and-dorking.md)
+- [Learning maps](maps/README.md)
+- [Reports](reports/README.md)
 
-### 📚 Resources
+### 2. Bug Classes
 
-The main library lives in [resources/](resources/README.md).
+- [Access control](bug-classes/access-control/access-control.md)
+- [Authentication](bug-classes/auth/auth.md)
+- [API security](bug-classes/api/api.md)
+- [XSS and client-side](bug-classes/client-side/xss.md)
+- [SQL injection](bug-classes/injection/sqli.md)
+- [SSRF](bug-classes/server-side/ssrf.md)
+- [File upload and parser abuse](bug-classes/files-parsers/file-upload.md)
+- [Request smuggling](bug-classes/server-side/request-smuggling.md)
 
-- 🛰️ [Recon and OSINT](resources/recon-and-osint.md)
-- 🎯 [Payloads, Cheat Sheets, and Wordlists](resources/payloads-cheat-sheets-and-wordlists.md)
-- 📖 [Bug Bounty Writeups, Blogs, and GitBooks](resources/bug-bounty-writeups-blogs-and-gitbooks.md)
-- 🧰 [Burp Suite and Tooling](resources/burp-suite-and-tooling.md)
-- 🔐 [API, Auth, OAuth, and GraphQL](resources/api-auth-oauth-and-graphql.md)
-- ⚡ [XSS and Client-Side](resources/xss-and-client-side.md)
-- 🧬 [SQL Injection](resources/sql-injection.md)
-- 🌐 [SSRF](resources/ssrf.md)
-- 📂 [XXE, LFI, and File Read](resources/xxe-lfi-and-file-read.md)
-- 📤 [File Upload and Parser Abuse](resources/file-upload-and-parser-abuse.md)
-- ☁️ [Cloud and Infrastructure](resources/cloud-and-infrastructure.md)
-- 🛡️ [WAF, CORS, CSRF, and Smuggling](resources/waf-cors-csrf-smuggling.md)
-- 💥 [RCE, CVEs, and 0days](resources/rce-cves-and-0days.md)
-- 🎓 [Training, Labs, Videos, OSCP, AD, and Red Team](resources/training-labs-videos-oscp-ad-and-red-team.md)
+### 3. Resources And Tools
 
-### ⭐ Curated Best-Of
+- [Resources](resources/README.md)
+- [Tools](tools/README.md)
+- [Payloads](payloads/README.md)
+- [Awesome lists](awesome-lists/README.md)
+- [Labs](labs/README.md)
 
-Use [awesome-lists/](awesome-lists/README.md) when you do not want the full dump.
+### 4. Source Database
 
-- 🏆 [Top 25 Web AppSec Links](awesome-lists/top-25-web-appsec-links.md)
-- 🛰️ [Best Recon Resources](awesome-lists/best-recon-resources.md)
-- 📖 [Best Bug Bounty Writeups](awesome-lists/best-bug-bounty-writeups.md)
-- 🧾 [Best Cheat Sheets](awesome-lists/best-cheat-sheets.md)
-- 🧰 [Best Burp Extensions](awesome-lists/best-burp-extensions.md)
-- 🎯 [Best Payload Repositories](awesome-lists/best-payload-repositories.md)
-- 💎 [Hidden Gems](awesome-lists/hidden-gems.md)
+- [resources.csv](data/resources.csv)
+- [resources.json](data/resources.json)
+- [source catalog](provenance/source-catalog.md)
+- [source coverage matrix](provenance/source-coverage-matrix.md)
 
-### 🧪 Practical Sections
+## Current Editorial Direction
 
-- 🎯 [payloads/](payloads/README.md) for XSS, SQLi, SSRF, LFI, upload bypass, WAF bypass, request smuggling, and wordlists.
-- 🧰 [tools/](tools/README.md) for recon, content discovery, JavaScript analysis, Burp extensions, fuzzing, OOB, cloud, API/GraphQL, and automation.
-- 🐞 [bug-classes/](bug-classes/README.md) for access control, auth, API, client-side, cloud, parser bugs, injection, and server-side classes.
-- 🧭 [playbooks/](playbooks/README.md) for recon-to-first-bug, black-box assessment, API assessment, cloud exposure review, source-assisted review, and reporting.
-- 🧪 [labs/](labs/README.md) for videos, OSCP, Active Directory, practice platforms, and mindmaps.
-- 📝 [reports/](reports/README.md) for evidence, severity, remediation language, and report templates.
+This repo should become a **resource goldmine**, not a bigger pile of vague links.
 
-## 🔎 Searchable Data
+Every important page should answer:
 
-Want to filter the vault like a dataset?
+- What problem does this solve?
+- When should I use it?
+- What input do I need?
+- What output or evidence should I expect?
+- What can go wrong?
+- What are the best references?
 
-- 🧾 [data/resources.csv](data/resources.csv) for the full resource index.
-- 🤖 [data/resources.json](data/resources.json) for machine-readable browsing.
+## Maintenance Standard
 
-Most learners should stay in the curated folders. Use `data/` only when you want to search or rebuild indexes.
+The quality bar is documented in [maintainers/content-quality-checklist.md](maintainers/content-quality-checklist.md).
 
-## 🤝 Add A Resource
+Hard rules:
 
-Good resources are welcome.
+- No placeholders in user-facing pages.
+- No random `target`, `.htb`, private Notion, or broken generated headings in curated docs.
+- No duplicate resource spam.
+- No page marked `reviewed` unless it contains actual guidance.
+- No tool command without purpose, input, expected output, and safety notes.
 
-Open a resource request here:
+## Contribute
 
-[New resource request](https://github.com/4riful/xetta-web-appsec-field-manual/issues/new?template=resource-request.yml)
+Good additions are welcome if they are curated.
 
-Or submit a pull request using the repository template:
+- [New resource request](https://github.com/4riful/xetta-web-appsec-field-manual/issues/new?template=resource-request.yml)
+- [Open a pull request](https://github.com/4riful/xetta-web-appsec-field-manual/compare)
 
-[Open a pull request](https://github.com/4riful/xetta-web-appsec-field-manual/compare)
+Useful contributions include methodology notes, official references, safe labs, strong writeups, tool docs, payload context, report templates, and cleanup of noisy generated pages.
 
-Useful additions include tools, payload lists, writeups, GitBooks, labs, checklists, cheat sheets, bug-class references, and command snippets.
-
-## ⭐ Stars
+## Stars
 
 <p align="center">
-  <a href="https://github.com/4riful/xetta-web-appsec-field-manual/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/4riful/xetta-web-appsec-field-manual?style=for-the-badge&logo=github&label=Star%20This%20Vault&color=facc15"></a>
+  <a href="https://github.com/4riful/xetta-web-appsec-field-manual/stargazers"><img alt="GitHub Stars" src="https://img.shields.io/github/stars/4riful/xetta-web-appsec-field-manual?style=for-the-badge&logo=github&label=Star%20This%20Manual&color=facc15"></a>
   <a href="https://www.star-history.com/?repos=4riful%2Fxetta-web-appsec-field-manual&type=date&legend=top-left"><img alt="Star History" src="https://img.shields.io/badge/star%20history-open%20chart-7c3aed?style=for-the-badge"></a>
 </p>
 
@@ -124,9 +136,3 @@ Useful additions include tools, payload lists, writeups, GitBooks, labs, checkli
     </picture>
   </a>
 </p>
-
-## 🌱 Keep It Alive
-
-This vault gets better when people add high-signal resources.
-
-Submit tools, writeups, payload lists, labs, cheat sheets, bug-class references, or command snippets through the resource request template or a pull request.
