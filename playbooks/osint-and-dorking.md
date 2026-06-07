@@ -26,6 +26,10 @@ Use this playbook to find public exposure signals for assets you are authorized 
 
 This is not a target-hunting page. Every query must be bounded by scope.
 
+## Audience
+
+This playbook is for authorized assessors, defenders, and maintainers reviewing public exposure for owned assets.
+
 ## Scope Inputs
 
 Before searching, collect:
@@ -50,18 +54,33 @@ Use documentation placeholders when writing examples:
 
 Official reference: [Google Search operators](https://support.google.com/websearch/answer/2466433)
 
-### Safe Patterns
+### Inventory Patterns
 
 ```text
 site:example.com
+site:example.com (login OR "sign in")
+```
+
+### Sensitive Document Indicators
+
+```text
 site:example.com filetype:pdf
 site:example.com filetype:xls OR filetype:xlsx
+site:example.com "confidential" -jobs -careers
+```
+
+### Debug/Error Indicators
+
+```text
 site:example.com intitle:"index of"
 site:example.com "stack trace"
 site:example.com "debug"
-site:example.com "confidential" -jobs -careers
+```
+
+### Time-Bound Review Patterns
+
+```text
 site:example.com after:2025-01-01 before:2026-01-01
-site:example.com (login OR "sign in")
 ```
 
 ### Use When
@@ -99,7 +118,10 @@ org:EXAMPLE-ORG path:.github
 org:EXAMPLE-ORG language:yaml path:/.github/workflows/
 org:EXAMPLE-ORG "BEGIN PRIVATE KEY" NOT is:fork
 org:EXAMPLE-ORG "password" NOT path:/tests/ NOT is:fork
-org:EXAMPLE-ORG "api_key" OR "apikey" OR "token"
+org:EXAMPLE-ORG "api_key" NOT is:fork
+org:EXAMPLE-ORG "apikey" NOT is:fork
+org:EXAMPLE-ORG "access_token" NOT is:fork
+org:EXAMPLE-ORG "refresh_token" NOT is:fork
 org:EXAMPLE-ORG path:*.tf "public"
 repo:EXAMPLE-ORG/EXAMPLE-REPO path:/config/
 org:EXAMPLE-ORG /AKIA[0-9A-Z]{16}/ NOT is:fork
@@ -196,6 +218,21 @@ Translate categories into defensive checks:
 - Login portals -> inventory public authentication surfaces.
 - Network/device data -> validate whether exposed panels are owned and authorized.
 
+## AI/LLM Exposure Signals
+
+Use only for owned assets and authorized repositories.
+
+Inventory signals such as:
+
+- Public chatbot endpoints.
+- Exposed prompt or agent config files.
+- Public RAG source documents.
+- AI plugin manifests.
+- Tool-calling configuration.
+- Public eval datasets containing sensitive examples.
+
+Evidence should show exposure and risk without collecting private prompts, user conversations, or sensitive retrieved content.
+
 ## Triage Workflow
 
 ```text
@@ -217,6 +254,10 @@ query result
 - Do not test cloud buckets, takeover conditions, or admin surfaces unless explicitly authorized.
 - Do not publish sensitive query results.
 
+## When Not To Use This Playbook
+
+Do not use this playbook for target hunting, broad vulnerable-service searches, investigating unrelated companies, validating leaked credentials, or bypassing access controls.
+
 ## Reporting Template
 
 ```text
@@ -224,6 +265,8 @@ Title: Public exposure found via scoped OSINT review
 Scope: example.com / EXAMPLE-ORG / approved CIDR
 Query: <exact query>
 Evidence: <minimal URL/screenshot/metadata>
+Ownership validation: <how scope/ownership was confirmed>
+Data handling: <what was not downloaded, redacted, or minimized>
 Risk: <why this matters>
 Impact: <what an attacker could learn or do>
 Remediation: <restrict, remove, rotate, deindex, monitor>

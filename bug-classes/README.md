@@ -2,7 +2,7 @@
 title: "Bug Classes"
 summary: "Vulnerability families grouped by how a learner or hunter should approach testing."
 status: "reviewed"
-last_reviewed: "2026-06-06"
+last_reviewed: "2026-06-08"
 tags:
   - bug-classes
 related: []
@@ -23,6 +23,7 @@ Use this section after recon gives you a signal. Do not start with payloads. Sta
 - [Client-Side](./client-side/README.md): browser trust boundaries, CORS/CSRF, DOM behavior, and XSS-adjacent client-side issues.
 - [Cloud](./cloud/README.md): S3, metadata exposure, cloud assets, storage misconfiguration, and leaked cloud material.
 - [Defensive Bypass](./defensive-bypass/README.md): WAF bypass, filtering weaknesses, encoding, and platform/proxy edge cases.
+- [AI And LLM](./ai-llm/README.md): prompt injection, indirect prompt injection, RAG, agents, tool calling, and LLM app data leakage.
 
 ## How To Use
 

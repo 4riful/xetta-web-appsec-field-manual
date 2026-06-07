@@ -32,7 +32,7 @@ It favors official standards, original research, reputable labs, and documentati
 
 ## Practical Learning
 
-6. [PortSwigger Web Security Academy](https://portswigger.net/web-security) - the best free lab-safe web vulnerability training platform.
+6. [PortSwigger Web Security Academy](https://portswigger.net/web-security) - one of the strongest free lab-safe web vulnerability training platforms.
 7. [PortSwigger Learning Paths](https://portswigger.net/web-security/learning-paths) - sequenced paths for building skill instead of link hopping.
 8. [OWASP Juice Shop](https://owasp.org/www-project-juice-shop/) - intentionally vulnerable app for safe local practice.
 9. [OWASP crAPI](https://github.com/OWASP/crAPI) - intentionally vulnerable API for practicing API security issues.
@@ -60,11 +60,12 @@ It favors official standards, original research, reputable labs, and documentati
 22. [OWASP ZAP Documentation](https://www.zaproxy.org/docs/) - open-source proxy and DAST documentation.
 23. [ProjectDiscovery Documentation](https://docs.projectdiscovery.io/) - official docs for nuclei, httpx, subfinder, katana, naabu, interactsh, and automation workflows.
 24. [Nuclei Templates Documentation](https://docs.projectdiscovery.io/templates/introduction) - template structure, matchers, extractors, and safe detector creation.
-25. [SecLists](https://github.com/danielmiessler/SecLists) - broad security wordlist library; use carefully and only inside authorized scope.
+25. [OWASP Top 10 for LLM Applications](https://genai.owasp.org/llm-top-10/) - baseline risk taxonomy for prompt injection, data leakage, unsafe tool use, and other LLM application risks.
 
 ## Honorable Mentions
 
 - [Payloads All The Things](https://swisskyrepo.github.io/PayloadsAllTheThings/) - payload encyclopedia; use as reference, not as a blind testing script.
+- [SecLists](https://github.com/danielmiessler/SecLists) - broad security wordlist library; use carefully and only inside authorized scope.
 - [Assetnote Research](https://www.assetnote.io/resources/research) - high-signal real-world research and case studies.
 - [Detectify Labs](https://labs.detectify.com/) - applied AppSec and attack surface research.
 - [Intigriti Researcher Blog](https://www.intigriti.com/researchers/blog) - writeups, Bug Bytes, and challenge content.
@@ -75,3 +76,5 @@ It favors official standards, original research, reputable labs, and documentati
 Use these resources for education, defensive testing, secure development, and authorized assessment only.
 
 Hands-on practice belongs in labs or explicitly authorized systems. Do not use this page as permission to scan, exploit, bypass controls, extract data, or test third-party systems.
+
+Do not start with tools, payload repositories, or disclosed reports until you understand the relevant methodology and scope. Honorable mentions should stay short; if that section grows beyond 5-8 links, move items into topic-specific resource pages.

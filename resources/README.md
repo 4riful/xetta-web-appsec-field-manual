@@ -2,7 +2,7 @@
 title: "Resources"
 summary: "Clean categorized web application hacking resources for learning, hunting, and reference."
 status: "reviewed"
-last_reviewed: "2026-06-06"
+last_reviewed: "2026-06-08"
 tags:
   - resources
 related: []
@@ -12,6 +12,7 @@ references: []
 
 Browse by topic. Use `../data/resources.csv` for the database view.
 
+- [AI/LLM Security](./ai-llm-security.md) — curated standards, labs, tools, and safe prompt-injection references
 - [API, Auth, OAuth, and GraphQL](./api-auth-oauth-and-graphql.md) — 27 entries
 - [Bug Bounty Writeups, Blogs, and GitBooks](./bug-bounty-writeups-blogs-and-gitbooks.md) — 78 entries
 - [Burp Suite and Tooling](./burp-suite-and-tooling.md) — 41 entries

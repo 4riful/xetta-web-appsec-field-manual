@@ -19,6 +19,10 @@ references:
 
 Use this page when the repository feels too large.
 
+## Audience
+
+Use this if you are new to the repo, preparing for an authorized assessment, or trying to convert raw resources into a safe testing workflow.
+
 ## 0. Scope First
 
 Before any tool, payload, dork, or scan, write down:
@@ -48,7 +52,7 @@ Add one workflow:
 
 1. Pick one playbook from [playbooks/](playbooks/README.md).
 2. Pick one bug class from [bug-classes/](bug-classes/README.md).
-3. Pick tools only after you know the job.
+3. Pick tools from [tools/](tools/README.md) only after you know the job.
 4. Practice the bug class in [PortSwigger Web Security Academy](https://portswigger.net/web-security), not on random live targets.
 
 Outcome: you have a test hypothesis, not just a pile of links.
@@ -74,6 +78,12 @@ Recommended path:
 2. [Bug classes](bug-classes/README.md)
 3. [Payloads](payloads/README.md)
 4. [Report writing](reports/README.md)
+
+Optional AI/LLM path:
+
+1. [AI/LLM application review](playbooks/ai-llm-application-review.md)
+2. [AI and LLM security](bug-classes/ai-llm/README.md)
+3. [Prompt injection](bug-classes/ai-llm/prompt-injection.md)
 
 ## 4. What To Ignore At First
 
@@ -108,9 +118,15 @@ For ongoing learning:
 | Choose a tool | [Tools](tools/README.md) |
 | Find payload context | [Payloads](payloads/README.md) |
 | Build a report | [Reports](reports/README.md) |
+| Review AI/LLM app risk | [AI/LLM application review](playbooks/ai-llm-application-review.md) |
+| Test prompt injection safely | [Prompt injection](bug-classes/ai-llm/prompt-injection.md) |
 | Search the full database | [resources.csv](data/resources.csv) |
 
-## 7. Responsible Use Reminder
+## 7. When Not To Use This Page
+
+Do not treat the quickstart as permission to test live third-party systems, run high-rate tools, use leaked credentials, or skip scope review.
+
+## 8. Responsible Use Reminder
 
 This manual is for defensive security, education, secure software development, and authorized assessment only.
 

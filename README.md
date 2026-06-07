@@ -59,6 +59,7 @@ The manual keeps raw resources in `data/` and `provenance/`, but the user-facing
 - [OSINT and dorking playbook](playbooks/osint-and-dorking.md)
 - [Learning maps](maps/README.md)
 - [Reports](reports/README.md)
+- [AI/LLM application review](playbooks/ai-llm-application-review.md)
 
 ### 2. Bug Classes
 
@@ -70,6 +71,8 @@ The manual keeps raw resources in `data/` and `provenance/`, but the user-facing
 - [SSRF](bug-classes/server-side/ssrf.md)
 - [File upload and parser abuse](bug-classes/files-parsers/file-upload.md)
 - [Request smuggling](bug-classes/server-side/request-smuggling.md)
+- [AI and LLM application security](bug-classes/ai-llm/README.md)
+- [Prompt injection](bug-classes/ai-llm/prompt-injection.md)
 
 ### 3. Resources And Tools
 
@@ -78,6 +81,7 @@ The manual keeps raw resources in `data/` and `provenance/`, but the user-facing
 - [Payloads](payloads/README.md)
 - [Awesome lists](awesome-lists/README.md)
 - [Labs](labs/README.md)
+- [AI/LLM security resources](resources/ai-llm-security.md)
 
 ### 4. Source Database
 
@@ -88,7 +92,7 @@ The manual keeps raw resources in `data/` and `provenance/`, but the user-facing
 
 ## Current Editorial Direction
 
-This repo should become a **resource goldmine**, not a bigger pile of vague links.
+This repo should become a curated field reference: each page should explain when to use a resource, what evidence it produces, and what safety limits apply.
 
 Every important page should answer:
 
@@ -98,6 +102,12 @@ Every important page should answer:
 - What output or evidence should I expect?
 - What can go wrong?
 - What are the best references?
+
+Use the page templates when adding new material: [resource page](templates/resource-page.md), [tool note](templates/tool-note.md), [bug class](templates/bug-class.md), and [workflow](templates/workflow.md).
+
+## When Not To Use This Manual
+
+Do not use this manual for unauthorized testing, opportunistic target hunting, credential use, data extraction, persistence, destructive proof, or bypassing program rules.
 
 ## Maintenance Standard
 

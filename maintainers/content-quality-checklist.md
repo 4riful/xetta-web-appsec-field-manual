@@ -29,6 +29,8 @@ Use this checklist before marking any user-facing page as `reviewed`.
 - [ ] No repeated generic headings like `cheat sheet`, `Introduction`, `target`, or raw command lines.
 - [ ] No page marked `reviewed` if it only contains extracted entries.
 - [ ] No exploit/payload content without responsible-use framing.
+- [ ] No jailbreak or prompt-injection payload dumps without scope, defensive purpose, expected behavior, evidence limits, and mitigation guidance.
+- [ ] No instructions to extract system prompts, user conversations, secrets, or training data from third-party AI systems.
 
 ## Every User-Facing Doc Needs
 
@@ -85,6 +87,17 @@ Use this checklist before marking any user-facing page as `reviewed`.
 - [ ] Severity and impact notes.
 - [ ] Best references.
 
+## AI/LLM Security Pages Need
+
+- [ ] Clear scope: owned AI feature, lab, or explicitly authorized assessment.
+- [ ] Threat model: model, app, tools, retrieval sources, users, memory, and external actions.
+- [ ] Distinction between direct prompt injection, indirect prompt injection, data leakage, unsafe tool use, insecure output handling, and excessive agency.
+- [ ] Evidence guidance that avoids extracting sensitive prompts, user data, retrieved documents, or secrets.
+- [ ] Server-side control focus: authorization, isolation, tool permissions, retrieval filtering, logging, and output handling.
+- [ ] No jailbreak prompt dumps without defensive context.
+- [ ] No claims that prompt filtering alone is sufficient mitigation.
+- [ ] References to OWASP LLM/GenAI guidance or equivalent reputable sources.
+
 ## Every Playbook Needs
 
 - [ ] Goal.
@@ -106,6 +119,20 @@ Use this checklist before marking any user-facing page as `reviewed`.
 - Remove duplicates instead of adding another variant.
 - If a link is good but not top-tier, place it in topic resources, not Top 25.
 - If a command is useful only for one historical target, remove it from user-facing docs.
+
+## Every Curated Link Collection Needs
+
+- [ ] Canonical project or official documentation URL where available.
+- [ ] No duplicate resources with different titles.
+- [ ] No dead, parked, private, or login-only links unless intentionally documented.
+- [ ] Reason each link belongs on this page instead of a topic-specific resource page.
+- [ ] Date-sensitive links reviewed for freshness.
+
+## Claim Quality
+
+- [ ] Avoid unsupported superlatives like `best`, `complete`, or `definitive`.
+- [ ] Prefer scoped claims: `good starting point`, `official reference`, `lab-safe`, `high-signal for X`.
+- [ ] If a page claims to be `Top N`, keep the primary list capped at N and explain selection criteria.
 
 ## Review Labels
 

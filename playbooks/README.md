@@ -27,6 +27,17 @@ Every workflow follows the same rule:
 authorized scope -> low-noise discovery -> hypothesis -> safe validation -> evidence -> report
 ```
 
+## Playbook Index
+
+- [Recon To First Bug](#recon-to-first-bug)
+- [Black-Box Web Assessment](#black-box-web-assessment)
+- [API Assessment](#api-assessment)
+- [OSINT And Dorking Review](#osint-and-dorking-review)
+- [Cloud Exposure Review](#cloud-exposure-review)
+- [Source-Assisted Review](#source-assisted-review)
+- [AI/LLM Application Review](#aillm-application-review)
+- [Reporting And Evidence](#reporting-and-evidence)
+
 ## Recon To First Bug
 
 ### Goal
@@ -78,7 +89,7 @@ Understand the application model before chasing payloads.
    - allowed action
    - expected denial
    - observed behavior
-4. Test access control before exotic classes.
+4. Prioritize access control early for multi-role or multi-tenant apps before spending time on lower-signal exotic classes.
 5. Review session behavior: cookie attributes, logout, password reset, MFA, remember-me, and token rotation.
 6. Test high-signal input surfaces after you understand the feature.
 7. Document all proof with reproducible requests and account context.
@@ -131,19 +142,6 @@ Detailed guide: [OSINT And Dorking Playbook](osint-and-dorking.md)
 - Approved CIDR ranges.
 - Approved cloud accounts and owned assets.
 
-### Generic Patterns
-
-```text
-site:example.com
-site:example.com filetype:pdf
-site:example.com intitle:"index of"
-site:example.com "stack trace"
-org:EXAMPLE-ORG "api_key" OR "token" NOT is:fork
-hostname:example.com
-cert.names: "example.com"
-net:203.0.113.0/24
-```
-
 ### Rules
 
 - Keep placeholders generic in documentation.
@@ -152,6 +150,8 @@ net:203.0.113.0/24
 - Do not download bulk documents.
 - Do not use discovered secrets.
 - Convert findings into remediation: remove exposure, restrict access, rotate secrets, deindex, and monitor recurrence.
+
+Keep query patterns in the detailed [OSINT And Dorking Playbook](osint-and-dorking.md) so examples stay reviewed in one place.
 
 ## Cloud Exposure Review
 
@@ -196,6 +196,43 @@ Use source code to find high-confidence issues faster than black-box guessing.
 - Gitleaks
 - TruffleHog
 - Dependency scanners
+
+## AI/LLM Application Review
+
+### Goal
+
+Assess AI-enabled application features for prompt injection, indirect prompt injection, data leakage, unsafe tool use, RAG authorization failure, and insecure output handling.
+
+Detailed guide: [AI/LLM Application Review Playbook](ai-llm-application-review.md)
+
+### Inputs
+
+- Written authorization covering AI features.
+- Test accounts and roles.
+- List of AI features, tools, plugins, retrieval sources, and external actions.
+- Data handling rules for prompts, responses, logs, retrieved documents, and generated files.
+
+### Workflow
+
+1. Map AI entry points: chat, summarization, search, support bots, code assistants, agents, plugins, and API endpoints.
+2. Identify model permissions: read-only, retrieval, tool calling, write actions, external requests, tickets, email, file access, or code execution.
+3. Test direct prompt injection with harmless canaries.
+4. Test indirect prompt injection through in-scope documents, web pages, tickets, emails, or retrieved content.
+5. Check whether the model exposes hidden instructions, other users' data, secrets, internal documents, or tool schemas.
+6. Check whether tool calls enforce server-side authorization independent of model output.
+7. Capture minimal evidence without extracting sensitive data.
+8. Report root cause as a control failure, not just a clever prompt.
+
+### Stop Conditions
+
+- Scope does not explicitly include AI features.
+- The test may access another user's data.
+- The model is about to invoke a destructive or external action.
+- Sensitive information appears and minimal proof is enough.
+
+### Output
+
+- A validated AI feature finding, or a documented model/tool/data-flow risk assessment.
 
 ## Reporting And Evidence
 
