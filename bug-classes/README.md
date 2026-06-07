@@ -28,18 +28,35 @@ Ask:
 
 ## Decision Table
 
-| Signal | Likely family | Start here |
-|---|---|---|
-| Object IDs, tenant IDs, role-specific actions | Access Control | [Access Control](./access-control/README.md) |
-| Login, reset, invite, MFA, sessions, SSO | Authentication | [Authentication](./auth/README.md) |
-| API routes, mobile backend, GraphQL, OpenAPI | API | [API](./api/README.md) |
-| Browser rendering, DOM sinks, CORS/CSRF | Client-Side | [Client-Side](./client-side/README.md) |
-| Search, filters, SQL-like errors, templates | Injection | [Injection](./injection/README.md) |
-| URL importers, webhooks, previewers, metadata | Server-Side | [Server-Side](./server-side/README.md) |
-| Uploads, converters, archives, XML/SVG/PDF | Files and Parsers | [Files And Parsers](./files-parsers/README.md) |
-| Buckets, cloud metadata, exposed keys | Cloud | [Cloud](./cloud/README.md) |
-| WAF, filter, proxy, encoding, normalization | Defensive Bypass | [Defensive Bypass](./defensive-bypass/README.md) |
-| Chat, RAG, tools, agents, memory | AI and LLM | [AI And LLM](./ai-llm/README.md) |
+**Object IDs, tenant IDs, role-specific actions**
+Start with [Access Control](./access-control/README.md).
+
+**Login, reset, invite, MFA, sessions, SSO**
+Start with [Authentication](./auth/README.md).
+
+**API routes, mobile backend, GraphQL, OpenAPI**
+Start with [API](./api/README.md).
+
+**Browser rendering, DOM sinks, CORS/CSRF**
+Start with [Client-Side](./client-side/README.md).
+
+**Search, filters, SQL-like errors, templates**
+Start with [Injection](./injection/README.md).
+
+**URL importers, webhooks, previewers, metadata**
+Start with [Server-Side](./server-side/README.md).
+
+**Uploads, converters, archives, XML/SVG/PDF**
+Start with [Files And Parsers](./files-parsers/README.md).
+
+**Buckets, cloud metadata, exposed keys**
+Start with [Cloud](./cloud/README.md).
+
+**WAF, filter, proxy, encoding, normalization**
+Start with [Defensive Bypass](./defensive-bypass/README.md).
+
+**Chat, RAG, tools, agents, memory**
+Start with [AI And LLM](./ai-llm/README.md).
 
 ## Main Families
 

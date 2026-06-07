@@ -21,15 +21,26 @@ This is not the first stop during an assessment. Start with [Quickstart](../QUIC
 
 ## Resource Trust Model
 
-| Type | Use for | Trust note |
-|---|---|---|
-| Standards and official docs | methodology and requirements | highest confidence |
-| Labs and training | safe practice | use before live testing |
-| Original research | patterns and root causes | verify freshness |
-| Public reports/writeups | examples and report quality | do not cargo-cult payloads |
-| Tools | workflow support | validate output manually |
-| Payload references | input ideas | use only with context |
-| Imported/generated data | search and triage | not reviewed guidance |
+**Standards and official docs**
+Use for methodology and requirements. Trust level: highest confidence.
+
+**Labs and training**
+Use for safe practice before live testing.
+
+**Original research**
+Use for patterns and root causes. Verify freshness before applying.
+
+**Public reports and writeups**
+Use for examples and report quality. Do not cargo-cult payloads.
+
+**Tools**
+Use for workflow support. Validate output manually.
+
+**Payload references**
+Use for input ideas only after the context is clear.
+
+**Imported/generated data**
+Use for search and triage. Do not treat it as reviewed guidance.
 
 ## Best Starting Points
 

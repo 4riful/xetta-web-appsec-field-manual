@@ -23,12 +23,17 @@ Use this page to decide how much confidence to place in a page.
 
 ## Status Labels
 
-| Status | Meaning | How to use it |
-|---|---|---|
-| `reviewed` | Curated and checked against the content quality checklist | suitable for field guidance |
-| `needs_triage` | Useful material exists, but the page is not field-ready | use as source material only |
-| `generated` | Produced from extraction or categorization | search/index value only |
-| `archival` | Preserved for provenance or historical context | do not treat as current guidance |
+**`reviewed`**
+Curated and checked against the content quality checklist. Suitable for field guidance.
+
+**`needs_triage`**
+Useful material exists, but the page is not field-ready. Use it as source material only.
+
+**`generated`**
+Produced from extraction or categorization. Useful for search/index value only.
+
+**`archival`**
+Preserved for provenance or historical context. Do not treat it as current guidance.
 
 ## Reviewed Content Standard
 

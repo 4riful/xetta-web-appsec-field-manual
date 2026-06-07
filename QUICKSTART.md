@@ -126,14 +126,23 @@ Optional AI/LLM path:
 
 ## 5. Choose Your Path
 
-| Situation | Start with | Expected output |
-|---|---|---|
-| New target | [Recon to first bug](playbooks/README.md#recon-to-first-bug) | asset and feature map |
-| Web app with accounts | [Black-box web assessment](playbooks/README.md#black-box-web-assessment) | role/object matrix |
-| API or mobile backend | [API assessment](playbooks/README.md#api-assessment) | endpoint/auth/object matrix |
-| AI feature | [AI/LLM application review](playbooks/ai-llm-application-review.md) | AI data/tool/action map |
-| Source available | [Source-assisted review](playbooks/README.md#source-assisted-review) | code-to-behavior trace |
-| Potential finding | [Reports](reports/README.md) | clean report draft |
+**New target**
+Start with [Recon to first bug](playbooks/README.md#recon-to-first-bug). Expected output: asset and feature map.
+
+**Web app with accounts**
+Start with [Black-box web assessment](playbooks/README.md#black-box-web-assessment). Expected output: role/object matrix.
+
+**API or mobile backend**
+Start with [API assessment](playbooks/README.md#api-assessment). Expected output: endpoint/auth/object matrix.
+
+**AI feature**
+Start with [AI/LLM application review](playbooks/ai-llm-application-review.md). Expected output: AI data/tool/action map.
+
+**Source available**
+Start with [Source-assisted review](playbooks/README.md#source-assisted-review). Expected output: code-to-behavior trace.
+
+**Potential finding**
+Start with [Reports](reports/README.md). Expected output: clean report draft.
 
 ## 6. What To Ignore At First
 
@@ -160,18 +169,16 @@ For ongoing learning:
 
 ## 8. Fast Navigation
 
-| Goal | Read |
-|---|---|
-| Learn the best references | [Top 25](awesome-lists/top-25-web-appsec-links.md) |
-| Run an assessment workflow | [Playbooks](playbooks/README.md) |
-| Understand vulnerability classes | [Bug classes](bug-classes/README.md) |
-| Choose a tool | [Tools](tools/README.md) |
-| Find payload context | [Payloads](payloads/README.md) |
-| Build a report | [Reports](reports/README.md) |
-| Review AI/LLM app risk | [AI/LLM application review](playbooks/ai-llm-application-review.md) |
-| Test prompt injection safely | [Prompt injection](bug-classes/ai-llm/prompt-injection.md) |
-| Search the full database | [resources.csv](data/resources.csv) |
-| Understand page trust/status | [Documentation Status And Trust Model](docs/status-and-trust.md) |
+- Learn the strongest references: [Top 25](awesome-lists/top-25-web-appsec-links.md)
+- Run an assessment workflow: [Playbooks](playbooks/README.md)
+- Understand vulnerability classes: [Bug classes](bug-classes/README.md)
+- Choose a tool: [Tools](tools/README.md)
+- Find payload context: [Payloads](payloads/README.md)
+- Build a report: [Reports](reports/README.md)
+- Review AI/LLM app risk: [AI/LLM application review](playbooks/ai-llm-application-review.md)
+- Test prompt injection safely: [Prompt injection](bug-classes/ai-llm/prompt-injection.md)
+- Search the full database: [resources.csv](data/resources.csv)
+- Understand page trust/status: [Documentation Status And Trust Model](docs/status-and-trust.md)
 
 ## 9. Stop Conditions
 

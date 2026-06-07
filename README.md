@@ -33,16 +33,29 @@ Raw databases and generated resource pages are useful for search and triage. Do 
 
 ## Start Here
 
-| If you need to... | Go to |
-|---|---|
-| Get oriented quickly | [Quickstart](QUICKSTART.md) |
-| Run a structured assessment | [Playbooks](playbooks/README.md) |
-| Choose a vulnerability family | [Bug Classes](bug-classes/README.md) |
-| Pick a tool by job | [Tools](tools/README.md) |
-| Use payload references safely | [Payloads](payloads/README.md) |
-| Write a finding | [Reports](reports/README.md) |
-| Browse curated references | [Resources](resources/README.md) |
-| Understand page quality/status | [Documentation Status And Trust Model](docs/status-and-trust.md) |
+**Get oriented quickly**
+[Quickstart](QUICKSTART.md) gives the shortest safe path from scope to a test hypothesis.
+
+**Run a structured assessment**
+[Playbooks](playbooks/README.md) is the operational spine: workflows, stop conditions, expected output, and evidence.
+
+**Choose a vulnerability family**
+[Bug Classes](bug-classes/README.md) helps you move from feature signal to testable hypothesis.
+
+**Pick a tool by job**
+[Tools](tools/README.md) explains passive/active behavior, inputs, output, and validation rules.
+
+**Use payload references safely**
+[Payloads](payloads/README.md) keeps test inputs tied to context, sink, parser, proof, and stop condition.
+
+**Write a finding**
+[Reports](reports/README.md) turns behavior into evidence, impact, remediation, and retest steps.
+
+**Browse curated references**
+[Resources](resources/README.md) and [Top 25 references](awesome-lists/top-25-web-appsec-links.md) are for learning and verification after the workflow is clear.
+
+**Understand page trust**
+[Documentation Status And Trust Model](docs/status-and-trust.md) explains `reviewed`, `needs_triage`, `generated`, and `archival`.
 
 ## Operating Model
 

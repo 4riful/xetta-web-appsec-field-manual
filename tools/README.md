@@ -31,17 +31,32 @@ Use this section after you know:
 
 ## Tool Buckets
 
-| Job | Page | Typical input | Output | Noise |
-|---|---|---|---|---|
-| Recon | [Recon](./recon.md) | domains, orgs, CIDRs | candidate assets | passive to active |
-| Content discovery | [Content Discovery](./content-discovery.md) | base URLs, hosts | paths, endpoints, vhosts | active |
-| JavaScript analysis | [JavaScript Analysis](./javascript-analysis.md) | JS URLs, app URLs | routes, endpoint leads, secret leads | passive/low |
-| Proxy-assisted review | [Burp Extensions](./burp-extensions.md) | proxy traffic | workflow-specific leads | low to active |
-| Fuzzing | [Fuzzing](./fuzzing.md) | URLs, params, wordlists | anomalies | active/noisy |
-| Out-of-band validation | [Out Of Band](./out-of-band.md) | callback domain, payload sink | callback evidence | controlled active |
-| Cloud exposure | [Cloud](./cloud.md) | cloud assets, buckets, domains | exposure leads | passive to active |
-| API / GraphQL | [API / GraphQL](./api-graphql.md) | routes, schemas, tokens | endpoint/schema findings | low to active |
-| Automation | [Automation](./automation.md) | approved workflow inputs | repeatable pipeline output | varies |
+**Recon**
+[Recon](./recon.md) starts from domains, orgs, or CIDRs and produces candidate assets. Noise: passive to active.
+
+**Content discovery**
+[Content Discovery](./content-discovery.md) starts from base URLs or hosts and produces paths, endpoints, and vhosts. Noise: active.
+
+**JavaScript analysis**
+[JavaScript Analysis](./javascript-analysis.md) starts from JS URLs or app URLs and produces route, endpoint, and secret leads. Noise: passive/low.
+
+**Proxy-assisted review**
+[Burp Extensions](./burp-extensions.md) starts from proxy traffic and produces workflow-specific leads. Noise: low to active.
+
+**Fuzzing**
+[Fuzzing](./fuzzing.md) starts from URLs, parameters, and wordlists and produces anomalies. Noise: active/noisy.
+
+**Out-of-band validation**
+[Out Of Band](./out-of-band.md) starts from a callback domain and payload sink and produces callback evidence. Noise: controlled active.
+
+**Cloud exposure**
+[Cloud](./cloud.md) starts from cloud assets, buckets, and domains and produces exposure leads. Noise: passive to active.
+
+**API / GraphQL**
+[API / GraphQL](./api-graphql.md) starts from routes, schemas, and tokens and produces endpoint/schema findings. Noise: low to active.
+
+**Automation**
+[Automation](./automation.md) starts from approved workflow inputs and produces repeatable pipeline output. Noise: varies.
 
 ## Passive, Low-Noise, Active, Noisy
 

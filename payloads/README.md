@@ -36,17 +36,32 @@ feature
 
 ## Payload Families
 
-| Family | Use when | Safer first proof |
-|---|---|---|
-| [XSS](./xss.md) | input is rendered in browser/HTML/DOM/Markdown | inert marker string and context analysis |
-| [SQL Injection](./sqli.md) | input appears to influence database query behavior | syntax, error, or timing checks within safe limits |
-| [SSRF](./ssrf.md) | server fetches user-controlled URLs or resources | controlled callback/canary endpoint |
-| [LFI / Path Traversal](./lfi-path-traversal.md) | input selects files or paths | harmless known file or controlled uploaded file |
-| [Command Injection](./command-injection.md) | input may reach a shell/system command | non-destructive timing or marker behavior |
-| [File Upload Bypass](./file-upload-bypass.md) | upload parser/storage/execution boundary exists | benign file type and metadata checks |
-| [WAF Bypass](./waf-bypass.md) | filtering or normalization behavior blocks valid testing | only after confirmed bug context |
-| [Request Smuggling](./request-smuggling.md) | HTTP parser mismatch is suspected | lab or approved low-impact desync checks |
-| [Wordlists](./wordlists.md) | discovery/fuzzing is authorized | small targeted list before broad lists |
+**[XSS](./xss.md)**
+Use when input is rendered in browser, HTML, DOM, or Markdown. Safer first proof: inert marker string and context analysis.
+
+**[SQL Injection](./sqli.md)**
+Use when input appears to influence database query behavior. Safer first proof: syntax, error, or timing checks within safe limits.
+
+**[SSRF](./ssrf.md)**
+Use when a server fetches user-controlled URLs or resources. Safer first proof: controlled callback/canary endpoint.
+
+**[LFI / Path Traversal](./lfi-path-traversal.md)**
+Use when input selects files or paths. Safer first proof: harmless known file or controlled uploaded file.
+
+**[Command Injection](./command-injection.md)**
+Use when input may reach a shell/system command. Safer first proof: non-destructive timing or marker behavior.
+
+**[File Upload Bypass](./file-upload-bypass.md)**
+Use when an upload parser/storage/execution boundary exists. Safer first proof: benign file type and metadata checks.
+
+**[WAF Bypass](./waf-bypass.md)**
+Use when filtering or normalization behavior blocks valid testing. Safer first proof: only after confirmed bug context.
+
+**[Request Smuggling](./request-smuggling.md)**
+Use when HTTP parser mismatch is suspected. Safer first proof: lab or approved low-impact desync checks.
+
+**[Wordlists](./wordlists.md)**
+Use when discovery/fuzzing is authorized. Safer first proof: small targeted list before broad lists.
 
 ## Safe Payload Rules
 
