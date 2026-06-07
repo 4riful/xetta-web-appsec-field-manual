@@ -1,148 +1,48 @@
 ---
-title: "WAF Bypass"
-summary: "waf-bypass payload and snippet resources."
-status: "needs_triage"
-last_reviewed: "2026-06-06"
+title: "WAF Bypass Payload Context"
+summary: "Safe context notes for filter and WAF bypass testing after an underlying bug class is identified."
+status: "reviewed"
+last_reviewed: "2026-06-08"
 tags:
   - payloads
   - waf-bypass
-related: []
-references: []
+related:
+  - ../bug-classes/defensive-bypass/waf-bypass.md
+  - ../payloads/README.md
+references:
+  - https://owasp.org/www-project-web-application-firewall-evaluation-criteria/
 ---
-# WAF Bypass
 
-### IDOR Attack vectors exploitation bypasses and chains 0b73eb18e9b640ce8c337af831397a6b
+# WAF Bypass Payload Context
 
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `access-control;waf-bypass`
-- Tier: `tier_2_useful`
-- Value: https://notion.so/IDOR-Attack-vectors-exploitation-bypasses-and-chains-0b73eb18e9b640ce8c337af831397a6b
+WAF bypass payloads are not findings by themselves. They are test inputs used to show that a defensive layer and the application disagree about equivalent input.
 
-### bugbounty/403-bypass at main · aufzayed/bugbounty
+## Use When
 
-- Type: `writeup`
-- Kind: `url`
-- Bug class: `access-control;waf-bypass`
-- Tier: `tier_2_useful`
-- Value: https://github.com/aufzayed/bugbounty/tree/main/403-bypass
+- A real underlying bug class is already suspected or confirmed.
+- You know which parser, filter, proxy, or application layer is being compared.
+- The test can be done with a small number of controlled requests.
 
-### 10 Most Common Security Issues Found In Login Functionalities - RedHunt Labs
+## Safe First Checks
 
-- Type: `article`
-- Kind: `url`
-- Bug class: `auth;waf-bypass`
-- Tier: `tier_2_useful`
-- Value: https://redhuntlabs.com/blog/10-most-common-security-issues-found-in-login-functionalities.html
+- Compare one encoded/normalized representation at a time.
+- Keep requests low-volume.
+- Avoid broad mutation lists unless explicitly authorized.
+- Record both blocked and accepted behavior.
 
-### Bypassing 2FA using OpenID Misconfiguration
+## Stop Conditions
 
-- Type: `article`
-- Kind: `url`
-- Bug class: `auth;waf-bypass`
-- Tier: `tier_2_useful`
-- Value: https://youst.in/posts/bypassing-2fa-using-openid-misconfiguration/
+Stop when:
 
-### login testing
+- the parser/filter mismatch is clear
+- the next step would require noisy mutation
+- the payload would affect other users or application state
+- there is no underlying application impact
 
-- Type: `article`
-- Kind: `url`
-- Bug class: `auth;waf-bypass`
-- Tier: `tier_2_useful`
-- Value: https://blog.vedixera.com/login-testing/
+## Reporting Note
 
-### Password Reset Testing Cheat Sheet
+Report the underlying control failure. A better remediation is usually server-side authorization, context-safe encoding, parameterization, canonicalization, or allowlisting, not merely adding another WAF rule.
 
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `auth;waf-bypass`
-- Tier: `tier_2_useful`
-- Value: https://highon.coffee/blog/password-reset-security-testing-cheat-sheet/
+## Related Bug Class
 
-### How I bypassed PHP functions to read sensitive files on server
-
-- Type: `writeup`
-- Kind: `url`
-- Bug class: `waf-bypass`
-- Tier: `tier_2_useful`
-- Value: https://kailashbohara.com.np/blog/2022/02/04/bypassing-PHP-functions-to-read-system-file/
-
-### A Tale of Two Formats: Exploiting Insecure XML and ZIP File Parsers to Create a Web Shell
-
-- Type: `article`
-- Kind: `url`
-- Bug class: `waf-bypass`
-- Tier: `tier_2_useful`
-- Value: https://spaceraccoon.dev/a-tale-of-two-formats-exploiting-insecure-xml-and-zip-file-parsers-to-create-a/
-
-### error based sql injection with waf bypass manual exploit 100 bab36b769005
-
-- Type: `article`
-- Kind: `url`
-- Bug class: `sqli;waf-bypass`
-- Tier: `tier_2_useful`
-- Value: https://c0nqr0r.medium.com/error-based-sql-injection-with-waf-bypass-manual-exploit-100-bab36b769005
-
-### Y000o/Payloads_xss_sql_bypass
-
-- Type: `payload_collection`
-- Kind: `url`
-- Bug class: `sqli;waf-bypass;xss`
-- Tier: `tier_2_useful`
-- Value: https://github.com/Y000o/Payloads_xss_sql_bypass/blob/master/Payloads_xss_sql_bypass.md#Sql-inyection-case-y-sounds-like
-
-### SSRF Cheat Sheet & Bypass Techniques
-
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `ssrf;waf-bypass`
-- Tier: `tier_2_useful`
-- Value: https://highon.coffee/blog/ssrf-cheat-sheet/
-
-### March 2022 - Web application firewalls bypasses collection and testing tools
-
-- Type: `tool`
-- Kind: `url`
-- Bug class: `waf-bypass`
-- Tier: `tier_2_useful`
-- Value: https://waf-bypass.com/2022/03/
-
-### Bypassing WAF to perform XSS
-
-- Type: `article`
-- Kind: `url`
-- Bug class: `waf-bypass;xss`
-- Tier: `tier_2_useful`
-- Value: https://kleiton0x00.github.io/posts/Bypassing-WAF-to-perform-XSS/
-
-### xss waf bypass one payload for all
-
-- Type: `payload_collection`
-- Kind: `url`
-- Bug class: `waf-bypass;xss`
-- Tier: `tier_2_useful`
-- Value: https://onetest.fr/posts/xss-waf-bypass-one-payload-for-all/
-
-### bypass windows defender atp
-
-- Type: `article`
-- Kind: `url`
-- Bug class: `waf-bypass`
-- Tier: `tier_2_useful`
-- Value: https://blog.0x4.xyz/bypassing-windows-protection-mechanisms/bypass-windows-defender-atp
-
-### svg ssrfs and saga of bypasses 777e035a17a7
-
-- Type: `writeup`
-- Kind: `url`
-- Bug class: `file-upload;ssrf;waf-bypass`
-- Tier: `tier_2_useful`
-- Value: https://infosecwriteups.com/svg-ssrfs-and-saga-of-bypasses-777e035a17a7
-
-### Web application firewalls bypasses collection and testing tools
-
-- Type: `tool`
-- Kind: `url`
-- Bug class: `waf-bypass`
-- Tier: `tier_2_useful`
-- Value: https://waf-bypass.com/
+- [WAF And Filter Bypass](../bug-classes/defensive-bypass/waf-bypass.md)

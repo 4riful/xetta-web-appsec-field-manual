@@ -1,52 +1,44 @@
 ---
-title: "Request Smuggling"
-summary: "request-smuggling payload and snippet resources."
-status: "needs_triage"
-last_reviewed: "2026-06-06"
+title: "Request Smuggling Payload Context"
+summary: "Safety boundaries for HTTP desync/request-smuggling test inputs."
+status: "reviewed"
+last_reviewed: "2026-06-08"
 tags:
   - payloads
   - request-smuggling
-related: []
-references: []
+related:
+  - ../bug-classes/server-side/request-smuggling.md
+  - ../reports/README.md
+references:
+  - https://portswigger.net/web-security/request-smuggling
 ---
-# Request Smuggling
 
-### finding
+# Request Smuggling Payload Context
 
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `request-smuggling`
-- Tier: `tier_1_core`
-- Value: https://portswigger.net/web-security/request-smuggling/finding
+Request smuggling payloads can affect shared request queues and other users. Treat them as high-risk test inputs.
 
-### HTTP Request Smuggling
+## Use When
 
-- Type: `gitbook`
-- Kind: `url`
-- Bug class: `request-smuggling`
-- Tier: `tier_2_useful`
-- Value: https://electronicbots.gitbook.io/z0ldyck/web-application-security/http-request-smuggling
+- The engagement explicitly allows desync/request-smuggling testing.
+- You have a lab or owner-approved target path.
+- You can keep request volume low and stop immediately on instability.
 
-### Help you understand HTTP Smuggling in one article
+## Safe First Checks
 
-- Type: `article`
-- Kind: `url`
-- Bug class: `request-smuggling`
-- Tier: `tier_2_useful`
-- Value: https://blog.zeddyu.info/2019/12/08/HTTP-Smuggling-en/
+- Practice patterns in PortSwigger labs first.
+- Use low-impact timing or rejection behavior checks.
+- Avoid victim targeting, cache poisoning, queue poisoning, or state-changing endpoints.
+- Save exact raw requests and responses.
 
-### HTTP Request Smuggling on business.apple.com and Others.
+## Stop Conditions
 
-- Type: `article`
-- Kind: `url`
-- Bug class: `request-smuggling`
-- Tier: `tier_2_useful`
-- Value: https://medium.com/@StealthyBugs/http-request-smuggling-on-business-apple-com-and-others-2c43e81bcc52
+Stop when:
 
-### https://github.com/AnkitCuriosity/Write-Ups/blob/main/HTTP%20Desync%20Attack%20(Request%20Smuggling).md
+- unexpected timeouts or instability appear
+- responses suggest cross-user impact
+- testing would require a victim request
+- the target owner has not explicitly approved deeper validation
 
-- Type: `github_file`
-- Kind: `url`
-- Bug class: `request-smuggling`
-- Tier: `tier_2_useful`
-- Value: https://github.com/AnkitCuriosity/Write-Ups/blob/main/HTTP%20Desync%20Attack%20(Request%20Smuggling
+## Related Bug Class
+
+- [HTTP Request Smuggling](../bug-classes/server-side/request-smuggling.md)

@@ -1,164 +1,53 @@
 ---
-title: "Ssrf"
-summary: "ssrf payload and snippet resources."
-status: "needs_triage"
-last_reviewed: "2026-06-06"
+title: "SSRF Payload Context"
+summary: "Safe SSRF canary and URL-context guidance for authorized outbound request testing."
+status: "reviewed"
+last_reviewed: "2026-06-08"
 tags:
   - payloads
   - ssrf
-related: []
-references: []
+related:
+  - ../bug-classes/server-side/ssrf.md
+  - ../tools/out-of-band.md
+  - ../reports/README.md
+references:
+  - https://portswigger.net/web-security/ssrf
+  - https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html
 ---
-# Ssrf
 
-### server side request forgery
+# SSRF Payload Context
 
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: https://0xn3va.gitbook.io/cheat-sheets/web-application/server-side-request-forgery
+Use this page only after an in-scope feature is confirmed to make or attempt server-side outbound requests.
 
-### SSRF Cheat Sheet & Bypass Techniques
+The safest SSRF proof is a controlled callback/canary that demonstrates server-side reachability without probing internal systems.
 
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `ssrf;waf-bypass`
-- Tier: `tier_2_useful`
-- Value: https://highon.coffee/blog/ssrf-cheat-sheet/
+## Use When
 
-### https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit
+- A feature accepts a URL, webhook, import source, preview target, or external resource reference.
+- External callback testing is authorized.
+- You control the callback destination and can preserve logs securely.
 
-- Type: `article`
-- Kind: `url`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit
+## Safe First Checks
 
-### Finding SSRF (all scope)
+- Use a controlled callback domain or approved OOB service.
+- Include a unique canary path or token in the URL.
+- Record DNS/HTTP callback time, source metadata, path, and headers if available.
+- Test redirects only to approved destinations.
 
-- Type: `gitbook`
-- Kind: `url`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: https://gitbook.seguranca-informatica.pt/fuzzing-and-web/finding-ssrf-all-scope
+## Stop Conditions
 
-### https://github.com/akincibor/SSRFexploit
+Stop when:
 
-- Type: `github_repo`
-- Kind: `url`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: https://github.com/akincibor/SSRFexploit
+- the callback proves server-side fetch behavior
+- the next step would enumerate internal hosts
+- the next step would request metadata or privileged services
+- callback logs include sensitive data
+- the program forbids external callbacks
 
-### Leveraging an SSRF to leak a secret API key
+## Evidence
 
-- Type: `article`
-- Kind: `url`
-- Bug class: `api;ssrf`
-- Tier: `tier_2_useful`
-- Value: https://jub0bs.com/posts/2020-06-23-ssrf/
+Keep the triggering request, callback log, timestamp, source metadata, and explanation of why the destination should or should not be allowed.
 
-### SSRF leads to access AWS metadata.
+## Related Bug Class
 
-- Type: `writeup`
-- Kind: `url`
-- Bug class: `cloud;ssrf`
-- Tier: `tier_2_useful`
-- Value: https://infosecwriteups.com/ssrf-leads-to-access-aws-metadata-21952c220aeb
-
-### ssrf g vrp for 5000 d08c8f515c95
-
-- Type: `article`
-- Kind: `url`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: https://0x01alka.medium.com/ssrf-g-vrp-for-5000-d08c8f515c95
-
-### SSRF exploitation in Spreedsheet to PDF converter
-
-- Type: `article`
-- Kind: `url`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: https://r4id3n.medium.com/ssrf-exploitation-in-spreedsheet-to-pdf-converter-2c7eacdac781
-
-### bugbounty ssrf iframe injection e xss reflected 4f107b380ba
-
-- Type: `writeup`
-- Kind: `url`
-- Bug class: `ssrf;xss`
-- Tier: `tier_2_useful`
-- Value: https://medium.com/@kauenavarro/bugbounty-ssrf-iframe-injection-e-xss-reflected-4f107b380ba
-
-### Art of exploiting Server Side Request Forgery (SSRF) | With POCs
-
-- Type: `article`
-- Kind: `url`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: https://sfq-info.medium.com/art-of-exploiting-server-side-request-forgery-ssrf-9567411eba6a
-
-### ssrf vulns and where to find them
-
-- Type: `article`
-- Kind: `url`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: https://labs.detectify.com/2022/09/23/ssrf-vulns-and-where-to-find-them/
-
-### Breaking Down SSRF on PDF Generation: A Pentesting Guide
-
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: https://xcheater.medium.com/breaking-down-ssrf-on-pdf-generation-a-pentesting-guide-66f8a309bf3c
-
-### cat urls-his | gf ssrf | anew ssrf
-
-- Type: `command`
-- Kind: `snippet`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: cat urls-his | gf ssrf | anew ssrf
-
-### cat ssrf | ssrf-finder
-
-- Type: `command`
-- Kind: `snippet`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: cat ssrf | ssrf-finder
-
-### nuclei -c 500 -l urls.txt -t nuclei-templates/ -severity critical,high -ept ssl,
-
-- Type: `command`
-- Kind: `snippet`
-- Bug class: `auth;lfi;rce;sqli;ssrf;xxe`
-- Tier: `tier_2_useful`
-- Value: nuclei -c 500 -l urls.txt -t nuclei-templates/ -severity critical,high -ept ssl,tcp -tags cve,rce,log4j,grafana,tomcat,solar,apache,lfi,ssrf,sql,xxe,symfony,exposure,traversal,panel,default-login,confluence,vmware,vcenter -o url_results.txt
-
-### random-robbie/ssrf-finder
-
-- Type: `github_repo`
-- Kind: `url`
-- Bug class: `ssrf;xss`
-- Tier: `tier_2_useful`
-- Value: https://github.com/random-robbie/ssrf-finder
-
-### svg ssrfs and saga of bypasses 777e035a17a7
-
-- Type: `writeup`
-- Kind: `url`
-- Bug class: `file-upload;ssrf;waf-bypass`
-- Tier: `tier_2_useful`
-- Value: https://infosecwriteups.com/svg-ssrfs-and-saga-of-bypasses-777e035a17a7
-
-### https://github.com/Th0h0/autossrf
-
-- Type: `burp_extension`
-- Kind: `url`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: https://github.com/Th0h0/autossrf
+- [Server-Side Request Forgery](../bug-classes/server-side/ssrf.md)

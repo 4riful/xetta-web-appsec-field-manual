@@ -1,164 +1,113 @@
 ---
-title: "Ssrf"
-summary: "ssrf resources from the vault."
-status: "needs_triage"
-last_reviewed: "2026-06-06"
+title: "Server-Side Request Forgery"
+summary: "Methodology for reviewing server-side URL fetchers, webhooks, previewers, and outbound request boundaries."
+status: "reviewed"
+last_reviewed: "2026-06-08"
 tags:
   - bug-class
+  - server-side
   - ssrf
-related: []
-references: []
+related:
+  - ../../payloads/ssrf.md
+  - ../../tools/out-of-band.md
+  - ../../reports/README.md
+references:
+  - https://portswigger.net/web-security/ssrf
+  - https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html
+  - https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-instance-metadata-service.html
 ---
-# Ssrf
 
-### server side request forgery
+# Server-Side Request Forgery
 
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: https://0xn3va.gitbook.io/cheat-sheets/web-application/server-side-request-forgery
+SSRF happens when an application can be influenced to make server-side requests to attacker-chosen or insufficiently controlled destinations.
 
-### SSRF Cheat Sheet & Bypass Techniques
+Use this page for authorized review of URL fetchers, importers, webhooks, previewers, document converters, and integrations that make outbound requests.
 
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `ssrf;waf-bypass`
-- Tier: `tier_2_useful`
-- Value: https://highon.coffee/blog/ssrf-cheat-sheet/
+## What Fails
 
-### https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit
+- User-controlled URLs are fetched by the server without strict destination controls.
+- URL validation checks strings instead of canonicalized destinations.
+- Redirects, DNS changes, alternate IP formats, or parser differences bypass allowlists.
+- Internal networks, metadata services, or admin-only services are reachable from the application server.
+- Response content, timing, errors, or callbacks reveal server-side reachability.
 
-- Type: `article`
-- Kind: `url`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: https://docs.google.com/document/d/1v1TkWZtrhzRLy0bYXBcdLUedXGb9njTNIJXa3u9akHM/edit
+## Where It Appears
 
-### Finding SSRF (all scope)
+- Link preview and screenshot services.
+- Webhook testers.
+- PDF/image/document converters.
+- URL importers and feed readers.
+- Cloud integrations and metadata-aware workloads.
+- API clients that fetch user-supplied callback URLs.
 
-- Type: `gitbook`
-- Kind: `url`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: https://gitbook.seguranca-informatica.pt/fuzzing-and-web/finding-ssrf-all-scope
+## Signals
 
-### https://github.com/akincibor/SSRFexploit
+- A feature asks for a URL and fetches it server-side.
+- The app follows redirects or resolves DNS on the backend.
+- The backend returns fetched content, status codes, screenshots, or errors.
+- A callback service receives DNS/HTTP interactions from application infrastructure.
+- Validation blocks obvious hosts but may not account for canonicalization.
 
-- Type: `github_repo`
-- Kind: `url`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: https://github.com/akincibor/SSRFexploit
+## Preconditions
 
-### Leveraging an SSRF to leak a secret API key
+- The URL-fetching feature is in scope.
+- External callback testing is allowed.
+- You have controlled callback infrastructure or an approved OOB service.
+- You will not probe internal networks, metadata services, or third-party targets without explicit permission.
 
-- Type: `article`
-- Kind: `url`
-- Bug class: `api;ssrf`
-- Tier: `tier_2_useful`
-- Value: https://jub0bs.com/posts/2020-06-23-ssrf/
+## Safe Test Path
 
-### SSRF leads to access AWS metadata.
+1. Confirm the feature fetches a normal allowed URL.
+2. Use a controlled callback domain to prove server-side outbound behavior.
+3. Record the callback timestamp, source metadata, request path, and request headers if available.
+4. Test redirects or parser behavior only within approved destinations.
+5. Stop when server-side fetch control is proven.
+6. Do not enumerate internal services, request cloud metadata, or access sensitive endpoints unless explicitly authorized.
 
-- Type: `writeup`
-- Kind: `url`
-- Bug class: `cloud;ssrf`
-- Tier: `tier_2_useful`
-- Value: https://infosecwriteups.com/ssrf-leads-to-access-aws-metadata-21952c220aeb
+## Tool-Assisted Checks
 
-### ssrf g vrp for 5000 d08c8f515c95
+Out-of-band tools can prove blind fetch behavior, but they can also leak request data to third-party infrastructure. Use only approved callback infrastructure and store callback evidence as sensitive data.
 
-- Type: `article`
-- Kind: `url`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: https://0x01alka.medium.com/ssrf-g-vrp-for-5000-d08c8f515c95
+## Payload Context
 
-### SSRF exploitation in Spreedsheet to PDF converter
+Use [SSRF payload context](../../payloads/ssrf.md) for safe canary patterns and URL-context notes. Payloads should prove reachability with minimal impact, not map internal networks.
 
-- Type: `article`
-- Kind: `url`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: https://r4id3n.medium.com/ssrf-exploitation-in-spreedsheet-to-pdf-converter-2c7eacdac781
+## Evidence Checklist
 
-### bugbounty ssrf iframe injection e xss reflected 4f107b380ba
+- In-scope feature and request.
+- Normal allowed request behavior.
+- Controlled callback evidence.
+- Timestamp and source metadata.
+- Redirect or canonicalization behavior, if relevant.
+- Evidence that the destination should have been blocked.
+- Minimal proof without internal enumeration.
+- Remediation and retest guidance.
 
-- Type: `writeup`
-- Kind: `url`
-- Bug class: `ssrf;xss`
-- Tier: `tier_2_useful`
-- Value: https://medium.com/@kauenavarro/bugbounty-ssrf-iframe-injection-e-xss-reflected-4f107b380ba
+## Common False Positives
 
-### Art of exploiting Server Side Request Forgery (SSRF) | With POCs
+- Client-side browser requests mistaken for server-side fetches.
+- Cached preview data from earlier requests.
+- Security scanner callbacks unrelated to the tested feature.
+- Public fetchers intentionally allowed by documented product behavior.
 
-- Type: `article`
-- Kind: `url`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: https://sfq-info.medium.com/art-of-exploiting-server-side-request-forgery-ssrf-9567411eba6a
+## Impact And Severity
 
-### ssrf vulns and where to find them
+Severity increases when SSRF reaches internal services, cloud metadata, admin interfaces, sensitive documents, or privileged network zones.
 
-- Type: `article`
-- Kind: `url`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: https://labs.detectify.com/2022/09/23/ssrf-vulns-and-where-to-find-them/
+Severity decreases when requests are limited to public allowlisted hosts, responses are not exposed, and no sensitive destinations are reachable.
 
-### Breaking Down SSRF on PDF Generation: A Pentesting Guide
+## Remediation
 
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: https://xcheater.medium.com/breaking-down-ssrf-on-pdf-generation-a-pentesting-guide-66f8a309bf3c
+- Enforce destination allowlists after URL parsing, DNS resolution, redirects, and IP canonicalization.
+- Block loopback, link-local, private, metadata, and reserved ranges where not required.
+- Restrict outbound network access at the infrastructure layer.
+- Disable redirects or revalidate every redirect hop.
+- Use SSRF-safe proxy services for controlled fetches.
+- Avoid returning raw internal response data to users.
+- Log destination decisions and blocked attempts.
 
-### cat urls-his | gf ssrf | anew ssrf
+## References
 
-- Type: `command`
-- Kind: `snippet`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: cat urls-his | gf ssrf | anew ssrf
-
-### cat ssrf | ssrf-finder
-
-- Type: `command`
-- Kind: `snippet`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: cat ssrf | ssrf-finder
-
-### nuclei -c 500 -l urls.txt -t nuclei-templates/ -severity critical,high -ept ssl,
-
-- Type: `command`
-- Kind: `snippet`
-- Bug class: `auth;lfi;rce;sqli;ssrf;xxe`
-- Tier: `tier_2_useful`
-- Value: nuclei -c 500 -l urls.txt -t nuclei-templates/ -severity critical,high -ept ssl,tcp -tags cve,rce,log4j,grafana,tomcat,solar,apache,lfi,ssrf,sql,xxe,symfony,exposure,traversal,panel,default-login,confluence,vmware,vcenter -o url_results.txt
-
-### random-robbie/ssrf-finder
-
-- Type: `github_repo`
-- Kind: `url`
-- Bug class: `ssrf;xss`
-- Tier: `tier_2_useful`
-- Value: https://github.com/random-robbie/ssrf-finder
-
-### svg ssrfs and saga of bypasses 777e035a17a7
-
-- Type: `writeup`
-- Kind: `url`
-- Bug class: `file-upload;ssrf;waf-bypass`
-- Tier: `tier_2_useful`
-- Value: https://infosecwriteups.com/svg-ssrfs-and-saga-of-bypasses-777e035a17a7
-
-### https://github.com/Th0h0/autossrf
-
-- Type: `burp_extension`
-- Kind: `url`
-- Bug class: `ssrf`
-- Tier: `tier_2_useful`
-- Value: https://github.com/Th0h0/autossrf
+- [PortSwigger SSRF](https://portswigger.net/web-security/ssrf)
+- [OWASP SSRF Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html)
+- [AWS IMDSv2 documentation](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/configuring-instance-metadata-service.html)

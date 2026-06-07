@@ -1,6 +1,20 @@
 # Xetta Web AppSec Field Manual
 
-A practical field manual for authorized web application security work: scope, map, hypothesize, validate safely, capture evidence, report, and remediate.
+A practical field manual for authorized web application security work: define scope, map assets and features, form hypotheses, validate safely, capture evidence, report clearly, and support remediation.
+
+## What This Manual Is
+
+- A methodology-first guide for authorized web, API, cloud-adjacent, and AI/LLM application security testing.
+- A curated navigation layer over standards, tools, payload references, reports, labs, and imported research notes.
+- A field workflow for turning observations into validated findings and fixable remediation.
+
+## What This Manual Is Not
+
+- Not permission to test third-party systems.
+- Not a payload dump.
+- Not a scanner recipe book.
+- Not a collection of guaranteed exploits.
+- Not a replacement for written authorization, program rules, or legal review.
 
 ## Read This First
 
@@ -13,13 +27,37 @@ High-confidence entry points:
 - [Reports](reports/README.md)
 - [Top 25 references](awesome-lists/top-25-web-appsec-links.md)
 - [Bug-class index](bug-classes/README.md)
+- [Documentation status and trust model](docs/status-and-trust.md)
 
 Raw databases and generated resource pages are useful for search and triage. Do not treat them as reviewed instructions until they pass the [content quality checklist](maintainers/content-quality-checklist.md).
+
+## Start Here
+
+| If you need to... | Go to |
+|---|---|
+| Get oriented quickly | [Quickstart](QUICKSTART.md) |
+| Run a structured assessment | [Playbooks](playbooks/README.md) |
+| Choose a vulnerability family | [Bug Classes](bug-classes/README.md) |
+| Pick a tool by job | [Tools](tools/README.md) |
+| Use payload references safely | [Payloads](payloads/README.md) |
+| Write a finding | [Reports](reports/README.md) |
+| Browse curated references | [Resources](resources/README.md) |
+| Understand page quality/status | [Documentation Status And Trust Model](docs/status-and-trust.md) |
 
 ## Operating Model
 
 ```text
-scope -> assets -> features -> signals -> hypothesis -> safe validation -> evidence -> report -> remediation
+authorization
+  -> scope
+  -> assets
+  -> features and trust boundaries
+  -> signals
+  -> hypothesis
+  -> safe validation
+  -> evidence
+  -> report
+  -> remediation
+  -> retest
 ```
 
 Every test should have:
@@ -41,6 +79,7 @@ Every test should have:
 5. Choose tools only after the job is clear: [Tools](tools/README.md).
 6. Use payloads only with context: [Payloads](payloads/README.md).
 7. Capture evidence and write the finding: [Reports](reports/README.md).
+8. Stop when impact is proven.
 
 ## Field Workflows
 
@@ -116,6 +155,8 @@ The repository includes imported datasets and generated pages. Use them for sear
 - [provenance/](provenance/source-catalog.md)
 
 If a page contains placeholders, lab-only hosts, duplicate links, raw commands without purpose/input/output/safety notes, or `Tier/Value/Source/Context` extraction blocks, treat it as triage material.
+
+Read [Documentation Status And Trust Model](docs/status-and-trust.md) before relying on pages marked `needs_triage`, `generated`, or `archival`.
 
 ## Rules Of Engagement
 

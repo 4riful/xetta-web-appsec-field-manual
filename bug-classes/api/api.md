@@ -1,7 +1,7 @@
 ---
 title: "Api"
 summary: "api resources from the vault."
-status: "reviewed"
+status: "needs_triage"
 last_reviewed: "2026-06-06"
 tags:
   - bug-class

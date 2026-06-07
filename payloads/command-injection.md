@@ -1,7 +1,7 @@
 ---
 title: "Command Injection"
 summary: "Command-injection payload references, blind execution notes, and safe validation guidance."
-status: "reviewed"
+status: "needs_triage"
 last_reviewed: "2026-06-06"
 tags:
   - payloads

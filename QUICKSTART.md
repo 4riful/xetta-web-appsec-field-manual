@@ -1,15 +1,20 @@
 ---
 title: "Quickstart"
-summary: "Fast route through the field manual without getting lost in raw resource dumps."
+summary: "Fast, safe route from authorized scope to a test hypothesis, validation plan, or report draft."
 status: "reviewed"
 last_reviewed: "2026-06-08"
 tags:
   - quickstart
   - methodology
 related:
+  - README.md
   - playbooks/README.md
+  - bug-classes/README.md
+  - tools/README.md
+  - payloads/README.md
   - awesome-lists/top-25-web-appsec-links.md
   - reports/README.md
+  - docs/status-and-trust.md
 references:
   - https://owasp.org/www-project-web-security-testing-guide/
   - https://portswigger.net/web-security
@@ -17,47 +22,80 @@ references:
 
 # Quickstart
 
-Use this page when the repository feels too large.
+Use this page when you need the shortest safe route from scope to a useful test plan or reportable finding.
 
 ## Audience
 
-Use this if you are new to the repo, preparing for an authorized assessment, or trying to convert raw resources into a safe testing workflow.
+Use this if you are new to the repo, preparing for an authorized assessment, converting raw resources into a workflow, or trying to avoid payload-first or scanner-first testing.
 
-## 0. Scope First
+## 0. Scope Gate
 
 Before any tool, payload, dork, or scan, write down:
 
 - Authorized domains, IP ranges, repositories, APIs, and apps.
 - Explicit exclusions.
+- Allowed dates and hours.
 - Rate limits and automation rules.
 - Test accounts and roles.
 - Data handling rules.
 - Reporting channel.
+- Emergency contact or stop procedure.
 
 If scope is unclear, stop.
 
-## 1. If You Have 30 Minutes
+## 1. If You Have 10 Minutes
 
 Read these in order:
 
-1. [Top 25 Web AppSec Links](awesome-lists/top-25-web-appsec-links.md)
-2. [Playbooks](playbooks/README.md)
+1. [README](README.md)
+2. This quickstart
 3. [Reports](reports/README.md)
 
-Outcome: you know the core references, the testing flow, and what good evidence looks like.
+Output:
 
-## 2. If You Have 60 Minutes
+- you understand the manual is for authorized work only
+- you know not to start with raw payloads or automation
+- you know what evidence is required before reporting
+
+## 2. If You Have 30 Minutes
+
+Read these in order:
+
+1. Confirm scope using the scope gate above.
+2. Pick one workflow from [Playbooks](playbooks/README.md).
+3. Map one app, API, or feature.
+4. Identify one trust boundary.
+5. Choose one bug-class family from [Bug Classes](bug-classes/README.md).
+6. Write one test hypothesis.
+
+Example hypothesis:
+
+> A user with Role A may be able to access Object B owned by another user because the endpoint accepts a user-controlled object identifier.
+
+Output:
+
+- one written hypothesis
+- one safe validation plan
+- no high-rate automation
+
+## 3. If You Have 60 Minutes
 
 Add one workflow:
 
-1. Pick one playbook from [playbooks/](playbooks/README.md).
-2. Pick one bug class from [bug-classes/](bug-classes/README.md).
-3. Pick tools from [tools/](tools/README.md) only after you know the job.
-4. Practice the bug class in [PortSwigger Web Security Academy](https://portswigger.net/web-security), not on random live targets.
+1. Capture normal behavior.
+2. Change one variable at a time.
+3. Use test accounts only.
+4. Compare expected behavior against actual behavior.
+5. Save request/response evidence.
+6. Draft a report skeleton.
+7. Practice the same bug class in [PortSwigger Web Security Academy](https://portswigger.net/web-security), not on random live targets.
 
-Outcome: you have a test hypothesis, not just a pile of links.
+Output:
 
-## 3. If You Have 90 Minutes
+- a validated finding, or
+- a rejected hypothesis with notes explaining why
+
+## 4. If You Have 90 Minutes
 
 Build a small assessment loop:
 
@@ -76,8 +114,9 @@ Recommended path:
 
 1. [Recon to first bug](playbooks/README.md#recon-to-first-bug)
 2. [Bug classes](bug-classes/README.md)
-3. [Payloads](payloads/README.md)
-4. [Report writing](reports/README.md)
+3. [Tools by job](tools/README.md)
+4. [Payload context](payloads/README.md)
+5. [Report writing](reports/README.md)
 
 Optional AI/LLM path:
 
@@ -85,7 +124,18 @@ Optional AI/LLM path:
 2. [AI/LLM application review](playbooks/ai-llm-application-review.md)
 3. [Prompt injection](bug-classes/ai-llm/prompt-injection.md)
 
-## 4. What To Ignore At First
+## 5. Choose Your Path
+
+| Situation | Start with | Expected output |
+|---|---|---|
+| New target | [Recon to first bug](playbooks/README.md#recon-to-first-bug) | asset and feature map |
+| Web app with accounts | [Black-box web assessment](playbooks/README.md#black-box-web-assessment) | role/object matrix |
+| API or mobile backend | [API assessment](playbooks/README.md#api-assessment) | endpoint/auth/object matrix |
+| AI feature | [AI/LLM application review](playbooks/ai-llm-application-review.md) | AI data/tool/action map |
+| Source available | [Source-assisted review](playbooks/README.md#source-assisted-review) | code-to-behavior trace |
+| Potential finding | [Reports](reports/README.md) | clean report draft |
+
+## 6. What To Ignore At First
 
 Do not begin with:
 
@@ -98,7 +148,7 @@ Do not begin with:
 
 Those are useful only after you understand scope, target behavior, and the bug class.
 
-## 5. Daily Research Loop
+## 7. Daily Research Loop
 
 For ongoing learning:
 
@@ -108,7 +158,7 @@ For ongoing learning:
 4. Add one detection/remediation note.
 5. Practice in a lab.
 
-## 6. Fast Navigation
+## 8. Fast Navigation
 
 | Goal | Read |
 |---|---|
@@ -121,12 +171,24 @@ For ongoing learning:
 | Review AI/LLM app risk | [AI/LLM application review](playbooks/ai-llm-application-review.md) |
 | Test prompt injection safely | [Prompt injection](bug-classes/ai-llm/prompt-injection.md) |
 | Search the full database | [resources.csv](data/resources.csv) |
+| Understand page trust/status | [Documentation Status And Trust Model](docs/status-and-trust.md) |
 
-## 7. When Not To Use This Page
+## 9. Stop Conditions
+
+Stop when:
+
+- scope is unclear
+- testing may affect other users
+- sensitive data appears
+- availability risk increases
+- a tool is producing noisy or unexplained output
+- the program forbids the test class
+
+## 10. When Not To Use This Page
 
 Do not treat the quickstart as permission to test live third-party systems, run high-rate tools, use leaked credentials, or skip scope review.
 
-## 8. Responsible Use Reminder
+## 11. Responsible Use Reminder
 
 This manual is for defensive security, education, secure software development, and authorized assessment only.
 

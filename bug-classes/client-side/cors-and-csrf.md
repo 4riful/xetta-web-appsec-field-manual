@@ -1,7 +1,7 @@
 ---
 title: "CORS And CSRF"
 summary: "Browser trust-boundary resources for CORS misconfiguration, CSRF, credentialed requests, and origin handling."
-status: "reviewed"
+status: "needs_triage"
 last_reviewed: "2026-06-06"
 tags:
   - bug-class

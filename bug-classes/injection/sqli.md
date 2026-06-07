@@ -1,148 +1,119 @@
 ---
-title: "Sqli"
-summary: "sqli resources from the vault."
-status: "needs_triage"
-last_reviewed: "2026-06-06"
+title: "SQL Injection"
+summary: "Methodology for testing database-backed input safely during authorized assessments."
+status: "reviewed"
+last_reviewed: "2026-06-08"
 tags:
   - bug-class
+  - injection
   - sqli
-related: []
-references: []
+related:
+  - ../../payloads/sqli.md
+  - ../../reports/README.md
+  - ../../tools/README.md
+references:
+  - https://portswigger.net/web-security/sql-injection
+  - https://portswigger.net/web-security/sql-injection/cheat-sheet
+  - https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html
+  - https://bobby-tables.com/
 ---
-# Sqli
 
-### cheat sheet
+# SQL Injection
 
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `sqli`
-- Tier: `tier_1_core`
-- Value: https://portswigger.net/web-security/sql-injection/cheat-sheet
+SQL injection happens when user-controlled input changes how an application builds or executes a database query.
 
-### GitHub - kleiton0x00/Advanced-SQL-Injection-Cheatsheet: A cheat sheet that contains advanced queries for SQL Injection of all types.
+Use this page to decide whether a database-backed feature has a real query-control failure. Do not start with automated dumping or destructive payloads.
 
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `sqli`
-- Tier: `tier_2_useful`
-- Value: https://github.com/kleiton0x00/Advanced-SQL-Injection-Cheatsheet/tree/main
+## What Fails
 
-### SQL Injection Payload List
+- Query parameters, filters, sort fields, JSON bodies, headers, or cookies are concatenated into SQL.
+- Backend code trusts client-supplied field names, operators, or object identifiers.
+- Error handling exposes query structure or database details.
+- Different database contexts are mixed without parameterization or allowlists.
 
-- Type: `payload_collection`
-- Kind: `url`
-- Bug class: `sqli`
-- Tier: `tier_2_useful`
-- Value: https://ismailtasdelen.medium.com/sql-injection-payload-list-b97656cfd66b
+## Where It Appears
 
-### MSSQL Injection In JSON Request
+- Search and filter forms.
+- Reporting/export endpoints.
+- Login and account lookup flows.
+- Admin panels and analytics dashboards.
+- API endpoints accepting JSON filters or query builders.
+- Legacy applications with hand-built SQL strings.
 
-- Type: `article`
-- Kind: `url`
-- Bug class: `sqli`
-- Tier: `tier_2_useful`
-- Value: https://kailashbohara.com.np/blog/2021/05/16/MSSQL-Injection-in-JSON-request/
+## Signals
 
-### error based sql injection with waf bypass manual exploit 100 bab36b769005
+- Input changes the number, order, or content of returned rows unexpectedly.
+- Syntax-like characters cause database-flavored errors.
+- Boolean-style changes produce different responses.
+- Time-like probes create controlled response differences.
+- A filter accepts operators, column names, sort fields, or raw fragments.
 
-- Type: `article`
-- Kind: `url`
-- Bug class: `sqli;waf-bypass`
-- Tier: `tier_2_useful`
-- Value: https://c0nqr0r.medium.com/error-based-sql-injection-with-waf-bypass-manual-exploit-100-bab36b769005
+## Preconditions
 
-### sql injection comprehensive guide
+- The asset and endpoint are in scope.
+- You have a test account or authorized unauthenticated flow.
+- You understand expected behavior for the feature.
+- You can test without dumping data, changing data, or stressing the database.
 
-- Type: `article`
-- Kind: `url`
-- Bug class: `sqli`
-- Tier: `tier_2_useful`
-- Value: https://www.akto.io/blog/sql-injection-comprehensive-guide
+## Safe Test Path
 
-### sql injection cheat sheet
+1. Capture a normal request and response.
+2. Identify the smallest input that may reach a query.
+3. Change one variable at a time.
+4. Look for controlled differences in status, content, row count, errors, or timing.
+5. Stop when query influence is proven.
+6. Do not enumerate tables, dump records, write files, execute OS commands, or extract secrets unless explicitly authorized.
 
-- Type: `cheat_sheet`
-- Kind: `url`
-- Bug class: `sqli`
-- Tier: `tier_2_useful`
-- Value: https://www.invicti.com/blog/web-security/sql-injection-cheat-sheet/
+## Tool-Assisted Checks
 
-### Y000o/Payloads_xss_sql_bypass
+Tools can help confirm patterns, but tool output alone is not a finding.
 
-- Type: `payload_collection`
-- Kind: `url`
-- Bug class: `sqli;waf-bypass;xss`
-- Tier: `tier_2_useful`
-- Value: https://github.com/Y000o/Payloads_xss_sql_bypass/blob/master/Payloads_xss_sql_bypass.md#Sql-inyection-case-y-sounds-like
+- Use manual replay first.
+- If automation is authorized, use low risk settings and strict scope.
+- Save the exact request used as input to the tool.
+- Validate any tool result manually before reporting.
 
-### cat urls-his | gf sql | anew sql
+## Payload Context
 
-- Type: `command`
-- Kind: `snippet`
-- Bug class: `sqli`
-- Tier: `tier_2_useful`
-- Value: cat urls-his | gf sql | anew sql
+Use [SQLi payload context](../../payloads/sqli.md) only after you know the parameter and expected behavior. Prefer syntax/boolean/timing checks that do not reveal or modify data.
 
-### Run ghauri to test for sql injection:-
+## Evidence Checklist
 
-- Type: `command`
-- Kind: `snippet`
-- Bug class: `sqli`
-- Tier: `tier_2_useful`
-- Value: Run ghauri to test for sql injection:-
+- In-scope asset and endpoint.
+- Original request and response.
+- Modified request and response.
+- Expected behavior and actual behavior.
+- Role/account used.
+- Minimal proof of query influence.
+- Redaction notes if any sensitive data appeared.
+- Remediation and retest guidance.
 
-### cat sql | while read host do;do ghauri -u $host — batch — level=3. -b — current-
+## Common False Positives
 
-- Type: `command`
-- Kind: `snippet`
-- Bug class: `sqli`
-- Tier: `tier_2_useful`
-- Value: cat sql | while read host do;do ghauri -u $host — batch — level=3. -b — current-user — current-db — hostname — dbs ;done
+- Generic application errors unrelated to database parsing.
+- Search behavior that naturally changes with punctuation.
+- Cache or rate-limit timing differences.
+- Tool signatures that do not reproduce manually.
+- Expected admin-only query features in authorized admin contexts.
 
-### Run sqlmap to test for sql injection:-
+## Impact And Severity
 
-- Type: `command`
-- Kind: `snippet`
-- Bug class: `sqli`
-- Tier: `tier_2_useful`
-- Value: Run sqlmap to test for sql injection:-
+Severity increases when the issue allows unauthorized data access, authentication bypass, cross-tenant data exposure, data modification, or reliable extraction at scale.
 
-### sqlmap -m sql -batch — random-agent — level 5 — risk 3
+Severity decreases when the behavior is limited to harmless error disclosure, requires high privilege, or cannot affect protected data.
 
-- Type: `command`
-- Kind: `snippet`
-- Bug class: `sqli;xss`
-- Tier: `tier_2_useful`
-- Value: sqlmap -m sql -batch — random-agent — level 5 — risk 3
+## Remediation
 
-### nuclei -c 500 -l urls.txt -t nuclei-templates/ -severity critical,high -ept ssl,
+- Use parameterized queries or safe ORM query builders.
+- Avoid string concatenation for query values.
+- Allowlist sortable/filterable column names and operators.
+- Validate JSON query builders server-side.
+- Return generic errors to users while logging details securely.
+- Add regression tests for the affected parameter and similar query paths.
 
-- Type: `command`
-- Kind: `snippet`
-- Bug class: `auth;lfi;rce;sqli;ssrf;xxe`
-- Tier: `tier_2_useful`
-- Value: nuclei -c 500 -l urls.txt -t nuclei-templates/ -severity critical,high -ept ssl,tcp -tags cve,rce,log4j,grafana,tomcat,solar,apache,lfi,ssrf,sql,xxe,symfony,exposure,traversal,panel,default-login,confluence,vmware,vcenter -o url_results.txt
+## References
 
-### cat urls | gauplus -subs | grep — -color -E. “.xls | \\. xml | \\.xlsx | \\.json
-
-- Type: `command`
-- Kind: `snippet`
-- Bug class: `sqli`
-- Tier: `tier_2_useful`
-- Value: cat urls | gauplus -subs | grep — -color -E. “.xls | \\. xml | \\.xlsx | \\.json | \\. pdf | \\.sql | \\. doc| \\.docx | \\. pptx| \\.txt| \\.zip| \\.tar.gz| \\.tgz| \\.bak| \\.7z| \\.rar”
-
-### cat hosts | xargs -I@ sh -c ‘python3 dirsearch.py -r 3 -t 500 -b -w path -u @ -i
-
-- Type: `command`
-- Kind: `snippet`
-- Bug class: `access-control;sqli`
-- Tier: `tier_2_useful`
-- Value: cat hosts | xargs -I@ sh -c ‘python3 dirsearch.py -r 3 -t 500 -b -w path -u @ -i 200, 403, 401, 302 -e. conf,config,bak,backup,swp,old,db,sql,asp,aspx,aspx~,asp~,py,py~,rb,rb~,php,php~,bak,bkp,cache,cgi,conf,csv,html,inc,jar,js,json,jsp,jsp~,lock,log,rar,old,sql,sql.gz,sql.zip,sql.tar.gz,sql~,swp,swp~,tar,tar.bz2,tar.gz,txt,wadl,zip,log,xml,js,json’ -x 400,500,429
-
-### r0oth3x49/ghauri
-
-- Type: `tool`
-- Kind: `url`
-- Bug class: `sqli`
-- Tier: `tier_2_useful`
-- Value: https://github.com/r0oth3x49/ghauri
+- [PortSwigger SQL injection](https://portswigger.net/web-security/sql-injection)
+- [PortSwigger SQL injection cheat sheet](https://portswigger.net/web-security/sql-injection/cheat-sheet)
+- [OWASP SQL Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/SQL_Injection_Prevention_Cheat_Sheet.html)
+- [Bobby Tables](https://bobby-tables.com/)

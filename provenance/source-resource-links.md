@@ -1,7 +1,7 @@
 ---
 title: "Source Resource Links"
 summary: "Every resource occurrence with source file."
-status: "reviewed"
+status: "archival"
 last_reviewed: "2026-06-06"
 tags:
   - provenance

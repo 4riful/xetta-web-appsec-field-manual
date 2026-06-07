@@ -1,7 +1,7 @@
 ---
 title: "SQL Injection"
 summary: "SQL injection resources, payloads, tooling, and writeups."
-status: "reviewed"
+status: "needs_triage"
 last_reviewed: "2026-06-06"
 tags:
   - resources

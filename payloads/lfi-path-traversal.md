@@ -1,7 +1,7 @@
 ---
 title: "Lfi Path Traversal"
 summary: "lfi-path-traversal payload and snippet resources."
-status: "reviewed"
+status: "needs_triage"
 last_reviewed: "2026-06-06"
 tags:
   - payloads
